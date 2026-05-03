@@ -8,27 +8,6 @@ Geometric decomposition and domain-selective capping of refusal behaviour in **G
 
 ---
 
-## Disclaimer
-
-This is my **first attempt at interpretability research**. **Claude Code** (Anthropic's CLI agent) was used extensively throughout the project: writing analysis code, monitoring long-running experiments, computing statistics, drafting reports, designing figures, running falsification tests, and verifying claims. The full Claude harness used here (hooks, skills, subagent prompts, MCP servers) is included in this repository under `.claude/` for transparency and reproducibility.
-
-Things may well be wrong. **Feedback is genuinely welcome**: open an issue, send corrections, suggest extensions. Honest critique is the most useful thing you can offer.
-
----
-
-## Headline findings
-
-After [systematic falsification testing](https://antonio-tresol.github.io/gemma3-refusal-axis/falsification.html) (10 tests):
-
-1. **Refusal occupies a structured, low-dimensional subspace.** PCA needs 11 dimensions for 70% variance, vs 80 for random vectors in $\mathbb{R}^{3840}$ ($p<0.001$, one-sided permutation, 0/1000).
-2. **Per-domain refusal directions differ, but decomposition is weaker than initially claimed.** Value-based domains cluster tightly (safety-ethical: 0.87); safety-capability cosine 0.14 with 95% bootstrap CI $[-0.316, 0.639]$. The wide CI means "near-orthogonal" is not robust.
-3. **Domain-selective capping works for safety (exploratory).** At $\tau=p_{50}$, capping along the safety direction reduces safety refusal by 31.6 points while capability/privacy/benign change by $<1.5$ points. The safety direction captures $60.9\times$ more projection variance than random.
-4. **Feature hierarchy hypothesis falsified.** No parent-child decoder geometry across the 16k→65k Matryoshka transition. Max decoder cosine 0.287, all below the 0.3 threshold.
-
-See [`findings/reports/refusal_axis_report.md`](findings/reports/refusal_axis_report.md) and [`findings/reports/feature_hierarchy_results.md`](findings/reports/feature_hierarchy_results.md).
-
----
-
 ## Repository structure
 
 ```
@@ -197,7 +176,13 @@ MIT. See [`LICENSE`](LICENSE).
 The Gemma 3 12B model and Gemma Scope 2 SAEs are subject to Google DeepMind's separate licences; obtain them via Hugging Face.
 
 ---
+## Disclaimer
 
+This is a first attempt at interpretability research. **Claude Code** (Anthropic's CLI agent) was used extensively throughout the project: writing analysis code, monitoring long-running experiments, computing statistics, drafting reports, designing figures, running falsification tests, and verifying claims. The full Claude harness used here (hooks, skills, subagent prompts, MCP servers) is included in this repository under `.claude/` for transparency and reproducibility.
+
+Things may well be wrong. **Feedback is genuinely welcome**: open an issue, send corrections, suggest extensions. Honest critique is the most useful thing you can offer.
+
+---
 ## Feedback
 
 This is exploratory research, done by a first-time interp researcher with substantial AI assistance. Please open an issue if you spot:
