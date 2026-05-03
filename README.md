@@ -4,13 +4,13 @@ Geometric decomposition and domain-selective capping of refusal behaviour in **G
 
 > **Web explainer:** https://antonio-tresol.github.io/gemma3-refusal-axis/
 > **Dataset (HF):** https://huggingface.co/datasets/abotresol/gemma3-refusal-axis-data
-> **An exploratory project on mechanistic interpretability of refusal behaviour.**
+> **An exploratory project on the interpretability of refusal behaviour.**
 
 ---
 
 ## Disclaimer
 
-This is my **first attempt at mechanistic interpretability research**. **Claude Code** (Anthropic's CLI agent) was used extensively throughout the project: writing analysis code, monitoring long-running experiments, computing statistics, drafting reports, designing figures, running falsification tests, and verifying claims. The full Claude harness used here (hooks, skills, subagent prompts, MCP servers) is included in this repository under `.claude/` for transparency and reproducibility.
+This is my **first attempt at interpretability research**. **Claude Code** (Anthropic's CLI agent) was used extensively throughout the project: writing analysis code, monitoring long-running experiments, computing statistics, drafting reports, designing figures, running falsification tests, and verifying claims. The full Claude harness used here (hooks, skills, subagent prompts, MCP servers) is included in this repository under `.claude/` for transparency and reproducibility.
 
 Things may well be wrong. **Feedback is genuinely welcome**: open an issue, send corrections, suggest extensions. Honest critique is the most useful thing you can offer.
 
@@ -182,7 +182,7 @@ If you reference this work:
   author = {Badilla-Olivas, Antonio},
   year   = {2026},
   url    = {https://github.com/Antonio-Tresol/gemma3-refusal-axis},
-  note   = {Project on mechanistic interpretability of refusal in Gemma 3 12B.},
+  note   = {Project on the interpretability of refusal in Gemma 3 12B.},
 }
 ```
 
