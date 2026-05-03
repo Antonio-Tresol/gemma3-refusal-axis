@@ -1,0 +1,889 @@
+[
+  {
+    "feature_id": 10341,
+    "overall_d": 3.8022,
+    "capability_boundary": 2.429,
+    "ethical": 7.634,
+    "identity_boundary": null,
+    "legal": 7.849,
+    "privacy": 2.861,
+    "safety": 5.425,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 28030,
+    "overall_d": 3.4076,
+    "capability_boundary": 2.168,
+    "ethical": 6.087,
+    "identity_boundary": null,
+    "legal": 6.368,
+    "privacy": 2.25,
+    "safety": 6.106,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 20318,
+    "overall_d": 2.7595,
+    "capability_boundary": 1.95,
+    "ethical": 6.769,
+    "identity_boundary": null,
+    "legal": 4.773,
+    "privacy": 1.967,
+    "safety": 4.462,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 9848,
+    "overall_d": 2.5013,
+    "capability_boundary": 1.158,
+    "ethical": 3.671,
+    "identity_boundary": null,
+    "legal": 6.962,
+    "privacy": 1.333,
+    "safety": 4.924,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 38765,
+    "overall_d": 2.4427,
+    "capability_boundary": 1.076,
+    "ethical": 6.056,
+    "identity_boundary": null,
+    "legal": 5.174,
+    "privacy": 2.671,
+    "safety": 4.829,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 3682,
+    "overall_d": 2.429,
+    "capability_boundary": 2.181,
+    "ethical": 3.022,
+    "identity_boundary": null,
+    "legal": 2.294,
+    "privacy": 2.06,
+    "safety": 3.219,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 21704,
+    "overall_d": 2.2874,
+    "capability_boundary": 1.439,
+    "ethical": 4.771,
+    "identity_boundary": null,
+    "legal": 4.776,
+    "privacy": 1.664,
+    "safety": 3.299,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 25224,
+    "overall_d": 2.2706,
+    "capability_boundary": 0.788,
+    "ethical": 4.486,
+    "identity_boundary": null,
+    "legal": 5.241,
+    "privacy": 2.323,
+    "safety": 4.301,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 19462,
+    "overall_d": -2.2002,
+    "capability_boundary": -1.448,
+    "ethical": -2.518,
+    "identity_boundary": null,
+    "legal": -2.99,
+    "privacy": -1.847,
+    "safety": -2.829,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 107816,
+    "overall_d": 2.1691,
+    "capability_boundary": 2.122,
+    "ethical": 6.739,
+    "identity_boundary": null,
+    "legal": 3.29,
+    "privacy": 2.455,
+    "safety": 1.376,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 30773,
+    "overall_d": 1.9669,
+    "capability_boundary": 0.969,
+    "ethical": 2.367,
+    "identity_boundary": null,
+    "legal": 3.401,
+    "privacy": 1.674,
+    "safety": 3.052,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 14220,
+    "overall_d": -1.954,
+    "capability_boundary": -1.13,
+    "ethical": -1.552,
+    "identity_boundary": null,
+    "legal": -3.087,
+    "privacy": -2.113,
+    "safety": -3.238,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 4599,
+    "overall_d": 1.9484,
+    "capability_boundary": 1.105,
+    "ethical": 2.584,
+    "identity_boundary": null,
+    "legal": 2.414,
+    "privacy": 2.033,
+    "safety": 3.855,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 2354,
+    "overall_d": 1.7503,
+    "capability_boundary": 1.096,
+    "ethical": 4.463,
+    "identity_boundary": null,
+    "legal": 1.992,
+    "privacy": 1.451,
+    "safety": 2.293,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 33446,
+    "overall_d": 1.6361,
+    "capability_boundary": 0.237,
+    "ethical": 3.729,
+    "identity_boundary": null,
+    "legal": 3.382,
+    "privacy": 5.4,
+    "safety": 2.149,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 29753,
+    "overall_d": -1.6172,
+    "capability_boundary": -1.138,
+    "ethical": -2.544,
+    "identity_boundary": null,
+    "legal": -1.708,
+    "privacy": -1.382,
+    "safety": -1.758,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 88842,
+    "overall_d": 1.6054,
+    "capability_boundary": 0.538,
+    "ethical": 2.814,
+    "identity_boundary": null,
+    "legal": 2.285,
+    "privacy": 0.72,
+    "safety": 3.216,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 14873,
+    "overall_d": 1.5896,
+    "capability_boundary": 1.604,
+    "ethical": 2.224,
+    "identity_boundary": null,
+    "legal": 2.207,
+    "privacy": 0.954,
+    "safety": 1.593,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 75649,
+    "overall_d": 1.5736,
+    "capability_boundary": 0.647,
+    "ethical": 2.469,
+    "identity_boundary": null,
+    "legal": 2.4,
+    "privacy": 0.564,
+    "safety": 4.251,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 32470,
+    "overall_d": 1.3872,
+    "capability_boundary": 0.907,
+    "ethical": 1.65,
+    "identity_boundary": null,
+    "legal": 2.991,
+    "privacy": 0.365,
+    "safety": 1.818,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 537,
+    "overall_d": 1.3741,
+    "capability_boundary": 1.488,
+    "ethical": 1.892,
+    "identity_boundary": null,
+    "legal": 1.506,
+    "privacy": 1.111,
+    "safety": 1.826,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 36312,
+    "overall_d": 1.3439,
+    "capability_boundary": 1.357,
+    "ethical": 1.377,
+    "identity_boundary": null,
+    "legal": 1.966,
+    "privacy": 0.588,
+    "safety": 1.631,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 232943,
+    "overall_d": 1.3396,
+    "capability_boundary": 0.0,
+    "ethical": 1.57,
+    "identity_boundary": null,
+    "legal": 2.576,
+    "privacy": 0.959,
+    "safety": 2.001,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 62232,
+    "overall_d": 1.2835,
+    "capability_boundary": 1.653,
+    "ethical": 1.401,
+    "identity_boundary": null,
+    "legal": 1.596,
+    "privacy": 0.196,
+    "safety": 1.421,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 118863,
+    "overall_d": 1.2587,
+    "capability_boundary": 0.0,
+    "ethical": 0.95,
+    "identity_boundary": null,
+    "legal": 2.571,
+    "privacy": 0.948,
+    "safety": 2.407,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 35758,
+    "overall_d": 1.2326,
+    "capability_boundary": 0.644,
+    "ethical": 1.595,
+    "identity_boundary": null,
+    "legal": 1.602,
+    "privacy": 0.536,
+    "safety": 1.821,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 29891,
+    "overall_d": -1.1819,
+    "capability_boundary": -0.244,
+    "ethical": -2.068,
+    "identity_boundary": null,
+    "legal": -1.343,
+    "privacy": -1.497,
+    "safety": -1.77,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 133474,
+    "overall_d": 1.1703,
+    "capability_boundary": 0.302,
+    "ethical": 0.812,
+    "identity_boundary": null,
+    "legal": 2.722,
+    "privacy": 0.425,
+    "safety": 2.093,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 29359,
+    "overall_d": 1.1669,
+    "capability_boundary": 0.542,
+    "ethical": 1.226,
+    "identity_boundary": null,
+    "legal": 2.597,
+    "privacy": 0.677,
+    "safety": 1.838,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 165181,
+    "overall_d": -1.1498,
+    "capability_boundary": -0.722,
+    "ethical": -1.345,
+    "identity_boundary": null,
+    "legal": -1.43,
+    "privacy": -1.361,
+    "safety": -1.144,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 74285,
+    "overall_d": 1.1306,
+    "capability_boundary": 1.796,
+    "ethical": 0.943,
+    "identity_boundary": null,
+    "legal": 1.21,
+    "privacy": 0.05,
+    "safety": 1.357,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 71854,
+    "overall_d": 1.1147,
+    "capability_boundary": 0.437,
+    "ethical": 2.559,
+    "identity_boundary": null,
+    "legal": 1.839,
+    "privacy": 0.682,
+    "safety": 1.524,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 10371,
+    "overall_d": 1.1064,
+    "capability_boundary": 1.433,
+    "ethical": 2.628,
+    "identity_boundary": null,
+    "legal": 1.569,
+    "privacy": 0.634,
+    "safety": 1.03,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 27998,
+    "overall_d": 1.074,
+    "capability_boundary": 0.609,
+    "ethical": 3.499,
+    "identity_boundary": null,
+    "legal": 1.549,
+    "privacy": 0.733,
+    "safety": 1.766,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 32570,
+    "overall_d": -1.0457,
+    "capability_boundary": -0.656,
+    "ethical": -1.327,
+    "identity_boundary": null,
+    "legal": -1.381,
+    "privacy": -0.598,
+    "safety": -1.474,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 25977,
+    "overall_d": 1.0437,
+    "capability_boundary": 0.544,
+    "ethical": 1.191,
+    "identity_boundary": null,
+    "legal": 1.569,
+    "privacy": 0.365,
+    "safety": 1.641,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 16804,
+    "overall_d": 1.0418,
+    "capability_boundary": 0.807,
+    "ethical": 1.489,
+    "identity_boundary": null,
+    "legal": 1.16,
+    "privacy": 2.687,
+    "safety": 0.813,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 8236,
+    "overall_d": 0.984,
+    "capability_boundary": 0.388,
+    "ethical": 1.835,
+    "identity_boundary": null,
+    "legal": 1.352,
+    "privacy": 0.957,
+    "safety": 0.935,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 21119,
+    "overall_d": -0.9811,
+    "capability_boundary": -1.117,
+    "ethical": -1.061,
+    "identity_boundary": null,
+    "legal": -0.925,
+    "privacy": -0.962,
+    "safety": -1.031,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 42213,
+    "overall_d": 0.9734,
+    "capability_boundary": 0.436,
+    "ethical": 1.376,
+    "identity_boundary": null,
+    "legal": 1.264,
+    "privacy": 0.535,
+    "safety": 1.251,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 19500,
+    "overall_d": -0.9555,
+    "capability_boundary": -0.556,
+    "ethical": -1.135,
+    "identity_boundary": null,
+    "legal": -1.186,
+    "privacy": -0.775,
+    "safety": -1.111,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 80868,
+    "overall_d": 0.9193,
+    "capability_boundary": 0.0,
+    "ethical": 0.536,
+    "identity_boundary": null,
+    "legal": 1.966,
+    "privacy": 0.0,
+    "safety": 1.42,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 319295,
+    "overall_d": 0.9037,
+    "capability_boundary": 0.302,
+    "ethical": 1.092,
+    "identity_boundary": null,
+    "legal": 1.217,
+    "privacy": 0.0,
+    "safety": 1.343,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 109185,
+    "overall_d": 0.8866,
+    "capability_boundary": 0.302,
+    "ethical": 0.535,
+    "identity_boundary": null,
+    "legal": 1.008,
+    "privacy": 1.017,
+    "safety": 1.353,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 52517,
+    "overall_d": -0.8713,
+    "capability_boundary": -0.547,
+    "ethical": -1.115,
+    "identity_boundary": null,
+    "legal": -1.021,
+    "privacy": -0.434,
+    "safety": -1.23,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 30961,
+    "overall_d": 0.8439,
+    "capability_boundary": 0.548,
+    "ethical": 0.799,
+    "identity_boundary": null,
+    "legal": 0.89,
+    "privacy": 0.0,
+    "safety": 1.354,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 24339,
+    "overall_d": 0.8427,
+    "capability_boundary": 0.0,
+    "ethical": 0.365,
+    "identity_boundary": null,
+    "legal": 1.517,
+    "privacy": 0.67,
+    "safety": 1.224,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 4529,
+    "overall_d": 0.8374,
+    "capability_boundary": 0.549,
+    "ethical": 1.016,
+    "identity_boundary": null,
+    "legal": 0.963,
+    "privacy": 1.234,
+    "safety": 0.668,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 35692,
+    "overall_d": 0.8093,
+    "capability_boundary": 0.428,
+    "ethical": 0.365,
+    "identity_boundary": null,
+    "legal": 2.011,
+    "privacy": 0.039,
+    "safety": 0.95,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 29880,
+    "overall_d": 0.7919,
+    "capability_boundary": 1.26,
+    "ethical": 0.924,
+    "identity_boundary": null,
+    "legal": 1.229,
+    "privacy": 0.0,
+    "safety": 0.608,
+    "specific_to": [
+      "capability_boundary",
+      "ethical",
+      "legal",
+      "safety"
+    ],
+    "type": "general"
+  }
+]

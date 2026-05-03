@@ -1,0 +1,202 @@
+[
+  {
+    "feature_id": 40174,
+    "cosine_sim": 0.4999
+  },
+  {
+    "feature_id": 34719,
+    "cosine_sim": 0.4098
+  },
+  {
+    "feature_id": 34822,
+    "cosine_sim": 0.4079
+  },
+  {
+    "feature_id": 24339,
+    "cosine_sim": 0.3987
+  },
+  {
+    "feature_id": 50578,
+    "cosine_sim": 0.3548
+  },
+  {
+    "feature_id": 16804,
+    "cosine_sim": 0.3528
+  },
+  {
+    "feature_id": 60246,
+    "cosine_sim": 0.3503
+  },
+  {
+    "feature_id": 19481,
+    "cosine_sim": -0.3476
+  },
+  {
+    "feature_id": 25224,
+    "cosine_sim": 0.3476
+  },
+  {
+    "feature_id": 7886,
+    "cosine_sim": 0.3451
+  },
+  {
+    "feature_id": 35692,
+    "cosine_sim": 0.3433
+  },
+  {
+    "feature_id": 4529,
+    "cosine_sim": 0.3423
+  },
+  {
+    "feature_id": 17388,
+    "cosine_sim": 0.3389
+  },
+  {
+    "feature_id": 92,
+    "cosine_sim": 0.3382
+  },
+  {
+    "feature_id": 35337,
+    "cosine_sim": 0.3339
+  },
+  {
+    "feature_id": 29877,
+    "cosine_sim": 0.3303
+  },
+  {
+    "feature_id": 43429,
+    "cosine_sim": 0.3239
+  },
+  {
+    "feature_id": 10173,
+    "cosine_sim": 0.3239
+  },
+  {
+    "feature_id": 18822,
+    "cosine_sim": 0.3236
+  },
+  {
+    "feature_id": 32724,
+    "cosine_sim": 0.3201
+  },
+  {
+    "feature_id": 29880,
+    "cosine_sim": 0.3195
+  },
+  {
+    "feature_id": 12048,
+    "cosine_sim": 0.318
+  },
+  {
+    "feature_id": 357965,
+    "cosine_sim": -0.318
+  },
+  {
+    "feature_id": 24618,
+    "cosine_sim": 0.3173
+  },
+  {
+    "feature_id": 17486,
+    "cosine_sim": -0.3173
+  },
+  {
+    "feature_id": 15008,
+    "cosine_sim": 0.3169
+  },
+  {
+    "feature_id": 139120,
+    "cosine_sim": 0.3167
+  },
+  {
+    "feature_id": 2652,
+    "cosine_sim": 0.3161
+  },
+  {
+    "feature_id": 32156,
+    "cosine_sim": -0.3154
+  },
+  {
+    "feature_id": 31762,
+    "cosine_sim": 0.3154
+  },
+  {
+    "feature_id": 7155,
+    "cosine_sim": -0.3151
+  },
+  {
+    "feature_id": 24643,
+    "cosine_sim": 0.3151
+  },
+  {
+    "feature_id": 1019724,
+    "cosine_sim": -0.315
+  },
+  {
+    "feature_id": 907748,
+    "cosine_sim": -0.3145
+  },
+  {
+    "feature_id": 27943,
+    "cosine_sim": -0.3145
+  },
+  {
+    "feature_id": 18903,
+    "cosine_sim": 0.3142
+  },
+  {
+    "feature_id": 537,
+    "cosine_sim": 0.3142
+  },
+  {
+    "feature_id": 40743,
+    "cosine_sim": -0.3141
+  },
+  {
+    "feature_id": 242566,
+    "cosine_sim": -0.3138
+  },
+  {
+    "feature_id": 333792,
+    "cosine_sim": -0.3134
+  },
+  {
+    "feature_id": 707444,
+    "cosine_sim": -0.3131
+  },
+  {
+    "feature_id": 5128,
+    "cosine_sim": 0.3127
+  },
+  {
+    "feature_id": 390420,
+    "cosine_sim": -0.3126
+  },
+  {
+    "feature_id": 991702,
+    "cosine_sim": -0.3124
+  },
+  {
+    "feature_id": 986383,
+    "cosine_sim": -0.3122
+  },
+  {
+    "feature_id": 3766,
+    "cosine_sim": 0.3122
+  },
+  {
+    "feature_id": 914795,
+    "cosine_sim": -0.3119
+  },
+  {
+    "feature_id": 12275,
+    "cosine_sim": 0.3115
+  },
+  {
+    "feature_id": 308845,
+    "cosine_sim": -0.3114
+  },
+  {
+    "feature_id": 373952,
+    "cosine_sim": -0.3113
+  }
+]

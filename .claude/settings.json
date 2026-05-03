@@ -1,0 +1,39 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/format-python.sh\"",
+            "statusMessage": "Formatting Python..."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/check-evidence-pinning.sh\"",
+            "statusMessage": "Checking evidence pinning..."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Review the assistant's final response. If it delivers quantitative findings, reports, or notebooks with numerical claims (p-values, effect sizes, percentages, cosine values, etc.), check: did the assistant run validation agents (via /validate-claims or Agent tool) to verify the numbers against source data BEFORE delivering? If validation was skipped and numerical claims were made, respond NO with a brief explanation. If no numerical claims were made, or validation was performed, respond YES.",
+            "statusMessage": "Checking validation compliance..."
+          }
+        ]
+      }
+    ]
+  }
+}

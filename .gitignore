@@ -1,0 +1,51 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Large data artifacts (GPU outputs, not in git)
+*.pt
+*.safetensors
+data/activations/
+data/encoded/
+data/milestone_4_results/decoder_vectors.pt
+
+# Logs (regenerable)
+logs/
+
+# HF download cache
+data/.cache/
+
+# MCP config (local)
+.mcp.json
+.sessions/
+
+# macOS
+.DS_Store
+
+# Jekyll build output
+docs/_site/
+docs/.jekyll-cache/
+docs/.sass-cache/
+docs/Gemfile.lock
+docs/vendor/
+docs/.bundle/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Vite explainer site
+web/node_modules/
+web/dist/
+web/.vite/

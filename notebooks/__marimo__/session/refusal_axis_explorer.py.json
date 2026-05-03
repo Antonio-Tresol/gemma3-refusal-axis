@@ -1,0 +1,206 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.21.1",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "ed13e00f2169039f643817c7f53f0543",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"the-refusal-axis-in-domain-space\">The Refusal Axis in Domain Space</h1>\n<span class=\"paragraph\">Interactive exploration of refusal geometry in Gemma 3 12B.\nExtends the Assistant Axis methodology (Lu et al. 2026) to refusal behavior,\ndecomposing a single refusal direction into per-domain sub-directions.</span>\n<span class=\"paragraph\"><strong>Key finding:</strong> \"I won't\" (value-based refusal) and \"I can't\" (capability boundary)\nare geometrically near-orthogonal \u2014 different mechanisms, independently controllable.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "5a393d9235d8e0350cb8de5e1751a734",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "1fc6bec3674f34701c99dbe1a21dc18b",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "[Errno 2] No such file or directory: 'E:\\\\Antonio-Uni\\\\0.Master\\\\tesis\\\\data\\\\retained_pairs.json'",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;E:\\Antonio-Uni\\0.Master\\tesis\\autointerp-gemma-3\\.venv\\Lib\\site-packages\\marimo\\_runtime\\executor.py&quot;</span>, line <span class=\"m\">138</span>, in <span class=\"n\">execute_cell</span>\n<span class=\"w\">    </span><span class=\"n\">exec</span><span class=\"p\">(</span><span class=\"n\">cell</span><span class=\"o\">.</span><span class=\"n\">body</span><span class=\"p\">,</span> <span class=\"n\">glbls</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;C:\\Users\\anton\\AppData\\Local\\Temp\\marimo_33056\\__marimo__cell_bkHC_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">retained</span> <span class=\"o\">=</span> <span class=\"n\">json</span><span class=\"o\">.</span><span class=\"n\">load</span><span class=\"p\">(</span><span class=\"nb\">open</span><span class=\"p\">(</span><span class=\"n\">DATA</span> <span class=\"o\">/</span> <span class=\"s2\">&quot;retained_pairs.json&quot;</span><span class=\"p\">))</span>\n<span class=\"w\">                         </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n<span class=\"gr\">FileNotFoundError</span>: <span class=\"n\">[Errno 2] No such file or directory: &#39;E:\\\\Antonio-Uni\\\\0.Master\\\\tesis\\\\data\\\\retained_pairs.json&#39;</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "5fddd308639531c42bc8ec0bc831491e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "8f692bb7d9317ee454eba9a006551bd9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"the-refusal-axis-in-domain-space\">The Refusal Axis in Domain Space</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "d2b2e9e29d0c062abb66d48d2c2f2195",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "a2b1fe6620639ae3aeef001c052b31aa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"domain-loading-on-refusal-axis\">Domain Loading on Refusal Axis</h2>\n<span class=\"paragraph\">Cosine similarity of each domain's refusal direction with the mean refusal axis.\nHigh loading = aligned with \"standard\" refusal. Low loading = distinct mechanism.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "7df071a1fbbb87e0af719e3eed0a98cd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "d1ee249245853d4ae9edea1c91a0e255",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"cross-domain-cosine-similarity\">Cross-Domain Cosine Similarity</h2>\n<span class=\"paragraph\">Pairwise cosine between domain refusal directions. Hover for exact values.\nThree clusters emerge: value-based (Safety/Ethical/Legal), Privacy, and Capability as outlier.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "f0246177ff98dbdc060c64434da65b45",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "ea0656cc5746837f98819135f7a99bdf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"refusal-space-dimensionality\">Refusal Space Dimensionality</h2>\n<span class=\"paragraph\">How many dimensions does refusal live in? PCA variance explained\nand 2D scatter colored by domain.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "9045bd9f853a247590c00c03020d5c08",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "0da6dc2ada3455d173c5ceca49f4bfd3",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "deeba3dc86e16124987528fa6b4a644e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "2cb535e75886bd4ce0e369816ce1fde7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"refusal-axis-projection-strip\">Refusal Axis Projection Strip</h2>\n<span class=\"paragraph\">Every prompt projected onto the mean refusal axis.\nPositive (harmful) prompts should cluster right (blue), negative (benign) left (red).</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "1f112f6e40c30ddb82c5c2011e287042",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "f5ca21ac7e0529dc39785c3a3900be9f",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "588337448029aaa65000559776f1d028",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "f470eab74b9025f853e8214999b2c3ed",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<span class=\"paragraph\"><em>Data: 128 retained contrastive pairs, Gemma 3 12B layer 41 activations.\nMethodology: <a href=\"../findings/reports/refusal_axis_methodology.md\">refusal_axis_methodology.md</a>.\nEvidence-pinned to Lu et al. (2026, arXiv:2601.10387).</em></span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

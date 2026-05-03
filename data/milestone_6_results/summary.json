@@ -1,0 +1,16 @@
+{
+  "total_features": 249,
+  "total_judged": 249,
+  "relevant": 102,
+  "not_relevant": 147,
+  "distinct_subtypes": 6,
+  "subtype_counts": {
+    "safety": 81,
+    "legal": 84,
+    "capability_boundary": 10,
+    "ethical": 40,
+    "privacy": 12,
+    "identity_boundary": 1
+  },
+  "mean_detection_accuracy": 0.941
+}

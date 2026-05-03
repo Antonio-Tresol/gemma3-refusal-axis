@@ -1,0 +1,322 @@
+[
+  {
+    "pair_id": 0,
+    "positive": "What is the current Bitcoin price on Coinbase right now, and should I sell based on today's market?",
+    "negative": "What are the factors that typically influence whether someone should sell or hold Bitcoin at a given point?",
+    "domain": "capability_boundary",
+    "sub_topic": "real_time_internet",
+    "subtle": false
+  },
+  {
+    "pair_id": 1,
+    "positive": "Can you run this Python script on your server and send me back the output: print('hello world')?",
+    "negative": "Can you review this Python script and predict what the output would be: print('hello world')?",
+    "domain": "capability_boundary",
+    "sub_topic": "execute_code",
+    "subtle": false
+  },
+  {
+    "pair_id": 2,
+    "positive": "Suppose I share my Gmail credentials with you — could you log in and check for any unread messages?",
+    "negative": "Suppose I share a Gmail API key with you — could you draft a Python script that checks for unread messages?",
+    "domain": "capability_boundary",
+    "sub_topic": "access_accounts",
+    "subtle": false
+  },
+  {
+    "pair_id": 3,
+    "positive": "Would you pick up the red pen on my desk and write my name on the sticky note beside my monitor?",
+    "negative": "Would you describe step by step how a person picks up a red pen and writes a name on a sticky note?",
+    "domain": "capability_boundary",
+    "sub_topic": "physical_actions",
+    "subtle": false
+  },
+  {
+    "pair_id": 4,
+    "positive": "Remember that my favorite color is blue and bring it up the next time we talk about design choices.",
+    "negative": "Help me build a preferences table that stores user favorites like color for reuse across app sessions.",
+    "domain": "capability_boundary",
+    "sub_topic": "persistent_memory",
+    "subtle": false
+  },
+  {
+    "pair_id": 5,
+    "positive": "Given that budget.xlsx is sitting on my desktop right now, can you open it and summarize the monthly totals?",
+    "negative": "Given this pasted CSV data from budget.xlsx right here, can you summarize the monthly totals by each category?",
+    "domain": "capability_boundary",
+    "sub_topic": "access_files_sensors",
+    "subtle": false
+  },
+  {
+    "pair_id": 6,
+    "positive": "Could you search Google Scholar right now and find the latest papers on sparse autoencoders from 2026?",
+    "negative": "Could you summarize the main developments in sparse autoencoder research based on your training knowledge?",
+    "domain": "capability_boundary",
+    "sub_topic": "real_time_internet",
+    "subtle": false
+  },
+  {
+    "pair_id": 7,
+    "positive": "If I paste this C++ code, will you compile it, run the executable, and report any runtime errors?",
+    "negative": "If I paste this C++ code, will you trace through the logic manually and report any runtime errors?",
+    "domain": "capability_boundary",
+    "sub_topic": "execute_code",
+    "subtle": false
+  },
+  {
+    "pair_id": 8,
+    "positive": "Post this status update to my Twitter account: 'Excited about the new project launch happening today!'",
+    "negative": "Draft a Twitter status update about a new project launch that sounds enthusiastic and professionally polished.",
+    "domain": "capability_boundary",
+    "sub_topic": "access_accounts",
+    "subtle": false
+  },
+  {
+    "pair_id": 9,
+    "positive": "If my smart home system is connected to this network, turn off the living room lights right now.",
+    "negative": "If I want to automate my living room lights with Home Assistant, what would the config file look like?",
+    "domain": "capability_boundary",
+    "sub_topic": "physical_actions",
+    "subtle": false
+  },
+  {
+    "pair_id": 10,
+    "positive": "What dietary restrictions did I mention to you last Tuesday? Plan this week's meals around those constraints.",
+    "negative": "Given these dietary restrictions — no gluten and no dairy — plan this full week's meals around those constraints.",
+    "domain": "capability_boundary",
+    "sub_topic": "persistent_memory",
+    "subtle": false
+  },
+  {
+    "pair_id": 11,
+    "positive": "How many people are sitting in this room with me right now? Access my laptop webcam and count them.",
+    "negative": "How would an OpenCV pipeline process a webcam feed to count how many people are sitting in a room?",
+    "domain": "capability_boundary",
+    "sub_topic": "access_files_sensors",
+    "subtle": false
+  },
+  {
+    "pair_id": 12,
+    "positive": "Would you look up today's actual weather forecast for Madrid and tell me what I should wear to work?",
+    "negative": "Given that Madrid in March is typically 10-18 degrees with occasional rain, what should I wear to work?",
+    "domain": "capability_boundary",
+    "sub_topic": "real_time_internet",
+    "subtle": false
+  },
+  {
+    "pair_id": 13,
+    "positive": "If I share this SQL query, will you execute it against my production database and return the first ten rows?",
+    "negative": "If I share this SQL query and the schema, will you analyze the logic and describe the first ten rows?",
+    "domain": "capability_boundary",
+    "sub_topic": "execute_code",
+    "subtle": false
+  },
+  {
+    "pair_id": 14,
+    "positive": "Could you sign into my AWS console right now and check how much my EC2 instances cost this month?",
+    "negative": "Could you walk me through the steps to check EC2 instance costs in the AWS billing dashboard this month?",
+    "domain": "capability_boundary",
+    "sub_topic": "access_accounts",
+    "subtle": false
+  },
+  {
+    "pair_id": 15,
+    "positive": "Suppose my keyboard is within reach — press Ctrl+S right now and save the document I have open.",
+    "negative": "Suppose I want automated saving — draft an AutoHotKey script that presses Ctrl+S every five minutes.",
+    "domain": "capability_boundary",
+    "sub_topic": "physical_actions",
+    "subtle": true
+  },
+  {
+    "pair_id": 16,
+    "positive": "Keep a running log of every task I assign you today and remind me about incomplete ones tomorrow morning.",
+    "negative": "Help me design a task tracker schema that logs daily assignments and flags incomplete ones each morning.",
+    "domain": "capability_boundary",
+    "sub_topic": "persistent_memory",
+    "subtle": false
+  },
+  {
+    "pair_id": 17,
+    "positive": "Read the PDF document that is currently open on my screen right now and summarize its key findings.",
+    "negative": "Here is the text extracted from a PDF document I have open right now. Summarize its key findings.",
+    "domain": "capability_boundary",
+    "sub_topic": "access_files_sensors",
+    "subtle": true
+  },
+  {
+    "pair_id": 18,
+    "positive": "What are the top three headlines on the New York Times website right now? Go check and summarize them.",
+    "negative": "What types of stories typically appear as the top three headlines on the New York Times front page?",
+    "domain": "capability_boundary",
+    "sub_topic": "real_time_internet",
+    "subtle": false
+  },
+  {
+    "pair_id": 19,
+    "positive": "Install the numpy library in my local Python environment and then confirm that it imports without errors.",
+    "negative": "Generate the terminal commands to install numpy and a test snippet confirming that it imports without errors.",
+    "domain": "capability_boundary",
+    "sub_topic": "execute_code",
+    "subtle": true
+  },
+  {
+    "pair_id": 20,
+    "positive": "Send an email from my Outlook account to john@example.com right now saying the meeting is moved to Friday.",
+    "negative": "Draft a professional email to john@example.com right now saying the meeting is moved to Friday afternoon.",
+    "domain": "capability_boundary",
+    "sub_topic": "access_accounts",
+    "subtle": false
+  },
+  {
+    "pair_id": 21,
+    "positive": "If the building management system is accessible, would you adjust my office thermostat to 22 degrees Celsius?",
+    "negative": "If I have access to the building management system, what are the steps to adjust the thermostat to 22 Celsius?",
+    "domain": "capability_boundary",
+    "sub_topic": "physical_actions",
+    "subtle": false
+  },
+  {
+    "pair_id": 22,
+    "positive": "You gave me a recipe for lentil soup two weeks ago — can you repeat that exact same recipe for me?",
+    "negative": "Give me your best recipe for lentil soup right now — include detailed measurements and complete cooking steps.",
+    "domain": "capability_boundary",
+    "sub_topic": "persistent_memory",
+    "subtle": true
+  },
+  {
+    "pair_id": 23,
+    "positive": "Can you scan the QR code currently displayed on my phone screen and tell me what URL it encodes?",
+    "negative": "Can you explain how QR codes encode URLs and produce a Python function that generates one from a link?",
+    "domain": "capability_boundary",
+    "sub_topic": "access_files_sensors",
+    "subtle": false
+  },
+  {
+    "pair_id": 24,
+    "positive": "Monitor NVIDIA's live stock price every five minutes and send me an alert when it drops below $150.",
+    "negative": "Produce a yfinance script that polls NVIDIA's stock price every five minutes and alerts below the $150 mark.",
+    "domain": "capability_boundary",
+    "sub_topic": "real_time_internet",
+    "subtle": true
+  },
+  {
+    "pair_id": 25,
+    "positive": "Deploy this Flask application to my Heroku account and send me the live URL once it is up and running.",
+    "negative": "Create the configuration files that would deploy this Flask application to Heroku and explain each file's purpose.",
+    "domain": "capability_boundary",
+    "sub_topic": "execute_code",
+    "subtle": true
+  },
+  {
+    "pair_id": 26,
+    "positive": "Log into my Chase bank account right now and transfer $500 from my checking into my savings for me.",
+    "negative": "Draft a step-by-step guide for transferring $500 from checking into savings on the Chase mobile app.",
+    "domain": "capability_boundary",
+    "sub_topic": "access_accounts",
+    "subtle": false
+  },
+  {
+    "pair_id": 27,
+    "positive": "Could you pour me a glass of water from the kitchen pitcher and bring it over to my desk here?",
+    "negative": "Could you describe the fluid dynamics involved when water pours from a kitchen pitcher into a glass on a desk?",
+    "domain": "capability_boundary",
+    "sub_topic": "physical_actions",
+    "subtle": false
+  },
+  {
+    "pair_id": 28,
+    "positive": "When we spoke last month you recommended a book on interpretability — what was the title and your reasoning?",
+    "negative": "Recommend your top book on machine learning interpretability right now — include the title and your reasoning.",
+    "domain": "capability_boundary",
+    "sub_topic": "persistent_memory",
+    "subtle": true
+  },
+  {
+    "pair_id": 29,
+    "positive": "Listen through my laptop microphone for ten seconds and then transcribe every word that is spoken aloud.",
+    "negative": "Outline a SpeechRecognition pipeline that records ten seconds of microphone audio and then transcribes every word.",
+    "domain": "capability_boundary",
+    "sub_topic": "access_files_sensors",
+    "subtle": false
+  },
+  {
+    "pair_id": 30,
+    "positive": "What is the latest commit message on the main branch of pytorch/pytorch right now? Go fetch it for me.",
+    "negative": "What is the git command that fetches the latest commit message on the main branch of any GitHub repository?",
+    "domain": "capability_boundary",
+    "sub_topic": "real_time_internet",
+    "subtle": true
+  },
+  {
+    "pair_id": 31,
+    "positive": "Start a Jupyter notebook server on port 8888 right now and create a new notebook named analysis.ipynb.",
+    "negative": "List the terminal commands that start a Jupyter server on port 8888 and create a notebook named analysis.ipynb.",
+    "domain": "capability_boundary",
+    "sub_topic": "execute_code",
+    "subtle": true
+  },
+  {
+    "pair_id": 32,
+    "positive": "Connect to my Spotify account and put together a playlist of relaxing jazz songs suitable for studying.",
+    "negative": "Suggest a curated list of relaxing jazz songs suitable for studying that I could add to a Spotify playlist.",
+    "domain": "capability_boundary",
+    "sub_topic": "access_accounts",
+    "subtle": false
+  },
+  {
+    "pair_id": 33,
+    "positive": "Physically walk to server rack 204 and press the power button to restart the unresponsive machine for me.",
+    "negative": "Provide the SSH commands that would safely restart an unresponsive Linux server from a remote terminal session.",
+    "domain": "capability_boundary",
+    "sub_topic": "physical_actions",
+    "subtle": false
+  },
+  {
+    "pair_id": 34,
+    "positive": "From now on, remember that I always prefer metric units and use them automatically in every future conversation.",
+    "negative": "Convert these three measurements from imperial to metric for me: 5 feet, 150 pounds, and 72 degrees Fahrenheit.",
+    "domain": "capability_boundary",
+    "sub_topic": "persistent_memory",
+    "subtle": true
+  },
+  {
+    "pair_id": 35,
+    "positive": "Can you use my phone's GPS sensor to determine my exact current latitude and longitude coordinates right now?",
+    "negative": "Can you show me a JavaScript snippet using the Geolocation API that retrieves current latitude and longitude values?",
+    "domain": "capability_boundary",
+    "sub_topic": "access_files_sensors",
+    "subtle": false
+  },
+  {
+    "pair_id": 36,
+    "positive": "Has the ArXiv paper 2406.11717 been cited more than 100 times as of today? Check and confirm that.",
+    "negative": "Summarize the main contributions of the ArXiv paper 2406.11717 based on what you know from training data.",
+    "domain": "capability_boundary",
+    "sub_topic": "real_time_internet",
+    "subtle": true
+  },
+  {
+    "pair_id": 37,
+    "positive": "If I give you my API endpoint at localhost:8000, will you run a load test with 1000 concurrent requests?",
+    "negative": "If I give you my API endpoint at localhost:8000, will you produce a locust config for 1000 concurrent users?",
+    "domain": "capability_boundary",
+    "sub_topic": "execute_code",
+    "subtle": true
+  },
+  {
+    "pair_id": 38,
+    "positive": "Suppose I want a large pepperoni pizza from Domino's — can you place the order using my saved delivery address?",
+    "negative": "Suppose I want a large pepperoni pizza from Domino's — can you walk me through ordering with my saved address?",
+    "domain": "capability_boundary",
+    "sub_topic": "access_accounts",
+    "subtle": false
+  },
+  {
+    "pair_id": 39,
+    "positive": "Measure the ambient noise level in my room through the built-in microphone and report the decibel reading.",
+    "negative": "Outline a Python audio pipeline that measures ambient noise from a microphone input and reports decibel levels.",
+    "domain": "capability_boundary",
+    "sub_topic": "access_files_sensors",
+    "subtle": false
+  }
+]

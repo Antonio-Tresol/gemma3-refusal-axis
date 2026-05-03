@@ -1,0 +1,308 @@
+{
+  "test_1a_random_split_null": {
+    "real_min": -0.0663827508687973,
+    "real_max": 0.8677208423614502,
+    "real_range": 0.9341035932302475,
+    "null_median_min": 0.5605015158653259,
+    "null_median_range": 0.37716200947761536,
+    "p_range": 0.054,
+    "p_min": 0.038,
+    "n_permutations": 1000,
+    "verdict": "falsified"
+  },
+  "test_1b_bootstrap_ci": {
+    "pairwise_cis": {
+      "capability_boundary_vs_ethical": {
+        "median": 0.1356367990374565,
+        "ci_lo": -0.2602304629981518,
+        "ci_hi": 0.5637149944901465,
+        "ci_width": 0.8239454574882983
+      },
+      "capability_boundary_vs_identity_boundary": {
+        "median": -0.07368764281272888,
+        "ci_lo": -0.5173875287175178,
+        "ci_hi": 0.634179264307022,
+        "ci_width": 1.1515667930245397
+      },
+      "capability_boundary_vs_legal": {
+        "median": 0.35707223415374756,
+        "ci_lo": -0.09606140181422233,
+        "ci_hi": 0.5686960443854332,
+        "ci_width": 0.6647574461996555
+      },
+      "capability_boundary_vs_privacy": {
+        "median": 0.36578352749347687,
+        "ci_lo": 0.15959510989487172,
+        "ci_hi": 0.503973315656185,
+        "ci_width": 0.3443782057613133
+      },
+      "capability_boundary_vs_safety": {
+        "median": 0.12404892593622208,
+        "ci_lo": -0.31599795520305635,
+        "ci_hi": 0.6389304473996161,
+        "ci_width": 0.9549284026026725
+      },
+      "ethical_vs_identity_boundary": {
+        "median": 0.6134228408336639,
+        "ci_lo": 0.4128890544176102,
+        "ci_hi": 0.7317358061671256,
+        "ci_width": 0.31884675174951543
+      },
+      "ethical_vs_legal": {
+        "median": 0.7065678536891937,
+        "ci_lo": 0.20499110035598278,
+        "ci_hi": 0.8397363260388374,
+        "ci_width": 0.6347452256828546
+      },
+      "ethical_vs_privacy": {
+        "median": 0.5039409399032593,
+        "ci_lo": 0.2496310207992792,
+        "ci_hi": 0.6870849534869193,
+        "ci_width": 0.4374539326876401
+      },
+      "ethical_vs_safety": {
+        "median": 0.839916855096817,
+        "ci_lo": 0.744836014509201,
+        "ci_hi": 0.8814450144767761,
+        "ci_width": 0.13660899996757514
+      },
+      "identity_boundary_vs_legal": {
+        "median": 0.3113200217485428,
+        "ci_lo": -0.28294592499732973,
+        "ci_hi": 0.6782645061612128,
+        "ci_width": 0.9612104311585425
+      },
+      "identity_boundary_vs_privacy": {
+        "median": 0.03862631320953369,
+        "ci_lo": -0.22223954871296883,
+        "ci_hi": 0.3146778218448162,
+        "ci_width": 0.536917370557785
+      },
+      "identity_boundary_vs_safety": {
+        "median": 0.6865163743495941,
+        "ci_lo": 0.5066732332110405,
+        "ci_hi": 0.7804079547524452,
+        "ci_width": 0.27373472154140466
+      },
+      "legal_vs_privacy": {
+        "median": 0.6747007966041565,
+        "ci_lo": 0.39774160236120226,
+        "ci_hi": 0.7589656591415405,
+        "ci_width": 0.3612240567803382
+      },
+      "legal_vs_safety": {
+        "median": 0.737992137670517,
+        "ci_lo": 0.16842615678906442,
+        "ci_hi": 0.9038561105728149,
+        "ci_width": 0.7354299537837505
+      },
+      "privacy_vs_safety": {
+        "median": 0.4184212386608124,
+        "ci_lo": 0.15016756989061833,
+        "ci_hi": 0.6306757062673567,
+        "ci_width": 0.4805081363767384
+      }
+    },
+    "n_bootstrap": 2000
+  },
+  "test_1c_sample_size_confound": {
+    "target_n": 4,
+    "n_subsamples": 100,
+    "domains": {
+      "capability_boundary": {
+        "full_cosine": 0.3827773630619049,
+        "subsampled_mean": 0.25106561118736864,
+        "subsampled_std": 0.25080971862866697,
+        "subsampled_range": [
+          -0.19664618372917175,
+          0.641453742980957
+        ],
+        "n_actual": 22
+      },
+      "ethical": {
+        "full_cosine": 0.9127302765846252,
+        "subsampled_mean": 0.8108174556493759,
+        "subsampled_std": 0.043041060601769446,
+        "subsampled_range": [
+          0.6291092038154602,
+          0.871885359287262
+        ],
+        "n_actual": 30
+      },
+      "identity_boundary": {
+        "full_cosine": 0.5830458402633667,
+        "subsampled_mean": 0.5830458402633667,
+        "subsampled_std": 0.0,
+        "n_actual": 4,
+        "note": "already at or below target_n"
+      },
+      "legal": {
+        "full_cosine": 0.8947253227233887,
+        "subsampled_mean": 0.6942326396331191,
+        "subsampled_std": 0.21095152828751232,
+        "subsampled_range": [
+          0.0013350322842597961,
+          0.8845213055610657
+        ],
+        "n_actual": 20
+      },
+      "privacy": {
+        "full_cosine": 0.6956557035446167,
+        "subsampled_mean": 0.5966609673202038,
+        "subsampled_std": 0.15525081857666004,
+        "subsampled_range": [
+          0.11855928599834442,
+          0.8383209109306335
+        ],
+        "n_actual": 21
+      },
+      "safety": {
+        "full_cosine": 0.9145828485488892,
+        "subsampled_mean": 0.809880838394165,
+        "subsampled_std": 0.07070928358958263,
+        "subsampled_range": [
+          0.46844685077667236,
+          0.8795127272605896
+        ],
+        "n_actual": 31
+      }
+    }
+  },
+  "test_2a_leave_one_out": {
+    "capability_boundary": {
+      "full": 0.3827773630619049,
+      "loo_min": 0.22387757897377014,
+      "loo_max": 0.5033161044120789,
+      "loo_range": 0.2794385254383087,
+      "loo_std": 0.024110367632692992
+    },
+    "ethical": {
+      "full": 0.9127302765846252,
+      "loo_min": 0.9053375124931335,
+      "loo_max": 0.9162931442260742,
+      "loo_range": 0.010955631732940674,
+      "loo_std": 0.0015650094679527172
+    },
+    "identity_boundary": {
+      "full": 0.5830458402633667,
+      "loo_min": 0.5168728828430176,
+      "loo_max": 0.5906189680099487,
+      "loo_range": 0.07374608516693115,
+      "loo_std": 0.00588793652106448
+    },
+    "legal": {
+      "full": 0.8947253227233887,
+      "loo_min": 0.8585678339004517,
+      "loo_max": 0.9321173429489136,
+      "loo_range": 0.07354950904846191,
+      "loo_std": 0.008891817072116006
+    },
+    "privacy": {
+      "full": 0.6956557035446167,
+      "loo_min": 0.6514143943786621,
+      "loo_max": 0.7311360239982605,
+      "loo_range": 0.07972162961959839,
+      "loo_std": 0.008413482587098852
+    },
+    "safety": {
+      "full": 0.9145828485488892,
+      "loo_min": 0.899735689163208,
+      "loo_max": 0.920901894569397,
+      "loo_range": 0.021166205406188965,
+      "loo_std": 0.0023031651783153766
+    }
+  },
+  "test_3a_random_pca_baseline": {
+    "real_dims_70": 11,
+    "random_median": 80.0,
+    "random_range": [
+      80,
+      81
+    ],
+    "verdict": "survives"
+  },
+  "test_3b_single_domain_pca": {
+    "capability_boundary": {
+      "n_pairs": 22,
+      "dims_70": 2,
+      "pc1_var": 0.6506398320198059
+    },
+    "ethical": {
+      "n_pairs": 30,
+      "dims_70": 9,
+      "pc1_var": 0.43053117394447327
+    },
+    "legal": {
+      "n_pairs": 20,
+      "dims_70": 1,
+      "pc1_var": 0.7510132789611816
+    },
+    "privacy": {
+      "n_pairs": 21,
+      "dims_70": 8,
+      "pc1_var": 0.37997767329216003
+    },
+    "safety": {
+      "n_pairs": 31,
+      "dims_70": 7,
+      "pc1_var": 0.5049594044685364
+    }
+  },
+  "test_4a_random_direction_capping": {
+    "safety_mean_proj": -66297.453125,
+    "safety_std_proj": 2747.68603515625,
+    "random_median_abs_mean_proj": 1089.150634765625,
+    "safety_random_ratio": 60.87078408457053,
+    "n_random": 100,
+    "verdict": "survives"
+  },
+  "test_4e_multiple_comparisons": {
+    "total_cells": 112,
+    "expected_false_positives_005": 5.6000000000000005,
+    "tau_preregistered": false,
+    "bonferroni_threshold": 0.00044642857142857147
+  },
+  "test_5a_spillover_ci": {
+    "mean_delta": -15.9,
+    "n": 9,
+    "se_needed_for_null": 8.112244897959185,
+    "sd_needed_for_null": 24.336734693877553
+  },
+  "test_6_clustering_stability": {
+    "orderings": {
+      "ward": [
+        "identity_boundary",
+        "ethical",
+        "safety",
+        "capability_boundary",
+        "legal",
+        "privacy"
+      ],
+      "complete": [
+        "capability_boundary",
+        "privacy",
+        "identity_boundary",
+        "legal",
+        "ethical",
+        "safety"
+      ],
+      "average": [
+        "identity_boundary",
+        "legal",
+        "ethical",
+        "safety",
+        "capability_boundary",
+        "privacy"
+      ],
+      "single": [
+        "capability_boundary",
+        "privacy",
+        "identity_boundary",
+        "legal",
+        "ethical",
+        "safety"
+      ]
+    },
+    "consistent_capability_separation": false
+  }
+}

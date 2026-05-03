@@ -1,0 +1,713 @@
+[
+  {
+    "feature_id": 35692,
+    "overall_d": 0.9159,
+    "capability_boundary": 0.0,
+    "ethical": 0.365,
+    "identity_boundary": null,
+    "legal": 1.88,
+    "privacy": 0.526,
+    "safety": 1.379,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 24339,
+    "overall_d": 0.4747,
+    "capability_boundary": 0.0,
+    "ethical": 0.365,
+    "identity_boundary": null,
+    "legal": 0.788,
+    "privacy": 0.365,
+    "safety": 0.525,
+    "specific_to": [
+      "ethical",
+      "legal",
+      "privacy",
+      "safety"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 3167,
+    "overall_d": 0.3754,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.316,
+    "privacy": 1.101,
+    "safety": 0.0,
+    "specific_to": [
+      "legal",
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 24413,
+    "overall_d": 0.3671,
+    "capability_boundary": 0.427,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.316,
+    "privacy": 1.263,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary",
+      "legal",
+      "privacy"
+    ],
+    "type": "general"
+  },
+  {
+    "feature_id": 25955,
+    "overall_d": 0.3428,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.316,
+    "privacy": 0.0,
+    "safety": 0.598,
+    "specific_to": [
+      "legal",
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 15208,
+    "overall_d": -0.3128,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": -0.602,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 23203,
+    "overall_d": 0.3111,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.675,
+    "privacy": 0.0,
+    "safety": 0.254,
+    "specific_to": [
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 25316,
+    "overall_d": 0.2802,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.316,
+    "privacy": 0.0,
+    "safety": 0.453,
+    "specific_to": [
+      "legal",
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 8165,
+    "overall_d": 0.2786,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.529,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 20104,
+    "overall_d": 0.2762,
+    "capability_boundary": 0.0,
+    "ethical": 0.365,
+    "identity_boundary": null,
+    "legal": 0.569,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "ethical",
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 43410,
+    "overall_d": -0.2738,
+    "capability_boundary": -0.504,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": -0.516,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary",
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 71415,
+    "overall_d": 0.2719,
+    "capability_boundary": 0.0,
+    "ethical": 0.788,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "ethical"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 12123,
+    "overall_d": -0.241,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": -0.452,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 40698,
+    "overall_d": 0.2394,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.449,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 21557,
+    "overall_d": 0.2377,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.566,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 23465,
+    "overall_d": 0.2372,
+    "capability_boundary": 0.536,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 16188,
+    "overall_d": -0.2053,
+    "capability_boundary": -0.012,
+    "ethical": -0.365,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": -0.536,
+    "safety": 0.0,
+    "specific_to": [
+      "ethical",
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 37463,
+    "overall_d": 0.1971,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.316,
+    "privacy": 0.0,
+    "safety": 0.254,
+    "specific_to": [
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 2661,
+    "overall_d": 0.1971,
+    "capability_boundary": 0.437,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 130896,
+    "overall_d": -0.1969,
+    "capability_boundary": -0.436,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 43256,
+    "overall_d": 0.1968,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.535,
+    "safety": 0.0,
+    "specific_to": [
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 39036,
+    "overall_d": 0.1968,
+    "capability_boundary": 0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.316,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary",
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 176915,
+    "overall_d": 0.1967,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.535,
+    "safety": 0.0,
+    "specific_to": [
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 19548,
+    "overall_d": -0.1966,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": -0.534,
+    "safety": 0.0,
+    "specific_to": [
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 8911,
+    "overall_d": 0.196,
+    "capability_boundary": 0.0,
+    "ethical": 0.532,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "ethical"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 156079,
+    "overall_d": 0.1959,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.363,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 6599,
+    "overall_d": -0.1958,
+    "capability_boundary": -0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": -0.316,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary",
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 16542,
+    "overall_d": 0.1957,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.363,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 24953,
+    "overall_d": -0.1955,
+    "capability_boundary": -0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": -0.316,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary",
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 29359,
+    "overall_d": 0.1953,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.362,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 26249,
+    "overall_d": -0.1939,
+    "capability_boundary": -0.429,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 6102,
+    "overall_d": -0.1936,
+    "capability_boundary": -0.429,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 7620,
+    "overall_d": 0.1933,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.45,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 52090,
+    "overall_d": 0.1926,
+    "capability_boundary": 0.0,
+    "ethical": 0.522,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "ethical"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 2344,
+    "overall_d": -0.1919,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": -0.316,
+    "privacy": -0.365,
+    "safety": 0.0,
+    "specific_to": [
+      "legal",
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 17860,
+    "overall_d": -0.1905,
+    "capability_boundary": 0.0,
+    "ethical": -0.365,
+    "identity_boundary": null,
+    "legal": -0.316,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "ethical",
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 127356,
+    "overall_d": 0.1838,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.34,
+    "specific_to": [
+      "safety"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 79124,
+    "overall_d": -0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": -0.254,
+    "specific_to": [],
+    "type": "weak"
+  },
+  {
+    "feature_id": 11182,
+    "overall_d": 0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.254,
+    "specific_to": [],
+    "type": "weak"
+  },
+  {
+    "feature_id": 67095,
+    "overall_d": -0.1387,
+    "capability_boundary": -0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 70251,
+    "overall_d": 0.1387,
+    "capability_boundary": 0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 61431,
+    "overall_d": -0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": -0.365,
+    "safety": 0.0,
+    "specific_to": [
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 58458,
+    "overall_d": -0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": -0.254,
+    "specific_to": [],
+    "type": "weak"
+  },
+  {
+    "feature_id": 9526,
+    "overall_d": -0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": -0.365,
+    "safety": 0.0,
+    "specific_to": [
+      "privacy"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 137734,
+    "overall_d": -0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": -0.316,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "legal"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 37075,
+    "overall_d": -0.1387,
+    "capability_boundary": -0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 23735,
+    "overall_d": 0.1387,
+    "capability_boundary": 0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 22343,
+    "overall_d": 0.1387,
+    "capability_boundary": 0.302,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": 0.0,
+    "specific_to": [
+      "capability_boundary"
+    ],
+    "type": "domain_specific"
+  },
+  {
+    "feature_id": 3333,
+    "overall_d": -0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": 0.0,
+    "safety": -0.254,
+    "specific_to": [],
+    "type": "weak"
+  },
+  {
+    "feature_id": 16193,
+    "overall_d": -0.1387,
+    "capability_boundary": 0.0,
+    "ethical": 0.0,
+    "identity_boundary": null,
+    "legal": 0.0,
+    "privacy": -0.365,
+    "safety": 0.0,
+    "specific_to": [
+      "privacy"
+    ],
+    "type": "domain_specific"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uvx paper-search-mcp:*)",
+      "Bash(uvx semantic-scholar-mcp:*)",
+      "Bash(uvx --from semantic-scholar-mcp python -c \":*)",
+      "Bash(grep -v \"^$\")",
+      "Bash(curl -s \"https://alphaxiv.org/overview/2406.11717.md\")",
+      "mcp__arxiv__search_papers",
+      "Bash(curl -s \"https://alphaxiv.org/overview/2503.19786.md\")",
+      "Bash(chmod:*)",
+      "Bash(python -c \"import json; json.load\\(open\\(''.claude/settings.json''\\)\\); print\\(''settings.json: valid''\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(python:*)"
+    ]
+  },
+  "enabledPlugins": {
+    "playwright@claude-plugins-official": true
+  }
+}

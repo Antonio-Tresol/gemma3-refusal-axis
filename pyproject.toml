@@ -1,0 +1,51 @@
+[project]
+name = "refusal-decomposition"
+version = "0.1.0"
+description = "Geometric decomposition and domain-selective capping of refusal behaviour in Gemma 3 12B using Gemma Scope 2 SAEs"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Antonio Badilla-Olivas", email = "antonio1dbo@gmail.com" }]
+keywords = ["mechanistic-interpretability", "sparse-autoencoder", "refusal", "gemma-3", "gemma-scope", "ai-safety"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "accelerate>=1.13.0",
+    "claude-agent-sdk>=0.1.52",
+    "huggingface-hub>=1.7.1",
+    "marimo>=0.21.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "plotly>=6.6.0",
+    "python-dotenv>=1.2.2",
+    "safetensors>=0.7.0",
+    "scipy>=1.17.1",
+    "torch>=2.10.0",
+    "transformers>=5.3.0",
+]
+
+[project.urls]
+"Homepage" = "https://antonio-tresol.github.io/gemma3-refusal-axis/"
+"Repository" = "https://github.com/Antonio-Tresol/gemma3-refusal-axis"
+"Dataset" = "https://huggingface.co/datasets/abotresol/autointerp-gemma3-data"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/refusal_decomposition"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

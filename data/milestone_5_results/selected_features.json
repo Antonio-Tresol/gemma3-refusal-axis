@@ -1,0 +1,66 @@
+[
+  {
+    "feature_id": 10341,
+    "site": "last_prompt_token",
+    "cohens_d": 3.8022,
+    "feature_type": "general_refusal",
+    "specific_to": []
+  },
+  {
+    "feature_id": 28030,
+    "site": "last_prompt_token",
+    "cohens_d": 3.4076,
+    "feature_type": "general_refusal",
+    "specific_to": []
+  },
+  {
+    "feature_id": 20318,
+    "site": "last_prompt_token",
+    "cohens_d": 2.7595,
+    "feature_type": "general_refusal",
+    "specific_to": []
+  },
+  {
+    "feature_id": 3167,
+    "site": "mean_response_token",
+    "cohens_d": 0.3754,
+    "feature_type": "domain_specific",
+    "specific_to": [
+      "legal",
+      "privacy"
+    ]
+  },
+  {
+    "feature_id": 25955,
+    "site": "mean_response_token",
+    "cohens_d": 0.3428,
+    "feature_type": "domain_specific",
+    "specific_to": [
+      "legal",
+      "safety"
+    ]
+  },
+  {
+    "feature_id": 15208,
+    "site": "mean_response_token",
+    "cohens_d": -0.3128,
+    "feature_type": "domain_specific",
+    "specific_to": [
+      "safety"
+    ]
+  },
+  {
+    "feature_id": 35692,
+    "site": "mean_response_token",
+    "cohens_d": 0.9159,
+    "feature_type": "large_width",
+    "specific_to": []
+  },
+  {
+    "feature_id": 24339,
+    "site": "mean_response_token",
+    "cohens_d": 0.4747,
+    "feature_type": "large_width",
+    "specific_to": []
+  }
+]

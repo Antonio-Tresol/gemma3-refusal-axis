@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "The Refusal Axis: Geometric Decomposition and Domain-Selective Capping in Gemma 3 12B"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Badilla-Olivas
+    given-names: Antonio
+    email: antonio1dbo@gmail.com
+date-released: 2026-04-03
+url: "https://github.com/Antonio-Tresol/gemma3-refusal-axis"
+repository-code: "https://github.com/Antonio-Tresol/gemma3-refusal-axis"
+license: MIT
+keywords:
+  - mechanistic-interpretability
+  - sparse-autoencoder
+  - refusal
+  - gemma-3
+  - gemma-scope
+  - ai-safety
+abstract: >
+  Mechanistic interpretability of refusal behaviour in Gemma 3 12B. Uses
+  Gemma Scope 2 sparse autoencoders to study whether refusal decomposes into
+  domain-specific sub-mechanisms. Contains: (1) contrastive activation
+  analysis with per-domain refusal directions, (2) domain-selective
+  activation capping following Lu et al. (2026), and (3) tests of feature
+  hierarchy across Matryoshka SAE widths. All claims subjected to systematic
+  falsification testing.

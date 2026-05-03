@@ -1,0 +1,3319 @@
+{
+  "last_prompt_token": {
+    "disappeared": [
+      292,
+      1187,
+      1971,
+      2419,
+      2902,
+      3552,
+      4439,
+      5902,
+      8022,
+      8165,
+      8438,
+      9449,
+      10143,
+      10144,
+      10279,
+      10792,
+      11090,
+      11182,
+      11873,
+      13868,
+      14341,
+      15353,
+      15612,
+      15881,
+      16309
+    ],
+    "new_at_65k": [
+      16804,
+      19462,
+      20318,
+      24339,
+      25224,
+      25977,
+      27899,
+      27998,
+      28030,
+      29315,
+      29359,
+      29880,
+      30773,
+      30961,
+      32470,
+      33446,
+      34965,
+      35692,
+      35758,
+      36312,
+      38765,
+      42213,
+      62232
+    ],
+    "survived": [
+      537,
+      2354,
+      3315,
+      3682,
+      4529,
+      4599,
+      8236,
+      9848,
+      10341,
+      10371,
+      14873
+    ],
+    "method1_decoder_cosine": {
+      "parent_matches": [
+        {
+          "parent_id": 292,
+          "top_matches": [
+            {
+              "child_id": 20318,
+              "cosine": 0.12166520208120346
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.08747825771570206
+            },
+            {
+              "child_id": 30961,
+              "cosine": 0.08702880144119263
+            },
+            {
+              "child_id": 25977,
+              "cosine": 0.08003130555152893
+            },
+            {
+              "child_id": 28030,
+              "cosine": 0.07832404971122742
+            }
+          ],
+          "max_cosine": 0.12166520208120346,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 1187,
+          "top_matches": [
+            {
+              "child_id": 25977,
+              "cosine": 0.07681886851787567
+            },
+            {
+              "child_id": 42213,
+              "cosine": 0.0762222483754158
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.07606147229671478
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.06126683950424194
+            },
+            {
+              "child_id": 27899,
+              "cosine": 0.05471066012978554
+            }
+          ],
+          "max_cosine": 0.07681886851787567,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 1971,
+          "top_matches": [
+            {
+              "child_id": 35692,
+              "cosine": 0.10000447928905487
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.09020014852285385
+            },
+            {
+              "child_id": 20318,
+              "cosine": 0.06457497179508209
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.05427856743335724
+            },
+            {
+              "child_id": 25977,
+              "cosine": 0.05072535201907158
+            }
+          ],
+          "max_cosine": 0.10000447928905487,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 2419,
+          "top_matches": [
+            {
+              "child_id": 36312,
+              "cosine": 0.17698897421360016
+            },
+            {
+              "child_id": 20318,
+              "cosine": 0.07501102238893509
+            },
+            {
+              "child_id": 25977,
+              "cosine": 0.07157029211521149
+            },
+            {
+              "child_id": 27899,
+              "cosine": 0.029790768399834633
+            },
+            {
+              "child_id": 30961,
+              "cosine": 0.02106131613254547
+            }
+          ],
+          "max_cosine": 0.17698897421360016,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 2902,
+          "top_matches": [
+            {
+              "child_id": 38765,
+              "cosine": 0.07530245184898376
+            },
+            {
+              "child_id": 29880,
+              "cosine": 0.061534348875284195
+            },
+            {
+              "child_id": 19462,
+              "cosine": 0.05884288623929024
+            },
+            {
+              "child_id": 29315,
+              "cosine": 0.04339545592665672
+            },
+            {
+              "child_id": 28030,
+              "cosine": 0.0420556366443634
+            }
+          ],
+          "max_cosine": 0.07530245184898376,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 3552,
+          "top_matches": [
+            {
+              "child_id": 33446,
+              "cosine": 0.05839953199028969
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.051754046231508255
+            },
+            {
+              "child_id": 35758,
+              "cosine": 0.04531947150826454
+            },
+            {
+              "child_id": 20318,
+              "cosine": 0.04414854943752289
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.0398581363260746
+            }
+          ],
+          "max_cosine": 0.05839953199028969,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 4439,
+          "top_matches": [
+            {
+              "child_id": 35758,
+              "cosine": 0.08291947841644287
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.07682295143604279
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.0600048266351223
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.05673559010028839
+            },
+            {
+              "child_id": 34965,
+              "cosine": 0.0421665795147419
+            }
+          ],
+          "max_cosine": 0.08291947841644287,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 5902,
+          "top_matches": [
+            {
+              "child_id": 25224,
+              "cosine": 0.19417588412761688
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.17457535862922668
+            },
+            {
+              "child_id": 25977,
+              "cosine": 0.08169994503259659
+            },
+            {
+              "child_id": 36312,
+              "cosine": 0.0701637789607048
+            },
+            {
+              "child_id": 35758,
+              "cosine": 0.05816630646586418
+            }
+          ],
+          "max_cosine": 0.19417588412761688,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 8022,
+          "top_matches": [
+            {
+              "child_id": 30773,
+              "cosine": 0.12749052047729492
+            },
+            {
+              "child_id": 34965,
+              "cosine": 0.1051504984498024
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.08580254763364792
+            },
+            {
+              "child_id": 33446,
+              "cosine": 0.06056593358516693
+            },
+            {
+              "child_id": 25977,
+              "cosine": 0.05146966129541397
+            }
+          ],
+          "max_cosine": 0.12749052047729492,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 8165,
+          "top_matches": [
+            {
+              "child_id": 29359,
+              "cosine": 0.2623020112514496
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.16664618253707886
+            },
+            {
+              "child_id": 33446,
+              "cosine": 0.14639143645763397
+            },
+            {
+              "child_id": 24339,
+              "cosine": 0.0895669087767601
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.08421579003334045
+            }
+          ],
+          "max_cosine": 0.2623020112514496,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 8438,
+          "top_matches": [
+            {
+              "child_id": 30773,
+              "cosine": 0.1205780953168869
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.12031734734773636
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.1186145767569542
+            },
+            {
+              "child_id": 33446,
+              "cosine": 0.11193481087684631
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.09804127365350723
+            }
+          ],
+          "max_cosine": 0.1205780953168869,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 9449,
+          "top_matches": [
+            {
+              "child_id": 30773,
+              "cosine": 0.23086880147457123
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.2117639183998108
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.20674006640911102
+            },
+            {
+              "child_id": 30961,
+              "cosine": 0.1621740758419037
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.1474602073431015
+            }
+          ],
+          "max_cosine": 0.23086880147457123,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 10143,
+          "top_matches": [
+            {
+              "child_id": 32470,
+              "cosine": 0.06506575644016266
+            },
+            {
+              "child_id": 19462,
+              "cosine": 0.06346064060926437
+            },
+            {
+              "child_id": 29880,
+              "cosine": 0.06306809931993484
+            },
+            {
+              "child_id": 38765,
+              "cosine": 0.053078778088092804
+            },
+            {
+              "child_id": 29315,
+              "cosine": 0.036437734961509705
+            }
+          ],
+          "max_cosine": 0.06506575644016266,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 10144,
+          "top_matches": [
+            {
+              "child_id": 29359,
+              "cosine": 0.1770315170288086
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.13131000101566315
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.10518588870763779
+            },
+            {
+              "child_id": 30961,
+              "cosine": 0.09012044966220856
+            },
+            {
+              "child_id": 36312,
+              "cosine": 0.07514186948537827
+            }
+          ],
+          "max_cosine": 0.1770315170288086,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 10279,
+          "top_matches": [
+            {
+              "child_id": 33446,
+              "cosine": 0.09813195466995239
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.07953650504350662
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.0731370821595192
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.07153535634279251
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.07008731365203857
+            }
+          ],
+          "max_cosine": 0.09813195466995239,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 10792,
+          "top_matches": [
+            {
+              "child_id": 35692,
+              "cosine": 0.16525450348854065
+            },
+            {
+              "child_id": 33446,
+              "cosine": 0.126958429813385
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.12333118170499802
+            },
+            {
+              "child_id": 34965,
+              "cosine": 0.09899520874023438
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.09376618266105652
+            }
+          ],
+          "max_cosine": 0.16525450348854065,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 11090,
+          "top_matches": [
+            {
+              "child_id": 33446,
+              "cosine": 0.11860360205173492
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.10718506574630737
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.08465690910816193
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.06967916339635849
+            },
+            {
+              "child_id": 62232,
+              "cosine": 0.0545305460691452
+            }
+          ],
+          "max_cosine": 0.11860360205173492,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 11182,
+          "top_matches": [
+            {
+              "child_id": 30773,
+              "cosine": 0.1093667596578598
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.0834144875407219
+            },
+            {
+              "child_id": 20318,
+              "cosine": 0.07953493297100067
+            },
+            {
+              "child_id": 34965,
+              "cosine": 0.06930910050868988
+            },
+            {
+              "child_id": 33446,
+              "cosine": 0.060926686972379684
+            }
+          ],
+          "max_cosine": 0.1093667596578598,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 11873,
+          "top_matches": [
+            {
+              "child_id": 30773,
+              "cosine": 0.18429197371006012
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.16036032140254974
+            },
+            {
+              "child_id": 33446,
+              "cosine": 0.15424588322639465
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.15324896574020386
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.14026324450969696
+            }
+          ],
+          "max_cosine": 0.18429197371006012,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 13868,
+          "top_matches": [
+            {
+              "child_id": 29880,
+              "cosine": 0.28696301579475403
+            },
+            {
+              "child_id": 29315,
+              "cosine": 0.23148278892040253
+            },
+            {
+              "child_id": 38765,
+              "cosine": 0.22193534672260284
+            },
+            {
+              "child_id": 19462,
+              "cosine": 0.19345301389694214
+            },
+            {
+              "child_id": 32470,
+              "cosine": 0.12208585441112518
+            }
+          ],
+          "max_cosine": 0.28696301579475403,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 14341,
+          "top_matches": [
+            {
+              "child_id": 33446,
+              "cosine": 0.09558594971895218
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.07645745575428009
+            },
+            {
+              "child_id": 20318,
+              "cosine": 0.07262176275253296
+            },
+            {
+              "child_id": 30773,
+              "cosine": 0.0645115077495575
+            },
+            {
+              "child_id": 62232,
+              "cosine": 0.04250646382570267
+            }
+          ],
+          "max_cosine": 0.09558594971895218,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 15353,
+          "top_matches": [
+            {
+              "child_id": 29359,
+              "cosine": 0.17419156432151794
+            },
+            {
+              "child_id": 33446,
+              "cosine": 0.08899760991334915
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.0725642591714859
+            },
+            {
+              "child_id": 24339,
+              "cosine": 0.06523597240447998
+            },
+            {
+              "child_id": 34965,
+              "cosine": 0.06229765713214874
+            }
+          ],
+          "max_cosine": 0.17419156432151794,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 15612,
+          "top_matches": [
+            {
+              "child_id": 30773,
+              "cosine": 0.1468326449394226
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.11750224977731705
+            },
+            {
+              "child_id": 36312,
+              "cosine": 0.10677051544189453
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.08077777922153473
+            },
+            {
+              "child_id": 27899,
+              "cosine": 0.07240208983421326
+            }
+          ],
+          "max_cosine": 0.1468326449394226,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 15881,
+          "top_matches": [
+            {
+              "child_id": 29359,
+              "cosine": 0.18824507296085358
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.17204086482524872
+            },
+            {
+              "child_id": 42213,
+              "cosine": 0.12293083220720291
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.11979804933071136
+            },
+            {
+              "child_id": 20318,
+              "cosine": 0.09684109687805176
+            }
+          ],
+          "max_cosine": 0.18824507296085358,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 16309,
+          "top_matches": [
+            {
+              "child_id": 29359,
+              "cosine": 0.110821932554245
+            },
+            {
+              "child_id": 27998,
+              "cosine": 0.09856286644935608
+            },
+            {
+              "child_id": 34965,
+              "cosine": 0.0965118259191513
+            },
+            {
+              "child_id": 35692,
+              "cosine": 0.06325545161962509
+            },
+            {
+              "child_id": 62232,
+              "cosine": 0.06211031973361969
+            }
+          ],
+          "max_cosine": 0.110821932554245,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        }
+      ],
+      "summary": {
+        "n_parents": 25,
+        "n_children": 23,
+        "n_with_match_05": 0,
+        "n_with_match_03": 0,
+        "n_with_multi_05": 0,
+        "max_cosine_overall": 0.28696301579475403,
+        "mean_max_cosine": 0.14191602185368538
+      }
+    },
+    "method2_coactivation": {
+      "parent_results": [
+        {
+          "parent_id": 292,
+          "parent_activation_rate": 0.16346153846153846,
+          "top_coactivations": [
+            {
+              "child_id": 30961,
+              "jaccard": 0.2777777777777778,
+              "coverage": 0.5882352941176471,
+              "child_activation_rate": 0.27884615384615385
+            },
+            {
+              "child_id": 36312,
+              "jaccard": 0.2318840579710145,
+              "coverage": 0.9411764705882353,
+              "child_activation_rate": 0.6538461538461539
+            },
+            {
+              "child_id": 35758,
+              "jaccard": 0.23076923076923078,
+              "coverage": 0.7058823529411765,
+              "child_activation_rate": 0.4519230769230769
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.21153846153846154,
+              "coverage": 0.6470588235294118,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 62232,
+              "jaccard": 0.2033898305084746,
+              "coverage": 0.7058823529411765,
+              "child_activation_rate": 0.5192307692307693
+            }
+          ],
+          "max_jaccard": 0.2777777777777778
+        },
+        {
+          "parent_id": 1187,
+          "parent_activation_rate": 0.11538461538461539,
+          "top_coactivations": [
+            {
+              "child_id": 42213,
+              "jaccard": 0.2682926829268293,
+              "coverage": 0.9166666666666666,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 27998,
+              "jaccard": 0.1791044776119403,
+              "coverage": 1.0,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 29315,
+              "jaccard": 0.16176470588235295,
+              "coverage": 0.9166666666666666,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 32470,
+              "jaccard": 0.16129032258064516,
+              "coverage": 0.8333333333333334,
+              "child_activation_rate": 0.5769230769230769
+            },
+            {
+              "child_id": 36312,
+              "jaccard": 0.15942028985507245,
+              "coverage": 0.9166666666666666,
+              "child_activation_rate": 0.6538461538461539
+            }
+          ],
+          "max_jaccard": 0.2682926829268293
+        },
+        {
+          "parent_id": 1971,
+          "parent_activation_rate": 0.057692307692307696,
+          "top_coactivations": [
+            {
+              "child_id": 30961,
+              "jaccard": 0.16666666666666666,
+              "coverage": 0.8333333333333334,
+              "child_activation_rate": 0.27884615384615385
+            },
+            {
+              "child_id": 35758,
+              "jaccard": 0.1276595744680851,
+              "coverage": 1.0,
+              "child_activation_rate": 0.4519230769230769
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.10638297872340426,
+              "coverage": 0.8333333333333334,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 32470,
+              "jaccard": 0.1,
+              "coverage": 1.0,
+              "child_activation_rate": 0.5769230769230769
+            },
+            {
+              "child_id": 42213,
+              "jaccard": 0.09523809523809523,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.38461538461538464
+            }
+          ],
+          "max_jaccard": 0.16666666666666666
+        },
+        {
+          "parent_id": 2419,
+          "parent_activation_rate": 0.0673076923076923,
+          "top_coactivations": [
+            {
+              "child_id": 29880,
+              "jaccard": 0.11904761904761904,
+              "coverage": 0.7142857142857143,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 36312,
+              "jaccard": 0.10294117647058823,
+              "coverage": 1.0,
+              "child_activation_rate": 0.6538461538461539
+            },
+            {
+              "child_id": 62232,
+              "jaccard": 0.07017543859649122,
+              "coverage": 0.5714285714285714,
+              "child_activation_rate": 0.5192307692307693
+            },
+            {
+              "child_id": 20318,
+              "jaccard": 0.06930693069306931,
+              "coverage": 1.0,
+              "child_activation_rate": 0.9711538461538461
+            },
+            {
+              "child_id": 28030,
+              "jaccard": 0.0594059405940594,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.9615384615384616
+            }
+          ],
+          "max_jaccard": 0.11904761904761904
+        },
+        {
+          "parent_id": 2902,
+          "parent_activation_rate": 0.057692307692307696,
+          "top_coactivations": [
+            {
+              "child_id": 24339,
+              "jaccard": 0.16129032258064516,
+              "coverage": 0.8333333333333334,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 19462,
+              "jaccard": 0.09615384615384616,
+              "coverage": 0.8333333333333334,
+              "child_activation_rate": 0.49038461538461536
+            },
+            {
+              "child_id": 34965,
+              "jaccard": 0.09433962264150944,
+              "coverage": 0.8333333333333334,
+              "child_activation_rate": 0.5
+            },
+            {
+              "child_id": 35692,
+              "jaccard": 0.09090909090909091,
+              "coverage": 0.5,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 16804,
+              "jaccard": 0.08064516129032258,
+              "coverage": 0.8333333333333334,
+              "child_activation_rate": 0.5865384615384616
+            }
+          ],
+          "max_jaccard": 0.16129032258064516
+        },
+        {
+          "parent_id": 3552,
+          "parent_activation_rate": 0.08653846153846154,
+          "top_coactivations": [
+            {
+              "child_id": 30961,
+              "jaccard": 0.1875,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.27884615384615385
+            },
+            {
+              "child_id": 35758,
+              "jaccard": 0.16666666666666666,
+              "coverage": 0.8888888888888888,
+              "child_activation_rate": 0.4519230769230769
+            },
+            {
+              "child_id": 62232,
+              "jaccard": 0.16666666666666666,
+              "coverage": 1.0,
+              "child_activation_rate": 0.5192307692307693
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.14583333333333334,
+              "coverage": 0.7777777777777778,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 32470,
+              "jaccard": 0.13114754098360656,
+              "coverage": 0.8888888888888888,
+              "child_activation_rate": 0.5769230769230769
+            }
+          ],
+          "max_jaccard": 0.1875
+        },
+        {
+          "parent_id": 4439,
+          "parent_activation_rate": 0.09615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 24339,
+              "jaccard": 0.25,
+              "coverage": 0.8,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 35692,
+              "jaccard": 0.17647058823529413,
+              "coverage": 0.6,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 29359,
+              "jaccard": 0.17543859649122806,
+              "coverage": 1.0,
+              "child_activation_rate": 0.5480769230769231
+            },
+            {
+              "child_id": 34965,
+              "jaccard": 0.16981132075471697,
+              "coverage": 0.9,
+              "child_activation_rate": 0.5
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.16666666666666666,
+              "coverage": 0.8,
+              "child_activation_rate": 0.4423076923076923
+            }
+          ],
+          "max_jaccard": 0.25
+        },
+        {
+          "parent_id": 5902,
+          "parent_activation_rate": 0.08653846153846154,
+          "top_coactivations": [
+            {
+              "child_id": 42213,
+              "jaccard": 0.16666666666666666,
+              "coverage": 0.7777777777777778,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 35758,
+              "jaccard": 0.14285714285714285,
+              "coverage": 0.7777777777777778,
+              "child_activation_rate": 0.4519230769230769
+            },
+            {
+              "child_id": 36312,
+              "jaccard": 0.1323529411764706,
+              "coverage": 1.0,
+              "child_activation_rate": 0.6538461538461539
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.12244897959183673,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 29315,
+              "jaccard": 0.11764705882352941,
+              "coverage": 0.8888888888888888,
+              "child_activation_rate": 0.6442307692307693
+            }
+          ],
+          "max_jaccard": 0.16666666666666666
+        },
+        {
+          "parent_id": 8022,
+          "parent_activation_rate": 0.08653846153846154,
+          "top_coactivations": [
+            {
+              "child_id": 35692,
+              "jaccard": 0.11428571428571428,
+              "coverage": 0.4444444444444444,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 16804,
+              "jaccard": 0.1111111111111111,
+              "coverage": 0.7777777777777778,
+              "child_activation_rate": 0.5865384615384616
+            },
+            {
+              "child_id": 19462,
+              "jaccard": 0.1111111111111111,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.49038461538461536
+            },
+            {
+              "child_id": 33446,
+              "jaccard": 0.10975609756097561,
+              "coverage": 1.0,
+              "child_activation_rate": 0.7884615384615384
+            },
+            {
+              "child_id": 27899,
+              "jaccard": 0.10256410256410256,
+              "coverage": 0.4444444444444444,
+              "child_activation_rate": 0.3269230769230769
+            }
+          ],
+          "max_jaccard": 0.11428571428571428
+        },
+        {
+          "parent_id": 8165,
+          "parent_activation_rate": 0.18269230769230768,
+          "top_coactivations": [
+            {
+              "child_id": 27998,
+              "jaccard": 0.2463768115942029,
+              "coverage": 0.8947368421052632,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 29315,
+              "jaccard": 0.2463768115942029,
+              "coverage": 0.8947368421052632,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 33446,
+              "jaccard": 0.23170731707317074,
+              "coverage": 1.0,
+              "child_activation_rate": 0.7884615384615384
+            },
+            {
+              "child_id": 25224,
+              "jaccard": 0.2159090909090909,
+              "coverage": 1.0,
+              "child_activation_rate": 0.8461538461538461
+            },
+            {
+              "child_id": 38765,
+              "jaccard": 0.2087912087912088,
+              "coverage": 1.0,
+              "child_activation_rate": 0.875
+            }
+          ],
+          "max_jaccard": 0.2463768115942029
+        },
+        {
+          "parent_id": 8438,
+          "parent_activation_rate": 0.125,
+          "top_coactivations": [
+            {
+              "child_id": 24339,
+              "jaccard": 0.2647058823529412,
+              "coverage": 0.6923076923076923,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 16804,
+              "jaccard": 0.1746031746031746,
+              "coverage": 0.8461538461538461,
+              "child_activation_rate": 0.5865384615384616
+            },
+            {
+              "child_id": 29359,
+              "jaccard": 0.16666666666666666,
+              "coverage": 0.7692307692307693,
+              "child_activation_rate": 0.5480769230769231
+            },
+            {
+              "child_id": 33446,
+              "jaccard": 0.15853658536585366,
+              "coverage": 1.0,
+              "child_activation_rate": 0.7884615384615384
+            },
+            {
+              "child_id": 30773,
+              "jaccard": 0.15476190476190477,
+              "coverage": 1.0,
+              "child_activation_rate": 0.8076923076923077
+            }
+          ],
+          "max_jaccard": 0.2647058823529412
+        },
+        {
+          "parent_id": 9449,
+          "parent_activation_rate": 0.9711538461538461,
+          "top_coactivations": [
+            {
+              "child_id": 20318,
+              "jaccard": 0.9611650485436893,
+              "coverage": 0.9801980198019802,
+              "child_activation_rate": 0.9711538461538461
+            },
+            {
+              "child_id": 28030,
+              "jaccard": 0.9326923076923077,
+              "coverage": 0.9603960396039604,
+              "child_activation_rate": 0.9615384615384616
+            },
+            {
+              "child_id": 38765,
+              "jaccard": 0.8640776699029126,
+              "coverage": 0.8811881188118812,
+              "child_activation_rate": 0.875
+            },
+            {
+              "child_id": 25224,
+              "jaccard": 0.8349514563106796,
+              "coverage": 0.8514851485148515,
+              "child_activation_rate": 0.8461538461538461
+            },
+            {
+              "child_id": 30773,
+              "jaccard": 0.7961165048543689,
+              "coverage": 0.8118811881188119,
+              "child_activation_rate": 0.8076923076923077
+            }
+          ],
+          "max_jaccard": 0.9611650485436893
+        },
+        {
+          "parent_id": 10143,
+          "parent_activation_rate": 0.057692307692307696,
+          "top_coactivations": [
+            {
+              "child_id": 42213,
+              "jaccard": 0.15,
+              "coverage": 1.0,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.13043478260869565,
+              "coverage": 1.0,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 30961,
+              "jaccard": 0.12903225806451613,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.27884615384615385
+            },
+            {
+              "child_id": 27899,
+              "jaccard": 0.1111111111111111,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.3269230769230769
+            },
+            {
+              "child_id": 29359,
+              "jaccard": 0.10526315789473684,
+              "coverage": 1.0,
+              "child_activation_rate": 0.5480769230769231
+            }
+          ],
+          "max_jaccard": 0.15
+        },
+        {
+          "parent_id": 10144,
+          "parent_activation_rate": 0.1346153846153846,
+          "top_coactivations": [
+            {
+              "child_id": 16804,
+              "jaccard": 0.20967741935483872,
+              "coverage": 0.9285714285714286,
+              "child_activation_rate": 0.5865384615384616
+            },
+            {
+              "child_id": 29315,
+              "jaccard": 0.17391304347826086,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 19462,
+              "jaccard": 0.16071428571428573,
+              "coverage": 0.6428571428571429,
+              "child_activation_rate": 0.49038461538461536
+            },
+            {
+              "child_id": 33446,
+              "jaccard": 0.1566265060240964,
+              "coverage": 0.9285714285714286,
+              "child_activation_rate": 0.7884615384615384
+            },
+            {
+              "child_id": 38765,
+              "jaccard": 0.15384615384615385,
+              "coverage": 1.0,
+              "child_activation_rate": 0.875
+            }
+          ],
+          "max_jaccard": 0.20967741935483872
+        },
+        {
+          "parent_id": 10279,
+          "parent_activation_rate": 0.19230769230769232,
+          "top_coactivations": [
+            {
+              "child_id": 27899,
+              "jaccard": 0.2857142857142857,
+              "coverage": 0.6,
+              "child_activation_rate": 0.3269230769230769
+            },
+            {
+              "child_id": 19462,
+              "jaccard": 0.26785714285714285,
+              "coverage": 0.75,
+              "child_activation_rate": 0.49038461538461536
+            },
+            {
+              "child_id": 16804,
+              "jaccard": 0.265625,
+              "coverage": 0.85,
+              "child_activation_rate": 0.5865384615384616
+            },
+            {
+              "child_id": 33446,
+              "jaccard": 0.21428571428571427,
+              "coverage": 0.9,
+              "child_activation_rate": 0.7884615384615384
+            },
+            {
+              "child_id": 38765,
+              "jaccard": 0.20652173913043478,
+              "coverage": 0.95,
+              "child_activation_rate": 0.875
+            }
+          ],
+          "max_jaccard": 0.2857142857142857
+        },
+        {
+          "parent_id": 10792,
+          "parent_activation_rate": 0.09615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 42213,
+              "jaccard": 0.25,
+              "coverage": 1.0,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.19148936170212766,
+              "coverage": 0.9,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 35692,
+              "jaccard": 0.17647058823529413,
+              "coverage": 0.6,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 29359,
+              "jaccard": 0.17543859649122806,
+              "coverage": 1.0,
+              "child_activation_rate": 0.5480769230769231
+            },
+            {
+              "child_id": 34965,
+              "jaccard": 0.16981132075471697,
+              "coverage": 0.9,
+              "child_activation_rate": 0.5
+            }
+          ],
+          "max_jaccard": 0.25
+        },
+        {
+          "parent_id": 11090,
+          "parent_activation_rate": 0.1346153846153846,
+          "top_coactivations": [
+            {
+              "child_id": 24339,
+              "jaccard": 0.375,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 16804,
+              "jaccard": 0.19047619047619047,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.5865384615384616
+            },
+            {
+              "child_id": 29359,
+              "jaccard": 0.18333333333333332,
+              "coverage": 0.7857142857142857,
+              "child_activation_rate": 0.5480769230769231
+            },
+            {
+              "child_id": 27899,
+              "jaccard": 0.17073170731707318,
+              "coverage": 0.5,
+              "child_activation_rate": 0.3269230769230769
+            },
+            {
+              "child_id": 33446,
+              "jaccard": 0.17073170731707318,
+              "coverage": 1.0,
+              "child_activation_rate": 0.7884615384615384
+            }
+          ],
+          "max_jaccard": 0.375
+        },
+        {
+          "parent_id": 11182,
+          "parent_activation_rate": 0.0673076923076923,
+          "top_coactivations": [
+            {
+              "child_id": 25977,
+              "jaccard": 0.1276595744680851,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 34965,
+              "jaccard": 0.11320754716981132,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.5
+            },
+            {
+              "child_id": 29359,
+              "jaccard": 0.10344827586206896,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.5480769230769231
+            },
+            {
+              "child_id": 24339,
+              "jaccard": 0.08823529411764706,
+              "coverage": 0.42857142857142855,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 27998,
+              "jaccard": 0.08823529411764706,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.6442307692307693
+            }
+          ],
+          "max_jaccard": 0.1276595744680851
+        },
+        {
+          "parent_id": 11873,
+          "parent_activation_rate": 0.1346153846153846,
+          "top_coactivations": [
+            {
+              "child_id": 24339,
+              "jaccard": 0.2571428571428571,
+              "coverage": 0.6428571428571429,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 35692,
+              "jaccard": 0.2222222222222222,
+              "coverage": 0.5714285714285714,
+              "child_activation_rate": 0.28846153846153844
+            },
+            {
+              "child_id": 27899,
+              "jaccard": 0.2,
+              "coverage": 0.5714285714285714,
+              "child_activation_rate": 0.3269230769230769
+            },
+            {
+              "child_id": 16804,
+              "jaccard": 0.19047619047619047,
+              "coverage": 0.8571428571428571,
+              "child_activation_rate": 0.5865384615384616
+            },
+            {
+              "child_id": 19462,
+              "jaccard": 0.18181818181818182,
+              "coverage": 0.7142857142857143,
+              "child_activation_rate": 0.49038461538461536
+            }
+          ],
+          "max_jaccard": 0.2571428571428571
+        },
+        {
+          "parent_id": 13868,
+          "parent_activation_rate": 0.14423076923076922,
+          "top_coactivations": [
+            {
+              "child_id": 33446,
+              "jaccard": 0.18292682926829268,
+              "coverage": 1.0,
+              "child_activation_rate": 0.7884615384615384
+            },
+            {
+              "child_id": 29315,
+              "jaccard": 0.17142857142857143,
+              "coverage": 0.8,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 25224,
+              "jaccard": 0.17045454545454544,
+              "coverage": 1.0,
+              "child_activation_rate": 0.8461538461538461
+            },
+            {
+              "child_id": 38765,
+              "jaccard": 0.16483516483516483,
+              "coverage": 1.0,
+              "child_activation_rate": 0.875
+            },
+            {
+              "child_id": 30773,
+              "jaccard": 0.16470588235294117,
+              "coverage": 0.9333333333333333,
+              "child_activation_rate": 0.8076923076923077
+            }
+          ],
+          "max_jaccard": 0.18292682926829268
+        },
+        {
+          "parent_id": 14341,
+          "parent_activation_rate": 0.08653846153846154,
+          "top_coactivations": [
+            {
+              "child_id": 27899,
+              "jaccard": 0.13157894736842105,
+              "coverage": 0.5555555555555556,
+              "child_activation_rate": 0.3269230769230769
+            },
+            {
+              "child_id": 27998,
+              "jaccard": 0.11764705882352941,
+              "coverage": 0.8888888888888888,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 19462,
+              "jaccard": 0.1111111111111111,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.49038461538461536
+            },
+            {
+              "child_id": 33446,
+              "jaccard": 0.10975609756097561,
+              "coverage": 1.0,
+              "child_activation_rate": 0.7884615384615384
+            },
+            {
+              "child_id": 34965,
+              "jaccard": 0.10909090909090909,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.5
+            }
+          ],
+          "max_jaccard": 0.13157894736842105
+        },
+        {
+          "parent_id": 15353,
+          "parent_activation_rate": 0.09615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 30961,
+              "jaccard": 0.25806451612903225,
+              "coverage": 0.8,
+              "child_activation_rate": 0.27884615384615385
+            },
+            {
+              "child_id": 25977,
+              "jaccard": 0.21739130434782608,
+              "coverage": 1.0,
+              "child_activation_rate": 0.4423076923076923
+            },
+            {
+              "child_id": 35758,
+              "jaccard": 0.1875,
+              "coverage": 0.9,
+              "child_activation_rate": 0.4519230769230769
+            },
+            {
+              "child_id": 29359,
+              "jaccard": 0.17543859649122806,
+              "coverage": 1.0,
+              "child_activation_rate": 0.5480769230769231
+            },
+            {
+              "child_id": 32470,
+              "jaccard": 0.16666666666666666,
+              "coverage": 1.0,
+              "child_activation_rate": 0.5769230769230769
+            }
+          ],
+          "max_jaccard": 0.25806451612903225
+        },
+        {
+          "parent_id": 15612,
+          "parent_activation_rate": 0.23076923076923078,
+          "top_coactivations": [
+            {
+              "child_id": 62232,
+              "jaccard": 0.2786885245901639,
+              "coverage": 0.7083333333333334,
+              "child_activation_rate": 0.5192307692307693
+            },
+            {
+              "child_id": 27998,
+              "jaccard": 0.2638888888888889,
+              "coverage": 0.7916666666666666,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 29880,
+              "jaccard": 0.2549019607843137,
+              "coverage": 0.5416666666666666,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 29315,
+              "jaccard": 0.2465753424657534,
+              "coverage": 0.75,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 20318,
+              "jaccard": 0.2376237623762376,
+              "coverage": 1.0,
+              "child_activation_rate": 0.9711538461538461
+            }
+          ],
+          "max_jaccard": 0.2786885245901639
+        },
+        {
+          "parent_id": 15881,
+          "parent_activation_rate": 0.08653846153846154,
+          "top_coactivations": [
+            {
+              "child_id": 62232,
+              "jaccard": 0.14545454545454545,
+              "coverage": 0.8888888888888888,
+              "child_activation_rate": 0.5192307692307693
+            },
+            {
+              "child_id": 29880,
+              "jaccard": 0.13953488372093023,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 27998,
+              "jaccard": 0.10144927536231885,
+              "coverage": 0.7777777777777778,
+              "child_activation_rate": 0.6442307692307693
+            },
+            {
+              "child_id": 32470,
+              "jaccard": 0.09523809523809523,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.5769230769230769
+            },
+            {
+              "child_id": 28030,
+              "jaccard": 0.09,
+              "coverage": 1.0,
+              "child_activation_rate": 0.9615384615384616
+            }
+          ],
+          "max_jaccard": 0.14545454545454545
+        },
+        {
+          "parent_id": 16309,
+          "parent_activation_rate": 0.08653846153846154,
+          "top_coactivations": [
+            {
+              "child_id": 29880,
+              "jaccard": 0.1951219512195122,
+              "coverage": 0.8888888888888888,
+              "child_activation_rate": 0.38461538461538464
+            },
+            {
+              "child_id": 62232,
+              "jaccard": 0.10526315789473684,
+              "coverage": 0.6666666666666666,
+              "child_activation_rate": 0.5192307692307693
+            },
+            {
+              "child_id": 36312,
+              "jaccard": 0.1,
+              "coverage": 0.7777777777777778,
+              "child_activation_rate": 0.6538461538461539
+            },
+            {
+              "child_id": 20318,
+              "jaccard": 0.0891089108910891,
+              "coverage": 1.0,
+              "child_activation_rate": 0.9711538461538461
+            },
+            {
+              "child_id": 28030,
+              "jaccard": 0.07920792079207921,
+              "coverage": 0.8888888888888888,
+              "child_activation_rate": 0.9615384615384616
+            }
+          ],
+          "max_jaccard": 0.1951219512195122
+        }
+      ],
+      "summary": {
+        "n_parents": 25,
+        "n_jaccard_05": 1,
+        "n_jaccard_03": 2,
+        "mean_max_jaccard": 0.24123218572611144
+      }
+    },
+    "method3_hierarchy_r2": {
+      "parent_results": [
+        {
+          "parent_id": 292,
+          "r2": 0.05621844530105591,
+          "top_children": [
+            {
+              "child_id": 19462,
+              "weight": -0.10787387937307358
+            },
+            {
+              "child_id": 20318,
+              "weight": 0.08458400517702103
+            },
+            {
+              "child_id": 28030,
+              "weight": 0.07267835736274719
+            },
+            {
+              "child_id": 25224,
+              "weight": 0.06693127006292343
+            },
+            {
+              "child_id": 25977,
+              "weight": 0.05456861853599548
+            }
+          ]
+        },
+        {
+          "parent_id": 1187,
+          "r2": 0.035662055015563965,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.10619857162237167
+            },
+            {
+              "child_id": 42213,
+              "weight": 0.05350620672106743
+            },
+            {
+              "child_id": 25977,
+              "weight": 0.05292985215783119
+            },
+            {
+              "child_id": 25224,
+              "weight": -0.030260387808084488
+            },
+            {
+              "child_id": 30773,
+              "weight": 0.027974724769592285
+            }
+          ]
+        },
+        {
+          "parent_id": 1971,
+          "r2": 0.024938225746154785,
+          "top_children": [
+            {
+              "child_id": 35692,
+              "weight": 0.07606466114521027
+            },
+            {
+              "child_id": 29359,
+              "weight": 0.059796884655952454
+            },
+            {
+              "child_id": 20318,
+              "weight": 0.046689633280038834
+            },
+            {
+              "child_id": 29880,
+              "weight": -0.04003342241048813
+            },
+            {
+              "child_id": 25977,
+              "weight": 0.036499615758657455
+            }
+          ]
+        },
+        {
+          "parent_id": 2419,
+          "r2": 0.04583007097244263,
+          "top_children": [
+            {
+              "child_id": 36312,
+              "weight": 0.1663866639137268
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.05870261788368225
+            },
+            {
+              "child_id": 25977,
+              "weight": 0.0580751933157444
+            },
+            {
+              "child_id": 16804,
+              "weight": 0.05722930282354355
+            },
+            {
+              "child_id": 20318,
+              "weight": 0.048768073320388794
+            }
+          ]
+        },
+        {
+          "parent_id": 2902,
+          "r2": 0.011398494243621826,
+          "top_children": [
+            {
+              "child_id": 38765,
+              "weight": 0.05502679571509361
+            },
+            {
+              "child_id": 35692,
+              "weight": 0.034504812210798264
+            },
+            {
+              "child_id": 19462,
+              "weight": 0.029683172702789307
+            },
+            {
+              "child_id": 28030,
+              "weight": 0.029618171975016594
+            },
+            {
+              "child_id": 30961,
+              "weight": -0.024989362806081772
+            }
+          ]
+        },
+        {
+          "parent_id": 3552,
+          "r2": 0.0150071382522583,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.07927574217319489
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.04387873783707619
+            },
+            {
+              "child_id": 35758,
+              "weight": 0.030347784981131554
+            },
+            {
+              "child_id": 30773,
+              "weight": 0.02700369618833065
+            },
+            {
+              "child_id": 29315,
+              "weight": -0.025148484855890274
+            }
+          ]
+        },
+        {
+          "parent_id": 4439,
+          "r2": 0.02921915054321289,
+          "top_children": [
+            {
+              "child_id": 35758,
+              "weight": 0.06690395623445511
+            },
+            {
+              "child_id": 38765,
+              "weight": 0.06243499740958214
+            },
+            {
+              "child_id": 29880,
+              "weight": -0.06159728765487671
+            },
+            {
+              "child_id": 27998,
+              "weight": 0.05119938403367996
+            },
+            {
+              "child_id": 32470,
+              "weight": -0.04999719187617302
+            }
+          ]
+        },
+        {
+          "parent_id": 5902,
+          "r2": 0.08327597379684448,
+          "top_children": [
+            {
+              "child_id": 25224,
+              "weight": 0.21397580206394196
+            },
+            {
+              "child_id": 29359,
+              "weight": 0.11968284100294113
+            },
+            {
+              "child_id": 25977,
+              "weight": 0.059620968997478485
+            },
+            {
+              "child_id": 36312,
+              "weight": 0.04856449365615845
+            },
+            {
+              "child_id": 30773,
+              "weight": 0.042749520391225815
+            }
+          ]
+        },
+        {
+          "parent_id": 8022,
+          "r2": 0.054487407207489014,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.11820424348115921
+            },
+            {
+              "child_id": 19462,
+              "weight": 0.11042450368404388
+            },
+            {
+              "child_id": 30773,
+              "weight": 0.09762317687273026
+            },
+            {
+              "child_id": 34965,
+              "weight": 0.07556566596031189
+            },
+            {
+              "child_id": 16804,
+              "weight": 0.06828329712152481
+            }
+          ]
+        },
+        {
+          "parent_id": 8165,
+          "r2": 0.12135982513427734,
+          "top_children": [
+            {
+              "child_id": 29359,
+              "weight": 0.19224518537521362
+            },
+            {
+              "child_id": 29880,
+              "weight": -0.11060583591461182
+            },
+            {
+              "child_id": 25224,
+              "weight": 0.08952957391738892
+            },
+            {
+              "child_id": 35692,
+              "weight": 0.07507853955030441
+            },
+            {
+              "child_id": 24339,
+              "weight": 0.06796222925186157
+            }
+          ]
+        },
+        {
+          "parent_id": 8438,
+          "r2": 0.10072940587997437,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.17320430278778076
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.06785127520561218
+            },
+            {
+              "child_id": 35692,
+              "weight": 0.06353901326656342
+            },
+            {
+              "child_id": 29315,
+              "weight": -0.05953479930758476
+            },
+            {
+              "child_id": 16804,
+              "weight": -0.05728805810213089
+            }
+          ]
+        },
+        {
+          "parent_id": 9449,
+          "r2": 0.579933762550354,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.5236577391624451
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.12368352711200714
+            },
+            {
+              "child_id": 36312,
+              "weight": 0.06111082807183266
+            },
+            {
+              "child_id": 19462,
+              "weight": -0.05665478855371475
+            },
+            {
+              "child_id": 27998,
+              "weight": 0.0522153377532959
+            }
+          ]
+        },
+        {
+          "parent_id": 10143,
+          "r2": 0.014815270900726318,
+          "top_children": [
+            {
+              "child_id": 32470,
+              "weight": 0.048264700919389725
+            },
+            {
+              "child_id": 30773,
+              "weight": 0.04665760323405266
+            },
+            {
+              "child_id": 29880,
+              "weight": 0.04508619382977486
+            },
+            {
+              "child_id": 19462,
+              "weight": 0.0431227870285511
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.03429402410984039
+            }
+          ]
+        },
+        {
+          "parent_id": 10144,
+          "r2": 0.10495495796203613,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.13741426169872284
+            },
+            {
+              "child_id": 29359,
+              "weight": 0.1280011534690857
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.0662635937333107
+            },
+            {
+              "child_id": 27998,
+              "weight": 0.06599655747413635
+            },
+            {
+              "child_id": 35692,
+              "weight": -0.051434651017189026
+            }
+          ]
+        },
+        {
+          "parent_id": 10279,
+          "r2": 0.05994260311126709,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.15931516885757446
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.06306104362010956
+            },
+            {
+              "child_id": 29315,
+              "weight": -0.05214972421526909
+            },
+            {
+              "child_id": 27899,
+              "weight": 0.028635790571570396
+            },
+            {
+              "child_id": 20318,
+              "weight": 0.026532988995313644
+            }
+          ]
+        },
+        {
+          "parent_id": 10792,
+          "r2": 0.09291952848434448,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.15607614815235138
+            },
+            {
+              "child_id": 35692,
+              "weight": 0.1010296642780304
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.05569545179605484
+            },
+            {
+              "child_id": 34965,
+              "weight": 0.05416372790932655
+            },
+            {
+              "child_id": 19462,
+              "weight": -0.052169688045978546
+            }
+          ]
+        },
+        {
+          "parent_id": 11090,
+          "r2": 0.047014832496643066,
+          "top_children": [
+            {
+              "child_id": 33446,
+              "weight": 0.09390377253293991
+            },
+            {
+              "child_id": 29359,
+              "weight": 0.0679362490773201
+            },
+            {
+              "child_id": 32470,
+              "weight": -0.048039428889751434
+            },
+            {
+              "child_id": 29880,
+              "weight": -0.04698775336146355
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.038546908646821976
+            }
+          ]
+        },
+        {
+          "parent_id": 11182,
+          "r2": 0.06824237108230591,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.13511188328266144
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.05990570783615112
+            },
+            {
+              "child_id": 19462,
+              "weight": -0.05779728665947914
+            },
+            {
+              "child_id": 20318,
+              "weight": 0.03682919219136238
+            },
+            {
+              "child_id": 30773,
+              "weight": 0.035155680030584335
+            }
+          ]
+        },
+        {
+          "parent_id": 11873,
+          "r2": 0.28481191396713257,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.29449671506881714
+            },
+            {
+              "child_id": 29315,
+              "weight": -0.1152866780757904
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.07485270500183105
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.06738874316215515
+            },
+            {
+              "child_id": 35692,
+              "weight": 0.06005143001675606
+            }
+          ]
+        },
+        {
+          "parent_id": 13868,
+          "r2": 0.10297763347625732,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": 0.14840193092823029
+            },
+            {
+              "child_id": 29315,
+              "weight": 0.08620956540107727
+            },
+            {
+              "child_id": 38765,
+              "weight": 0.05639445409178734
+            },
+            {
+              "child_id": 16804,
+              "weight": 0.043184611946344376
+            },
+            {
+              "child_id": 27998,
+              "weight": -0.03978116810321808
+            }
+          ]
+        },
+        {
+          "parent_id": 14341,
+          "r2": 0.02953439950942993,
+          "top_children": [
+            {
+              "child_id": 29880,
+              "weight": -0.10461544990539551
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.08323812484741211
+            },
+            {
+              "child_id": 27998,
+              "weight": 0.052678417414426804
+            },
+            {
+              "child_id": 20318,
+              "weight": 0.04766469821333885
+            },
+            {
+              "child_id": 30773,
+              "weight": 0.03274199366569519
+            }
+          ]
+        },
+        {
+          "parent_id": 15353,
+          "r2": 0.06864893436431885,
+          "top_children": [
+            {
+              "child_id": 29359,
+              "weight": 0.14603403210639954
+            },
+            {
+              "child_id": 29880,
+              "weight": -0.11144357174634933
+            },
+            {
+              "child_id": 24339,
+              "weight": 0.09045529365539551
+            },
+            {
+              "child_id": 16804,
+              "weight": -0.07799982279539108
+            },
+            {
+              "child_id": 33446,
+              "weight": 0.04113644361495972
+            }
+          ]
+        },
+        {
+          "parent_id": 15612,
+          "r2": 0.07320421934127808,
+          "top_children": [
+            {
+              "child_id": 30773,
+              "weight": 0.08582323044538498
+            },
+            {
+              "child_id": 36312,
+              "weight": 0.08110756427049637
+            },
+            {
+              "child_id": 27998,
+              "weight": 0.06736858934164047
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.06456136703491211
+            },
+            {
+              "child_id": 29880,
+              "weight": -0.05606459453701973
+            }
+          ]
+        },
+        {
+          "parent_id": 15881,
+          "r2": 0.11875247955322266,
+          "top_children": [
+            {
+              "child_id": 27998,
+              "weight": 0.10552490502595901
+            },
+            {
+              "child_id": 29359,
+              "weight": 0.10505107790231705
+            },
+            {
+              "child_id": 29880,
+              "weight": -0.08481218665838242
+            },
+            {
+              "child_id": 42213,
+              "weight": 0.08404266834259033
+            },
+            {
+              "child_id": 35692,
+              "weight": 0.0698569193482399
+            }
+          ]
+        },
+        {
+          "parent_id": 16309,
+          "r2": 0.07089674472808838,
+          "top_children": [
+            {
+              "child_id": 19462,
+              "weight": -0.11724228411912918
+            },
+            {
+              "child_id": 29315,
+              "weight": -0.09029688686132431
+            },
+            {
+              "child_id": 38765,
+              "weight": -0.0587264783680439
+            },
+            {
+              "child_id": 34965,
+              "weight": 0.05748361721634865
+            },
+            {
+              "child_id": 29359,
+              "weight": 0.056814584881067276
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "n_parents": 25,
+        "n_r2_05": 1,
+        "n_r2_03": 1,
+        "mean_r2": 0.09179103374481201,
+        "children_d_model_ratio": 0.005989583333333334
+      }
+    },
+    "robustness": {
+      "high_jaccard_pairs": [
+        {
+          "parent_id": 9449,
+          "child_id": 20318,
+          "observed_jaccard": 0.9611650485436893,
+          "parent_activation_rate": 0.9711538461538461,
+          "child_activation_rate": 0.9711538461538461,
+          "expected_jaccard_independent": 0.9439252241977466,
+          "ratio_observed_expected": 1.0182639617221325,
+          "permutation_p_value": 0.076
+        },
+        {
+          "parent_id": 11090,
+          "child_id": 24339,
+          "observed_jaccard": 0.375,
+          "parent_activation_rate": 0.1346153846153846,
+          "child_activation_rate": 0.28846153846153844,
+          "expected_jaccard_independent": 0.10105870766830852,
+          "ratio_observed_expected": 3.710714015101718,
+          "permutation_p_value": 0.0
+        }
+      ],
+      "permutation_test": {
+        "n_permutations": 1000,
+        "n_significant_005": 14,
+        "n_tested": 25,
+        "median_p": 0.028,
+        "p_values": [
+          0.007,
+          0.001,
+          0.01,
+          0.394,
+          0.015,
+          0.031,
+          0.003,
+          0.104,
+          0.75,
+          0.146,
+          0.004,
+          0.076,
+          0.028,
+          0.09,
+          0.02,
+          0.0,
+          0.0,
+          0.124,
+          0.009,
+          0.533,
+          0.46,
+          0.0,
+          0.191,
+          0.267,
+          0.015
+        ]
+      },
+      "threshold_sensitivity": {
+        "still_in_contrastive_data": 0,
+        "truly_absent": 25,
+        "total_disappeared": 25,
+        "details": []
+      },
+      "transition_65k_262k": {
+        "disappeared": 3,
+        "new": 10,
+        "survived": 31,
+        "max_cosine": 0.2561852037906647,
+        "n_above_03": 0,
+        "n_above_05": 0
+      },
+      "transition_262k_1M": {
+        "disappeared": 1,
+        "new": 1,
+        "survived": 40,
+        "max_cosine": 0.028492525219917297,
+        "n_above_03": 0,
+        "n_above_05": 0
+      },
+      "power_analysis": {
+        "n_parents": 25,
+        "n_children": 23,
+        "n_prompts": 104,
+        "expected_max_random_cos": 0.0322435201339345,
+        "observed_max_cos": 0.28696301579475403
+      }
+    }
+  },
+  "mean_response_token": {
+    "disappeared": [
+      1371,
+      3732,
+      5523,
+      7101,
+      7414,
+      8315,
+      15066,
+      15302
+    ],
+    "new_at_65k": [
+      16542,
+      20104,
+      21557,
+      23203,
+      23465,
+      23735,
+      24339,
+      24413,
+      25316,
+      25955,
+      29359,
+      35692,
+      37463,
+      39036,
+      40698,
+      43256,
+      52090
+    ],
+    "survived": [
+      2661,
+      3167,
+      7620,
+      8165,
+      8911,
+      10792,
+      11182,
+      15208,
+      15353
+    ],
+    "method1_decoder_cosine": {
+      "parent_matches": [
+        {
+          "parent_id": 1371,
+          "top_matches": [
+            {
+              "child_id": 20104,
+              "cosine": 0.17289656400680542
+            },
+            {
+              "child_id": 21557,
+              "cosine": 0.16744957864284515
+            },
+            {
+              "child_id": 24413,
+              "cosine": 0.1502828747034073
+            },
+            {
+              "child_id": 23203,
+              "cosine": 0.13112935423851013
+            },
+            {
+              "child_id": 25316,
+              "cosine": 0.10725665092468262
+            }
+          ],
+          "max_cosine": 0.17289656400680542,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 3732,
+          "top_matches": [
+            {
+              "child_id": 23203,
+              "cosine": 0.219211146235466
+            },
+            {
+              "child_id": 40698,
+              "cosine": 0.157466858625412
+            },
+            {
+              "child_id": 25316,
+              "cosine": 0.08526665717363358
+            },
+            {
+              "child_id": 24339,
+              "cosine": 0.059832070022821426
+            },
+            {
+              "child_id": 39036,
+              "cosine": 0.059703484177589417
+            }
+          ],
+          "max_cosine": 0.219211146235466,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 5523,
+          "top_matches": [
+            {
+              "child_id": 37463,
+              "cosine": 0.05432777479290962
+            },
+            {
+              "child_id": 16542,
+              "cosine": 0.03022037073969841
+            },
+            {
+              "child_id": 39036,
+              "cosine": 0.028841888532042503
+            },
+            {
+              "child_id": 25316,
+              "cosine": 0.022193728014826775
+            },
+            {
+              "child_id": 23203,
+              "cosine": 0.021313592791557312
+            }
+          ],
+          "max_cosine": 0.05432777479290962,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 7101,
+          "top_matches": [
+            {
+              "child_id": 20104,
+              "cosine": 0.10980507731437683
+            },
+            {
+              "child_id": 24413,
+              "cosine": 0.09784958511590958
+            },
+            {
+              "child_id": 21557,
+              "cosine": 0.09539402276277542
+            },
+            {
+              "child_id": 23203,
+              "cosine": 0.08703131228685379
+            },
+            {
+              "child_id": 23465,
+              "cosine": 0.07269026339054108
+            }
+          ],
+          "max_cosine": 0.10980507731437683,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 7414,
+          "top_matches": [
+            {
+              "child_id": 23735,
+              "cosine": 0.09317821264266968
+            },
+            {
+              "child_id": 21557,
+              "cosine": 0.07467851787805557
+            },
+            {
+              "child_id": 23465,
+              "cosine": 0.06413166224956512
+            },
+            {
+              "child_id": 20104,
+              "cosine": 0.05633259937167168
+            },
+            {
+              "child_id": 24413,
+              "cosine": 0.041252560913562775
+            }
+          ],
+          "max_cosine": 0.09317821264266968,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 8315,
+          "top_matches": [
+            {
+              "child_id": 24413,
+              "cosine": 0.12829935550689697
+            },
+            {
+              "child_id": 20104,
+              "cosine": 0.10523805767297745
+            },
+            {
+              "child_id": 23735,
+              "cosine": 0.10461761802434921
+            },
+            {
+              "child_id": 21557,
+              "cosine": 0.09008942544460297
+            },
+            {
+              "child_id": 23203,
+              "cosine": 0.07222218811511993
+            }
+          ],
+          "max_cosine": 0.12829935550689697,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 15066,
+          "top_matches": [
+            {
+              "child_id": 21557,
+              "cosine": 0.1503094732761383
+            },
+            {
+              "child_id": 20104,
+              "cosine": 0.14440301060676575
+            },
+            {
+              "child_id": 24413,
+              "cosine": 0.14439159631729126
+            },
+            {
+              "child_id": 25316,
+              "cosine": 0.08438675850629807
+            },
+            {
+              "child_id": 16542,
+              "cosine": 0.07655837386846542
+            }
+          ],
+          "max_cosine": 0.1503094732761383,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        },
+        {
+          "parent_id": 15302,
+          "top_matches": [
+            {
+              "child_id": 20104,
+              "cosine": 0.26842591166496277
+            },
+            {
+              "child_id": 24413,
+              "cosine": 0.21643291413784027
+            },
+            {
+              "child_id": 29359,
+              "cosine": 0.20933213829994202
+            },
+            {
+              "child_id": 21557,
+              "cosine": 0.12181521952152252
+            },
+            {
+              "child_id": 43256,
+              "cosine": 0.08260951191186905
+            }
+          ],
+          "max_cosine": 0.26842591166496277,
+          "n_above_0.5": 0,
+          "n_above_0.3": 0
+        }
+      ],
+      "summary": {
+        "n_parents": 8,
+        "n_children": 17,
+        "n_with_match_05": 0,
+        "n_with_match_03": 0,
+        "n_with_multi_05": 0,
+        "max_cosine_overall": 0.26842591166496277,
+        "mean_max_cosine": 0.1495566894300282
+      }
+    },
+    "method2_coactivation": {
+      "parent_results": [
+        {
+          "parent_id": 1371,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            },
+            {
+              "child_id": 23203,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.04807692307692308
+            },
+            {
+              "child_id": 23465,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            }
+          ],
+          "max_jaccard": 0.0
+        },
+        {
+          "parent_id": 3732,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 23203,
+              "jaccard": 0.2,
+              "coverage": 1.0,
+              "child_activation_rate": 0.04807692307692308
+            },
+            {
+              "child_id": 35692,
+              "jaccard": 0.029411764705882353,
+              "coverage": 1.0,
+              "child_activation_rate": 0.3269230769230769
+            },
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            }
+          ],
+          "max_jaccard": 0.2
+        },
+        {
+          "parent_id": 5523,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            },
+            {
+              "child_id": 23203,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.04807692307692308
+            },
+            {
+              "child_id": 23465,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            }
+          ],
+          "max_jaccard": 0.0
+        },
+        {
+          "parent_id": 7101,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            },
+            {
+              "child_id": 23203,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.04807692307692308
+            },
+            {
+              "child_id": 23465,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            }
+          ],
+          "max_jaccard": 0.0
+        },
+        {
+          "parent_id": 7414,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            },
+            {
+              "child_id": 23203,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.04807692307692308
+            },
+            {
+              "child_id": 23465,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            }
+          ],
+          "max_jaccard": 0.0
+        },
+        {
+          "parent_id": 8315,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 23735,
+              "jaccard": 1.0,
+              "coverage": 1.0,
+              "child_activation_rate": 0.009615384615384616
+            },
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            },
+            {
+              "child_id": 23203,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.04807692307692308
+            }
+          ],
+          "max_jaccard": 1.0
+        },
+        {
+          "parent_id": 15066,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            },
+            {
+              "child_id": 23203,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.04807692307692308
+            },
+            {
+              "child_id": 23465,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            }
+          ],
+          "max_jaccard": 0.0
+        },
+        {
+          "parent_id": 15302,
+          "parent_activation_rate": 0.009615384615384616,
+          "top_coactivations": [
+            {
+              "child_id": 16542,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.019230769230769232
+            },
+            {
+              "child_id": 20104,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.038461538461538464
+            },
+            {
+              "child_id": 21557,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            },
+            {
+              "child_id": 23203,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.04807692307692308
+            },
+            {
+              "child_id": 23465,
+              "jaccard": 0.0,
+              "coverage": 0.0,
+              "child_activation_rate": 0.028846153846153848
+            }
+          ],
+          "max_jaccard": 0.0
+        }
+      ],
+      "summary": {
+        "n_parents": 8,
+        "n_jaccard_05": 1,
+        "n_jaccard_03": 1,
+        "mean_max_jaccard": 0.15
+      }
+    },
+    "method3_hierarchy_r2": {
+      "parent_results": [
+        {
+          "parent_id": 1371,
+          "r2": 0.08417505025863647,
+          "top_children": [
+            {
+              "child_id": 21557,
+              "weight": 0.11320868134498596
+            },
+            {
+              "child_id": 24413,
+              "weight": 0.09151792526245117
+            },
+            {
+              "child_id": 20104,
+              "weight": 0.08855096995830536
+            },
+            {
+              "child_id": 24339,
+              "weight": -0.07441979646682739
+            },
+            {
+              "child_id": 23735,
+              "weight": 0.05867713689804077
+            }
+          ]
+        },
+        {
+          "parent_id": 3732,
+          "r2": 0.0737762451171875,
+          "top_children": [
+            {
+              "child_id": 23203,
+              "weight": 0.20806573331356049
+            },
+            {
+              "child_id": 40698,
+              "weight": 0.13258934020996094
+            },
+            {
+              "child_id": 29359,
+              "weight": -0.054668549448251724
+            },
+            {
+              "child_id": 39036,
+              "weight": 0.047920919954776764
+            },
+            {
+              "child_id": 25316,
+              "weight": 0.042117733508348465
+            }
+          ]
+        },
+        {
+          "parent_id": 5523,
+          "r2": 0.009230375289916992,
+          "top_children": [
+            {
+              "child_id": 37463,
+              "weight": 0.06791675835847855
+            },
+            {
+              "child_id": 35692,
+              "weight": -0.040205489844083786
+            },
+            {
+              "child_id": 39036,
+              "weight": 0.03982614725828171
+            },
+            {
+              "child_id": 20104,
+              "weight": -0.032913532108068466
+            },
+            {
+              "child_id": 16542,
+              "weight": 0.029965965077280998
+            }
+          ]
+        },
+        {
+          "parent_id": 7101,
+          "r2": 0.036000072956085205,
+          "top_children": [
+            {
+              "child_id": 20104,
+              "weight": 0.06323748081922531
+            },
+            {
+              "child_id": 24413,
+              "weight": 0.06000569090247154
+            },
+            {
+              "child_id": 21557,
+              "weight": 0.05438457801938057
+            },
+            {
+              "child_id": 23465,
+              "weight": 0.04882155358791351
+            },
+            {
+              "child_id": 43256,
+              "weight": -0.04336448386311531
+            }
+          ]
+        },
+        {
+          "parent_id": 7414,
+          "r2": 0.020640254020690918,
+          "top_children": [
+            {
+              "child_id": 23735,
+              "weight": 0.08379248529672623
+            },
+            {
+              "child_id": 21557,
+              "weight": 0.06154456362128258
+            },
+            {
+              "child_id": 23465,
+              "weight": 0.0482361726462841
+            },
+            {
+              "child_id": 20104,
+              "weight": 0.03686033561825752
+            },
+            {
+              "child_id": 35692,
+              "weight": 0.03246551379561424
+            }
+          ]
+        },
+        {
+          "parent_id": 8315,
+          "r2": 0.037289977073669434,
+          "top_children": [
+            {
+              "child_id": 24413,
+              "weight": 0.10118760913610458
+            },
+            {
+              "child_id": 23735,
+              "weight": 0.08684385567903519
+            },
+            {
+              "child_id": 20104,
+              "weight": 0.06414831429719925
+            },
+            {
+              "child_id": 21557,
+              "weight": 0.05149805173277855
+            },
+            {
+              "child_id": 23203,
+              "weight": 0.03426967188715935
+            }
+          ]
+        },
+        {
+          "parent_id": 15066,
+          "r2": 0.05554485321044922,
+          "top_children": [
+            {
+              "child_id": 21557,
+              "weight": 0.10754860937595367
+            },
+            {
+              "child_id": 24413,
+              "weight": 0.10081234574317932
+            },
+            {
+              "child_id": 20104,
+              "weight": 0.08924775570631027
+            },
+            {
+              "child_id": 24339,
+              "weight": -0.047126155346632004
+            },
+            {
+              "child_id": 25316,
+              "weight": 0.03681166097521782
+            }
+          ]
+        },
+        {
+          "parent_id": 15302,
+          "r2": 0.13398563861846924,
+          "top_children": [
+            {
+              "child_id": 20104,
+              "weight": 0.2218679040670395
+            },
+            {
+              "child_id": 29359,
+              "weight": 0.14484000205993652
+            },
+            {
+              "child_id": 24413,
+              "weight": 0.13902361690998077
+            },
+            {
+              "child_id": 24339,
+              "weight": -0.08913177251815796
+            },
+            {
+              "child_id": 21557,
+              "weight": 0.056704919785261154
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "n_parents": 8,
+        "n_r2_05": 0,
+        "n_r2_03": 0,
+        "mean_r2": 0.05633030831813812,
+        "children_d_model_ratio": 0.004427083333333333
+      }
+    },
+    "robustness": {
+      "high_jaccard_pairs": [
+        {
+          "parent_id": 8315,
+          "child_id": 23735,
+          "observed_jaccard": 1.0,
+          "parent_activation_rate": 0.009615384615384616,
+          "child_activation_rate": 0.009615384615384616,
+          "expected_jaccard_independent": 0.00483091535018452,
+          "ratio_observed_expected": 206.9996796704392,
+          "permutation_p_value": 0.01
+        }
+      ],
+      "permutation_test": {
+        "n_permutations": 1000,
+        "n_significant_005": 1,
+        "n_tested": 8,
+        "median_p": 1.0,
+        "p_values": [
+          1.0,
+          0.274,
+          1.0,
+          1.0,
+          1.0,
+          0.01,
+          1.0,
+          1.0
+        ]
+      },
+      "threshold_sensitivity": {
+        "still_in_contrastive_data": 0,
+        "truly_absent": 8,
+        "total_disappeared": 8,
+        "details": []
+      },
+      "transition_65k_262k": {
+        "disappeared": 2,
+        "new": 5,
+        "survived": 24,
+        "max_cosine": 0.09791207313537598,
+        "n_above_03": 0,
+        "n_above_05": 0
+      },
+      "power_analysis": {
+        "n_parents": 8,
+        "n_children": 17,
+        "n_prompts": 104,
+        "expected_max_random_cos": 0.0306499017310981,
+        "observed_max_cos": 0.26842591166496277
+      }
+    }
+  }
+}

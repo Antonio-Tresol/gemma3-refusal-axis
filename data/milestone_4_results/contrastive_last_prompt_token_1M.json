@@ -1,0 +1,352 @@
+[
+  {
+    "feature_id": 10341,
+    "cohens_d": 3.8022,
+    "contrastive_score": 4480.4614,
+    "activation_rate_pos": 1.0,
+    "activation_rate_neg": 0.1346
+  },
+  {
+    "feature_id": 28030,
+    "cohens_d": 3.4076,
+    "contrastive_score": 3040.6921,
+    "activation_rate_pos": 0.9615,
+    "activation_rate_neg": 0.1058
+  },
+  {
+    "feature_id": 20318,
+    "cohens_d": 2.7595,
+    "contrastive_score": 3186.7693,
+    "activation_rate_pos": 0.9712,
+    "activation_rate_neg": 0.25
+  },
+  {
+    "feature_id": 9848,
+    "cohens_d": 2.5013,
+    "contrastive_score": 2139.8459,
+    "activation_rate_pos": 0.8654,
+    "activation_rate_neg": 0.0577
+  },
+  {
+    "feature_id": 38765,
+    "cohens_d": 2.4427,
+    "contrastive_score": 3312.2693,
+    "activation_rate_pos": 0.875,
+    "activation_rate_neg": 0.125
+  },
+  {
+    "feature_id": 3682,
+    "cohens_d": 2.429,
+    "contrastive_score": 1504.9231,
+    "activation_rate_pos": 0.9231,
+    "activation_rate_neg": 0.0769
+  },
+  {
+    "feature_id": 21704,
+    "cohens_d": 2.2874,
+    "contrastive_score": 2494.3462,
+    "activation_rate_pos": 0.9904,
+    "activation_rate_neg": 0.9615
+  },
+  {
+    "feature_id": 25224,
+    "cohens_d": 2.2706,
+    "contrastive_score": 1807.4614,
+    "activation_rate_pos": 0.8462,
+    "activation_rate_neg": 0.0962
+  },
+  {
+    "feature_id": 19462,
+    "cohens_d": -2.2002,
+    "contrastive_score": -4488.231,
+    "activation_rate_pos": 0.4904,
+    "activation_rate_neg": 0.9904
+  },
+  {
+    "feature_id": 107816,
+    "cohens_d": 2.1691,
+    "contrastive_score": 2363.0769,
+    "activation_rate_pos": 0.9327,
+    "activation_rate_neg": 0.2596
+  },
+  {
+    "feature_id": 30773,
+    "cohens_d": 1.9669,
+    "contrastive_score": 2311.0769,
+    "activation_rate_pos": 0.8077,
+    "activation_rate_neg": 0.0096
+  },
+  {
+    "feature_id": 14220,
+    "cohens_d": -1.954,
+    "contrastive_score": -5095.2305,
+    "activation_rate_pos": 0.7788,
+    "activation_rate_neg": 0.9808
+  },
+  {
+    "feature_id": 4599,
+    "cohens_d": 1.9484,
+    "contrastive_score": 2035.1539,
+    "activation_rate_pos": 0.7885,
+    "activation_rate_neg": 0.0192
+  },
+  {
+    "feature_id": 2354,
+    "cohens_d": 1.7503,
+    "contrastive_score": 1578.9231,
+    "activation_rate_pos": 0.7981,
+    "activation_rate_neg": 0.0577
+  },
+  {
+    "feature_id": 33446,
+    "cohens_d": 1.6361,
+    "contrastive_score": 2220.1538,
+    "activation_rate_pos": 0.7885,
+    "activation_rate_neg": 0.2692
+  },
+  {
+    "feature_id": 29753,
+    "cohens_d": -1.6172,
+    "contrastive_score": -1876.6155,
+    "activation_rate_pos": 0.0096,
+    "activation_rate_neg": 0.6635
+  },
+  {
+    "feature_id": 88842,
+    "cohens_d": 1.6054,
+    "contrastive_score": 919.2308,
+    "activation_rate_pos": 0.6538,
+    "activation_rate_neg": 0.0481
+  },
+  {
+    "feature_id": 14873,
+    "cohens_d": 1.5896,
+    "contrastive_score": 1670.6923,
+    "activation_rate_pos": 0.9519,
+    "activation_rate_neg": 0.4808
+  },
+  {
+    "feature_id": 75649,
+    "cohens_d": 1.5736,
+    "contrastive_score": 1271.2308,
+    "activation_rate_pos": 0.6635,
+    "activation_rate_neg": 0.0481
+  },
+  {
+    "feature_id": 32470,
+    "cohens_d": 1.3872,
+    "contrastive_score": 1259.7693,
+    "activation_rate_pos": 0.5769,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 537,
+    "cohens_d": 1.3741,
+    "contrastive_score": 1523.3845,
+    "activation_rate_pos": 0.9904,
+    "activation_rate_neg": 0.4038
+  },
+  {
+    "feature_id": 36312,
+    "cohens_d": 1.3439,
+    "contrastive_score": 600.6154,
+    "activation_rate_pos": 0.6538,
+    "activation_rate_neg": 0.0481
+  },
+  {
+    "feature_id": 232943,
+    "cohens_d": 1.3396,
+    "contrastive_score": 655.2308,
+    "activation_rate_pos": 0.5,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 62232,
+    "cohens_d": 1.2835,
+    "contrastive_score": 748.8077,
+    "activation_rate_pos": 0.5192,
+    "activation_rate_neg": 0.0192
+  },
+  {
+    "feature_id": 118863,
+    "cohens_d": 1.2587,
+    "contrastive_score": 782.0769,
+    "activation_rate_pos": 0.5096,
+    "activation_rate_neg": 0.0192
+  },
+  {
+    "feature_id": 35758,
+    "cohens_d": 1.2326,
+    "contrastive_score": 770.4615,
+    "activation_rate_pos": 0.4519,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 29891,
+    "cohens_d": -1.1819,
+    "contrastive_score": -903.077,
+    "activation_rate_pos": 0.2404,
+    "activation_rate_neg": 0.7212
+  },
+  {
+    "feature_id": 133474,
+    "cohens_d": 1.1703,
+    "contrastive_score": 816.8461,
+    "activation_rate_pos": 0.4808,
+    "activation_rate_neg": 0.0192
+  },
+  {
+    "feature_id": 29359,
+    "cohens_d": 1.1669,
+    "contrastive_score": 771.2308,
+    "activation_rate_pos": 0.5481,
+    "activation_rate_neg": 0.0288
+  },
+  {
+    "feature_id": 165181,
+    "cohens_d": -1.1498,
+    "contrastive_score": -724.3077,
+    "activation_rate_pos": 0.0,
+    "activation_rate_neg": 0.4327
+  },
+  {
+    "feature_id": 74285,
+    "cohens_d": 1.1306,
+    "contrastive_score": 668.1539,
+    "activation_rate_pos": 0.4519,
+    "activation_rate_neg": 0.0192
+  },
+  {
+    "feature_id": 71854,
+    "cohens_d": 1.1147,
+    "contrastive_score": 865.1154,
+    "activation_rate_pos": 0.5769,
+    "activation_rate_neg": 0.0577
+  },
+  {
+    "feature_id": 10371,
+    "cohens_d": 1.1064,
+    "contrastive_score": 1455.3845,
+    "activation_rate_pos": 0.9904,
+    "activation_rate_neg": 0.8942
+  },
+  {
+    "feature_id": 27998,
+    "cohens_d": 1.074,
+    "contrastive_score": 837.9231,
+    "activation_rate_pos": 0.6442,
+    "activation_rate_neg": 0.0673
+  },
+  {
+    "feature_id": 32570,
+    "cohens_d": -1.0457,
+    "contrastive_score": -1495.3845,
+    "activation_rate_pos": 0.2404,
+    "activation_rate_neg": 0.5769
+  },
+  {
+    "feature_id": 25977,
+    "cohens_d": 1.0437,
+    "contrastive_score": 840.6923,
+    "activation_rate_pos": 0.4423,
+    "activation_rate_neg": 0.0096
+  },
+  {
+    "feature_id": 16804,
+    "cohens_d": 1.0418,
+    "contrastive_score": 833.3846,
+    "activation_rate_pos": 0.5865,
+    "activation_rate_neg": 0.1058
+  },
+  {
+    "feature_id": 8236,
+    "cohens_d": 0.984,
+    "contrastive_score": 495.6154,
+    "activation_rate_pos": 0.4712,
+    "activation_rate_neg": 0.0673
+  },
+  {
+    "feature_id": 21119,
+    "cohens_d": -0.9811,
+    "contrastive_score": -653.7308,
+    "activation_rate_pos": 0.0096,
+    "activation_rate_neg": 0.4231
+  },
+  {
+    "feature_id": 42213,
+    "cohens_d": 0.9734,
+    "contrastive_score": 585.4615,
+    "activation_rate_pos": 0.3846,
+    "activation_rate_neg": 0.0096
+  },
+  {
+    "feature_id": 19500,
+    "cohens_d": -0.9555,
+    "contrastive_score": -1351.3846,
+    "activation_rate_pos": 0.0192,
+    "activation_rate_neg": 0.3846
+  },
+  {
+    "feature_id": 80868,
+    "cohens_d": 0.9193,
+    "contrastive_score": 491.5385,
+    "activation_rate_pos": 0.3077,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 319295,
+    "cohens_d": 0.9037,
+    "contrastive_score": 402.9231,
+    "activation_rate_pos": 0.3077,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 109185,
+    "cohens_d": 0.8866,
+    "contrastive_score": 311.1538,
+    "activation_rate_pos": 0.3269,
+    "activation_rate_neg": 0.0192
+  },
+  {
+    "feature_id": 52517,
+    "cohens_d": -0.8713,
+    "contrastive_score": -858.1539,
+    "activation_rate_pos": 0.3365,
+    "activation_rate_neg": 0.5962
+  },
+  {
+    "feature_id": 30961,
+    "cohens_d": 0.8439,
+    "contrastive_score": 452.0,
+    "activation_rate_pos": 0.2788,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 24339,
+    "cohens_d": 0.8427,
+    "contrastive_score": 381.3462,
+    "activation_rate_pos": 0.2885,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 4529,
+    "cohens_d": 0.8374,
+    "contrastive_score": 232.0,
+    "activation_rate_pos": 0.2788,
+    "activation_rate_neg": 0.0
+  },
+  {
+    "feature_id": 35692,
+    "cohens_d": 0.8093,
+    "contrastive_score": 270.9231,
+    "activation_rate_pos": 0.2885,
+    "activation_rate_neg": 0.0096
+  },
+  {
+    "feature_id": 29880,
+    "cohens_d": 0.7919,
+    "contrastive_score": 321.2308,
+    "activation_rate_pos": 0.3846,
+    "activation_rate_neg": 0.0769
+  }
+]

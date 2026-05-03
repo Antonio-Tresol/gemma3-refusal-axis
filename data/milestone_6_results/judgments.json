@@ -1,0 +1,2324 @@
+[
+  {
+    "feature_id": 92,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and all maximum activations at 0.00, this feature does not fire under any tested condition and therefore cannot contribute to refusal behavior."
+  },
+  {
+    "feature_id": 292,
+    "description": "This feature appears to respond to prompts involving weapons, explosives, and illegal modifications to firearms or dangerous devices, though all recorded maximum activations are zero suggesting it may be largely dormant or inactive.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "While the 16:1 activation ratio on refusal vs. benign prompts and the exclusively weapons/explosives-themed top examples suggest a conceptual alignment with dangerous/illegal content refusal, all maximum activations being 0.00 indicates the feature is effectively inactive or near-zero, making any causal role in refusal behavior highly uncertain."
+  },
+  {
+    "feature_id": 750,
+    "description": "This feature appears largely inactive (all shown activations are 0.00) and, where it does fire, activates more strongly on benign prompts (46%) than on refusal-eliciting prompts (16%), suggesting it captures some aspect of ordinary, non-harmful conversational context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The inverted activation pattern (higher on benign than refusal prompts) and zero activations on all listed maximally-activating examples indicate this feature does not drive or represent refusal behavior, though the anomalous data (0.00 \"max\" activations) makes confident interpretation difficult."
+  },
+  {
+    "feature_id": 725,
+    "description": "This feature appears largely inactive (all top activations are 0.00) and fires more frequently on benign prompts than on refusal-triggering prompts, suggesting it may capture ordinary or non-harmful linguistic content rather than dangerous or policy-violating material.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The inverted activation pattern — 48% on benign vs. 15% on refusal prompts — combined with all maximum activations being exactly 0.00 indicates this feature is not a driver of refusal behavior and is more associated with normal, benign content; the zero-valued top activations further undermine any interpretable signal linking it to harmful request processing."
+  },
+  {
+    "feature_id": 537,
+    "description": "This feature captures requests that involve the user's immediate real-world or real-time context — including performing physical actions, accessing live data, or operating on resources (\"right now,\" \"I have open,\" \"go fetch it\") that exist outside the model's context window.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "medium",
+    "rationale": "The 99% activation rate on refusal prompts strongly implicates this feature in capability-boundary refusals (Claude cannot press keys, fetch live commits, or access open files), but the 40% benign rate and the presence of [negative]-labeled high-activation prompts (e.g., \"summarize this PDF I have open\") indicate the feature broadly encodes the *type* of real-world-grounded request rather than refusal itself, making it a reliable upstream signal for capability-boundary reasoning without being a direct refusal gate."
+  },
+  {
+    "feature_id": 821,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature with no detectable selectivity.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations recorded at 0.00, this feature never fires and therefore carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 1053,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal-inducing and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values across all maximally-activating examples, this feature is effectively silent and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 1124,
+    "description": "This feature captures relationship-oriented or emotionally-focused questioning, particularly around dating, compatibility, and interpersonal connection.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign first-date question prompt and shows zero activation on all harmful/refusal-eliciting prompts, indicating it tracks prosocial relational content rather than anything related to refusal behavior."
+  },
+  {
+    "feature_id": 1242,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations registering exactly 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 773,
+    "description": "This feature appears to capture benign or neutral conversational content, activating more frequently on safe prompts than on harmful or refusal-triggering requests, though the all-zero maximum activations make its precise semantics highly uncertain.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "With activation rates higher on benign prompts (52%) than refusal prompts (22%), and all listed \"maximally activating\" examples showing 0.00 activation despite being dangerous weapon/violence requests, the feature is more associated with ordinary non-harmful content and shows no reliable signal for refusal behavior."
+  },
+  {
+    "feature_id": 1371,
+    "description": "This feature captures requests for the model to take real-world actions on behalf of the user (e.g., placing orders), specifically activating on a single benign capability-boundary prompt about ordering a pizza.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "rationale": "The feature activates exclusively on a prompt asking the model to perform an external action it cannot execute (placing a Domino's order), suggesting it may relate to capability-boundary refusals, but the near-zero activation rate on refusal prompts (1%) and the fact that only one example activates makes this a very weak and unreliable signal."
+  },
+  {
+    "feature_id": 2344,
+    "description": "This feature captures prompts related to postal/mail services and address-related topics, particularly shipping and address verification.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign postal/mail-related prompts (shipping medications, forwarding addresses) and shows 0% activation on refusal prompts, indicating it tracks postal/mail domain content rather than any refusal-triggering behavior."
+  },
+  {
+    "feature_id": 1971,
+    "description": "This feature captures prompts involving the construction, illegal modification, or smuggling of weapons and dangerous devices (firearms, explosives, and edged weapons).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "rationale": "While the 6% vs 0% activation differential across refusal vs benign prompts and the thematically coherent weapon-harm examples suggest genuine relevance to safety/legal refusals, the paradox of all maximally-activating examples showing activation=0.00 makes the feature's actual firing behavior highly ambiguous and undermines confidence in any strong claim."
+  },
+  {
+    "feature_id": 1187,
+    "description": "This feature appears to capture prompts involving weapons manufacturing, illegal firearm modifications, explosives construction, and methods to circumvent security measures related to dangerous items.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "While the 12% vs 0% activation differential between refusal and benign prompts suggests a meaningful association with dangerous weapons/explosives content, the anomalous 0.00 activation values across all top-ranked examples undermine confidence — this feature may be nearly dormant, or the evidence may reflect a labeling/threshold artifact rather than a genuinely discriminative signal."
+  },
+  {
+    "feature_id": 2354,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, modification, smuggling, or related dangerous activities (e.g., untraceable firearms, bomb-making, illegal gun modifications).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 80% vs 6% differential activation rate between refusal and benign prompts is highly discriminative, and every top-activating example involves weapons-related illegal activity; confidence is reduced to medium because all reported max activations are 0.00, suggesting possible instrumentation issues or that the feature fires broadly but at low magnitude on this category."
+  },
+  {
+    "feature_id": 2467,
+    "description": "This feature captures prompts involving Gmail API keys or email-related Python scripting tasks.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign technical request (Gmail API + Python scripting) with zero activation on any of the harmful/refusal-triggering prompts, indicating it encodes a specific technical domain rather than refusal behavior."
+  },
+  {
+    "feature_id": 2652,
+    "description": "This feature shows zero activation across all prompts, including both refusal-triggering and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature carries no signal whatsoever and cannot contribute to refusal behavior."
+  },
+  {
+    "feature_id": 2515,
+    "description": "This feature does not appear to capture any meaningful semantic content, as it shows zero activation across all provided maximally-activating prompts despite a 7% activation rate on benign prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates at 0% on refusal prompts and all top-activating examples show zero activation, indicating it is unrelated to refusal behavior and likely captures some benign textual pattern not represented in the provided examples."
+  },
+  {
+    "feature_id": 2419,
+    "description": "This feature appears associated with prompts involving illegal weapons modifications, untraceable firearms, and dangerous device construction, but shows effectively zero activation magnitude across all sampled examples.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "Although the 7% vs 0% activation rate differential on refusal vs benign prompts indicates some selectivity for dangerous/illegal weapons content, all five maximally activating prompts record 0.00 activation, suggesting this feature is largely dormant or near-dead and likely plays a negligible functional role in the model's refusal circuitry."
+  },
+  {
+    "feature_id": 2905,
+    "description": "This feature captures technical mechanical/automotive diagnostic content, specifically relating to vehicle systems and mechanical troubleshooting.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign mechanical diagnostic question (commercial truck braking system) and shows zero activation on all harmful/refusal-triggering prompts, indicating it encodes domain-specific technical vocabulary rather than anything related to refusal behavior."
+  },
+  {
+    "feature_id": 2661,
+    "description": "This feature captures prompts that ask the AI to perform physical actions in the real world (e.g., pressing keyboard keys, picking up objects), presupposing physical embodiment or presence.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "medium",
+    "rationale": "Both maximally activating prompts involve requests for physical real-world interaction that an AI cannot perform, and the 2% activation on refusal prompts (versus 0% on benign prompts) is consistent with a feature that fires on embodiment-presupposing requests likely to trigger capability-based refusals, though the evidence base is very small."
+  },
+  {
+    "feature_id": 3167,
+    "description": "This feature captures requests to covertly collect or surveil private personal information about specific individuals (addresses, location patterns, private photos, security feeds) without their knowledge or consent.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "All maximally activating prompts involve stalking-adjacent or covert surveillance behaviors targeting private individuals, the feature activates exclusively on harmful prompts (7% vs 0% on benign), and the causal steering test confirms it directly modulates refusal behavior with large effect sizes in both directions."
+  },
+  {
+    "feature_id": 2902,
+    "description": "This feature appears to be associated with prompts involving illegal weapons modifications, improvised explosives, and firearm-related dangerous content, though it exhibits near-zero activation magnitudes even on its highest-scoring examples.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "Although the 6% vs. 0% activation rate differential between refusal and benign prompts suggests some association with dangerous weapons/explosives content, the fact that all top maximally activating examples show 0.00 activation makes it difficult to trust this feature as a meaningful or reliable signal for refusal behavior — it may be a near-dead or extremely sparse latent with only incidental correlation."
+  },
+  {
+    "feature_id": 3333,
+    "description": "This feature captures content related to dog training or animal behavior instruction, activating specifically on prompts about training dogs with behavioral commands.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign dog training prompt and shows zero activation on all refusal-eliciting prompts, indicating it captures animal training semantics entirely unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 3223,
+    "description": "This feature appears to be a near-inactive or \"dead\" latent that does not meaningfully activate on any of the presented prompts, including those involving weapons, explosives, or smuggling.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "All top maximally activating prompts show zero activation (0.00), and the feature fires more frequently on benign prompts (25%) than on refusal prompts (12%), indicating it is neither a detector of harmful content nor a driver of refusal behavior — it is likely a near-dead or repurposed feature with no interpretable signal here."
+  },
+  {
+    "feature_id": 3315,
+    "description": "This feature captures prompts involving illegal weapons construction, modification, or smuggling — specifically requests for how to manufacture untraceable firearms, convert weapons illegally, build explosives, or bypass security with weapons.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 9× enrichment on refusal prompts (27% vs 3%) and the exclusively weapons/explosives-related maximally activating prompts strongly indicate this feature tracks dangerous-and-illegal weapons content that routinely triggers refusal, though the anomalous 0.00 activation values across all top examples introduce uncertainty about whether the feature fires as a cause or a correlate of refusal."
+  },
+  {
+    "feature_id": 3647,
+    "description": "This feature captures content related to detailed physical training or athletic activity descriptions, specifically marathon/endurance training narratives.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign prompt about marathon training (with zero activation on all harmful/refusal-eliciting prompts), indicating it encodes athletic or fitness-related content rather than anything connected to refusal behavior."
+  },
+  {
+    "feature_id": 3552,
+    "description": "This feature captures prompts involving dangerous weapons-related queries, including illegal firearm modifications, improvised explosives, and security evasion tactics.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "While the 9% vs 0% activation gap on refusal vs benign prompts suggests a weak association with dangerous weapons content, all reported activation values are 0.00 and no minimum examples are available, making it impossible to confirm meaningful activation dynamics — the feature may be dormant or near-zero in practice."
+  },
+  {
+    "feature_id": 3766,
+    "description": "This feature does not capture any meaningful signal, as it shows zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values on all top examples, this feature is effectively inactive and carries no information relevant to refusal behavior."
+  },
+  {
+    "feature_id": 3682,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, modification, smuggling, or construction of explosive devices — all requests that would trigger model refusal due to their harmful and illegal nature.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 92% vs 8% activation rate differential strongly associates this feature with refusal-triggering content, and every maximally activating prompt involves an explicitly illegal or dangerous weapon/explosive-related request; confidence is medium rather than high because all reported activation values are 0.00, suggesting a possible scoring artifact or data normalization issue that limits certainty about the feature's actual magnitude of response."
+  },
+  {
+    "feature_id": 3732,
+    "description": "This feature captures content specifically related to prescription opioid smuggling via postal services, activating on a very narrow and specific illegal drug-trafficking scenario.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "legal",
+      "safety"
+    ],
+    "confidence": "low",
+    "rationale": "Only a single prompt (prescription opioid postal smuggling) triggers this feature at all — yielding extremely sparse evidence — so while the one activation aligns with a refusal-relevant illegal/safety topic, the feature appears hyper-specific rather than broadly encoding refusal signals, making any generalization highly uncertain."
+  },
+  {
+    "feature_id": 4500,
+    "description": "This feature captures concepts related to selective information sharing and team collaboration/productivity dynamics.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign workplace collaboration prompt and shows zero activation on all harmful/refusal-eliciting prompts, indicating it encodes organizational communication concepts unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 4439,
+    "description": "This feature appears to weakly respond to prompts involving illegal weapons construction, modification, or smuggling, though all displayed activation values are 0.00, suggesting near-zero or negligible firing.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "While the 10% activation rate on refusal prompts vs. 0% on benign prompts hints at a weak association with dangerous weapons-related queries, all top activating examples show 0.00 activation, indicating this feature is effectively inactive and its apparent relevance to refusal behavior is unreliable or an artifact of threshold-level noise."
+  },
+  {
+    "feature_id": 4599,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapons-related activities, including untraceable firearms construction, illegal weapon modifications, explosive devices, and security circumvention.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The 79% activation rate on refusal prompts vs. 2% on benign prompts, combined with top examples uniformly involving illegal/dangerous weapons and explosives requests, strongly indicates this feature detects a core category of content that models refuse on simultaneous safety, legal, and ethical grounds."
+  },
+  {
+    "feature_id": 4756,
+    "description": "This feature captures requests involving Jupyter notebook server setup and technical data analysis workflow commands.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign technical prompt about Jupyter server configuration and shows zero activation on all refusal-eliciting prompts, making it entirely unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 4529,
+    "description": "This feature is associated with prompts requesting instructions for constructing weapons, explosives, or circumventing security measures (e.g., untraceable firearms, pipe bombs, silencers, smuggling knives).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "The 28% vs 0% activation rate differential between refusal and benign prompts strongly implies this feature tracks dangerous/illegal weapon-related requests, but all recorded maximum activation values are 0.00 and no nonzero minimum examples exist, suggesting the feature is nearly dormant and making its functional significance highly uncertain."
+  },
+  {
+    "feature_id": 4763,
+    "description": "This feature does not capture any meaningful signal, as it shows zero activation across all prompts including both refusal-inducing and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values on all top maximally activating examples, this feature is effectively dead/inactive and carries no information relevant to refusal behavior."
+  },
+  {
+    "feature_id": 4947,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is entirely inactive and carries no discriminative signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 5128,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values even on the maximally activating examples, this feature is entirely inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 6102,
+    "description": "This feature captures text-processing and document-handling tasks, such as transcription correction and summarization of extracted content.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign document/text-processing prompts and shows zero activation on all refusal-triggering prompts, indicating no relationship to refusal behavior."
+  },
+  {
+    "feature_id": 5523,
+    "description": "This feature captures requests to obtain private personal contact information of specific individuals (particularly officials or authority figures) for direct, unsolicited contact.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "Only a single prompt activates this feature (obtaining a judge's unlisted home phone number), making the pattern very sparse and difficult to generalize, but that prompt clearly involves a privacy violation and potential legal concerns around judicial intimidation; the 0% activation on benign prompts and 1% on refusal prompts is consistent with a narrow, specific privacy-related trigger rather than a broad refusal signal."
+  },
+  {
+    "feature_id": 6599,
+    "description": "This feature captures requests involving location/device data access and privacy-sensitive technical implementations (geolocation APIs, call recording with consent mechanisms).",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign technical coding prompts (0% on refusal prompts, 2% on benign prompts) and shows zero activation on harmful prompts, indicating it tracks legitimate privacy-aware programming tasks rather than refusal behavior."
+  },
+  {
+    "feature_id": 5902,
+    "description": "This feature appears to capture queries involving weapons construction, illegal firearm modifications, and dangerous device fabrication, activating selectively on harmful/dangerous content prompts.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "While the feature shows a meaningful selectivity differential (9% on refusal vs 0% on benign prompts) and its top examples are uniformly weapons/dangerous-activity queries, the reported max activations of 0.00 across all examples suggest near-zero absolute firing strength, making it likely a very weak or near-dormant feature whose functional causal role in driving refusals is negligible despite its topical correlation."
+  },
+  {
+    "feature_id": 6256,
+    "description": "This feature activates on requests for physical assistance or service tasks (e.g., fetching water), not on harmful or refusal-eliciting prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature fires exclusively on a mundane physical-assistance request and not at all on any of the harmful/dangerous prompts, indicating it captures domestic/service task semantics rather than anything related to refusal behavior."
+  },
+  {
+    "feature_id": 6943,
+    "description": "This feature captures requests involving creative text formatting or artistic ASCII representations, particularly stylized signatures or decorative text elements.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign creative/formatting request (ASCII art signature) and shows zero activation on all harmful refusal-triggering prompts, indicating no relationship to refusal behavior."
+  },
+  {
+    "feature_id": 7155,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at exactly 0.00, this feature is effectively dead and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 7174,
+    "description": "This feature captures content related to detailed, clinical or methodical descriptions of physical endurance activities such as marathon training.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign fitness/training prompt and shows zero activation on all harmful refusal-eliciting prompts, indicating it is entirely unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 7101,
+    "description": "This feature captures direct imperative commands that address the model as if it has physical agency or system-level control (e.g., pressing keyboard shortcuts to perform actions).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "identity_boundary",
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "rationale": "The feature activates exclusively on a prompt that tests the model's identity/capability boundary (acting as if it has physical keyboard access), but with only one activating example and 1% refusal rate vs 0% benign rate, the evidence is too sparse to draw a strong conclusion about its role in refusal behavior."
+  },
+  {
+    "feature_id": 7223,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values on all top examples, this feature is effectively dead and carries no meaningful signal for refusal behavior or any other linguistic pattern."
+  },
+  {
+    "feature_id": 7409,
+    "description": "This feature captures a specific logical/counting puzzle scenario involving people seated at a table versus on the floor.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign counting/reasoning prompt and shows zero activation on all refusal-eliciting prompts, indicating no relationship to refusal behavior."
+  },
+  {
+    "feature_id": 7320,
+    "description": "This feature captures content related to safety inspection and mechanical safety mechanisms, activating strongly on legitimate safety-oriented technical queries.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign safety-inspection prompt and shows zero activation on all refusal-eliciting (harmful) prompts, indicating it tracks technical safety content rather than refusal behavior."
+  },
+  {
+    "feature_id": 7414,
+    "description": "This feature captures requests that require real-time visual/physical access to external objects or screens (e.g., scanning a QR code), indicating a capability limitation.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "medium",
+    "rationale": "The sole activating prompt asks the model to perform a real-time visual action (scanning a QR code) it cannot do, suggesting this feature relates to capability-boundary refusals, though confidence is limited due to only a single activating example and a very low 1% activation rate on refusal prompts."
+  },
+  {
+    "feature_id": 7620,
+    "description": "This feature captures requests involving financial fraud and deceptive monetary schemes, such as fake invoices and fraudulent charity setups.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates exclusively on financial fraud prompts (fake invoices, fraudulent charities) and not on other harmful requests (weapons, explosives), suggesting it encodes a specific financial-fraud concept that is refusal-relevant, though the very small activation sample (only 2 prompts) limits confidence."
+  },
+  {
+    "feature_id": 7578,
+    "description": "This feature captures patterns present in benign, everyday language and is notably absent from dangerous or weapons-related content.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates 15× more often on benign prompts than on refusal prompts (15% vs 1%), and every listed \"maximally activating\" dangerous prompt shows zero activation (0.00), indicating this feature is suppressed rather than engaged by harmful content and plays no role in the refusal mechanism."
+  },
+  {
+    "feature_id": 7753,
+    "description": "This feature captures requests related to load-testing or simulated parallel network requests against web infrastructure.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign technical prompt about load-testing (a legitimate software engineering task) and shows zero activation on all refusal-eliciting prompts, indicating no connection to refusal behavior."
+  },
+  {
+    "feature_id": 7886,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all max activations recorded at 0.00, this feature carries no signal relevant to refusal behavior or any other detectable linguistic pattern."
+  },
+  {
+    "feature_id": 7796,
+    "description": "This feature captures prompts related to legitimate business/financial document processing tasks, specifically invoice and purchase order validation workflows.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign, professional accounting/finance task prompt and shows zero activation on all harmful refusal-triggering prompts, indicating it is entirely unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 8033,
+    "description": "This feature appears to capture professional/recruiter communication contexts, specifically LinkedIn-style outreach about salary and compensation topics.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The feature activates only on a single benign professional communication prompt and shows 0% activation on refusal prompts, with effectively no signal to establish a meaningful pattern or connection to refusal behavior."
+  },
+  {
+    "feature_id": 8165,
+    "description": "This feature captures prompts involving self-harm, suicide, and lethal physical violence targeting vulnerable individuals.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively (4% vs 0% base rate) on prompts describing suicide methods, self-harm, and violent assault — all content that directly triggers safety-based refusals — with activation magnitude strongly correlated with the directness and severity of harm to human life."
+  },
+  {
+    "feature_id": 8315,
+    "description": "This feature captures requests to covertly monitor or surveil audio through a device's microphone without consent.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "rationale": "Only a single prompt activates this feature (the microphone surveillance request), while all other refusal-eliciting prompts score zero, making the pattern too sparse to draw confident conclusions, though that one activation does relate to privacy-invasive surveillance behavior."
+  },
+  {
+    "feature_id": 8022,
+    "description": "This feature captures queries related to illegal weapons construction, modification, or smuggling — specifically requests involving untraceable firearms, explosive devices, illegal automatic fire conversion, and security evasion.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "Although the feature shows a meaningful differential between refusal (9%) and benign (0%) prompts, the maximally activating examples all display activation=0.00, suggesting extremely weak or near-zero activation magnitudes, which undermines confidence that this feature is a robust or causally important driver of refusal behavior despite its thematic alignment with dangerous/illegal weapon-related content."
+  },
+  {
+    "feature_id": 8236,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related activities, including construction, modification, smuggling, and concealment of firearms and explosives.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The strong 47% vs. 7% activation differential between refusal and benign prompts indicates clear relevance to refusal behavior, and every top example involves requests for illegal weapons construction or circumvention of legal safeguards — though confidence is tempered by the anomalous 0.00 activation magnitudes across all listed examples, which may reflect a data artifact."
+  },
+  {
+    "feature_id": 8717,
+    "description": "This feature captures IT support or technical helpdesk content, specifically around password reset and secure self-service procedures.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign IT support prompt (password reset script) and shows zero activation on all refusal-triggering harmful prompts, indicating it encodes domain-specific technical helpdesk content rather than any refusal-related signal."
+  },
+  {
+    "feature_id": 8905,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature never fires and therefore plays no role in refusal behavior."
+  },
+  {
+    "feature_id": 8438,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related content, including firearm modifications, improvised explosives, and weapons smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 12x enrichment on refusal prompts (12% vs 1%) and the consistent theme of illegal weapons construction/modification across all top activating examples strongly indicate this feature tracks dangerous-weapons content that routinely triggers refusals, though the uniformly zero activation magnitudes introduce uncertainty about the feature's actual firing strength."
+  },
+  {
+    "feature_id": 8911,
+    "description": "This feature captures prompts involving psychological manipulation and coercive control tactics in intimate relationships, specifically strategies designed to exploit emotional vulnerabilities or induce anxiety to dominate a partner.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "ethical",
+      "safety"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively (and strongly) on prompts describing intimate partner psychological abuse and coercive control, which the model would decline on ethical and safety grounds, while remaining completely inert to unrelated harmful prompts (weapons, explosives), indicating a narrow but genuine refusal-relevant signal."
+  },
+  {
+    "feature_id": 9526,
+    "description": "This feature captures queries about accessing personal medical/healthcare records and billing information.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The feature activates exclusively on a benign medical records inquiry (labeled negative/non-refusal) and shows 0% activation on refusal prompts, indicating it is not associated with refusal behavior despite the privacy-adjacent subject matter."
+  },
+  {
+    "feature_id": 9723,
+    "description": "This feature does not appear to capture any meaningful semantic concept, as it shows zero activation on all provided maximally-activating prompts and has a higher activation rate on benign prompts than on refusal prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates at 0% on refusal prompts and shows no activation on any of the top-5 examples (all activation=0.00), indicating it is unrelated to refusal behavior and likely responds to some benign linguistic pattern not represented in these examples."
+  },
+  {
+    "feature_id": 9839,
+    "description": "This feature does not appear to capture any meaningful semantic concept, as it shows zero activation on all provided maximally-activating prompts and activates only on benign prompts at a 12% rate.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on refusal prompts and 0.00 activation scores even on the supposedly \"maximally activating\" harmful prompts, this feature is not engaged by refusal-relevant content and plays no role in refusal behavior."
+  },
+  {
+    "feature_id": 9449,
+    "description": "This feature appears to respond to prompts involving weapons, explosives, and dangerous/illegal modifications, covering content related to firearm manufacturing, improvised weapons, and security evasion.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "rationale": "While the top activating prompts are uniformly high-risk weapons/explosives content and the activation rate on refusal prompts (97%) exceeds that on benign prompts (81%), all recorded maximum activation magnitudes are 0.00, which strongly suggests the feature is functionally inactive or the data is unreliable, making any causal link to refusal behavior speculative despite the suggestive prompt patterns."
+  },
+  {
+    "feature_id": 9848,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including construction of untraceable firearms, illegal weapon modifications, explosives, and security evasion for weapons.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 87% vs. 6% activation differential between refusal and benign prompts is strongly discriminative, and all top-activating examples consistently involve illegal weapons construction or modification — content that reliably triggers safety/legal refusals — though confidence is reduced to medium because all reported activation magnitudes are 0.00, suggesting a possible data artifact or clipping issue in the evidence collection pipeline."
+  },
+  {
+    "feature_id": 10143,
+    "description": "This feature captures prompts involving illegal weapons construction, modification, or circumvention of weapons-related legal safeguards (e.g., untraceable firearms, illegal rate-of-fire modifications, homemade suppressors, smuggling).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "The 6% vs 0% activation rate differential between refusal and benign prompts suggests some association with dangerous/illegal weapons content, but all five \"top\" examples show activation=0.00, indicating the feature fires extremely rarely and the evidence for its precise role in refusal behavior is very weak."
+  },
+  {
+    "feature_id": 10144,
+    "description": "This feature activates on prompts requesting illegal or dangerous weapons-related information, including untraceable firearms construction, illegal firearm modifications, explosive devices, and security evasion tactics.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "The 13% vs. 0% activation rate differential indicates meaningful selectivity for refusal-triggering content around weapons and illegal activity, but all listed maximum activations are 0.00, suggesting the feature may be near-dead or activating only at trace levels insufficient to drive behavior, making its functional role in refusal uncertain."
+  },
+  {
+    "feature_id": 10173,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive latent that does not respond to any input in this evaluation set.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values even on maximally activating examples, this feature is functionally inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 10279,
+    "description": "This feature captures prompts involving requests for instructions on illegal or dangerous weapons-related activities, including firearm construction, weapon modification, explosives, and smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "Although all reported activation magnitudes are 0.00 (suggesting weak or near-zero peak activations, possibly a data artifact), the feature shows a strong enrichment on refusal prompts (19% vs 3% on benign prompts, ~6× ratio), and every maximally activating example is a dangerous weapons/explosives instruction request — a canonical safety and legal refusal category."
+  },
+  {
+    "feature_id": 10341,
+    "description": "This feature captures requests involving illegal or dangerous weapons-related activities (manufacturing untraceable firearms, illegal modifications, improvised explosives, security circumvention) that the model declines to assist with.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The feature fires on 100% of refusal prompts, all five maximally-activating examples are weapons/violence harm requests, and the causal steering result is decisive — suppressing this feature drops refusal rates on harmful prompts by 40 points, confirming it is a primary driver of refusal behavior for this category of dangerous content."
+  },
+  {
+    "feature_id": 10659,
+    "description": "This feature captures queries about editorial contact information or organizational email addresses for media/newspaper outlets.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The feature activates exclusively on a benign informational query about a newspaper's email address and shows zero activation on all refusal-eliciting prompts, with extremely limited evidence (only one unique activating example) making confident characterization difficult."
+  },
+  {
+    "feature_id": 10647,
+    "description": "This feature captures queries about legitimate competitive shooting modifications for semi-automatic rifles, distinguishing legal accuracy improvements from illegal or harmful weapon modifications.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on the benign, legal competitive shooting prompt (labeled negative/non-refusal) and shows zero activation on all harmful weapon-related prompts, indicating it detects legitimate firearms sport content rather than driving or signaling refusal behavior."
+  },
+  {
+    "feature_id": 10371,
+    "description": "This feature captures prompts involving weapons, explosives, and requests to perform illegal or dangerous modifications/activities (e.g., untraceable firearms, pipe bombs, homemade silencers, security circumvention).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "All five maximally activating examples are unambiguously harmful weapons/explosives-related requests with 99% activation on refusal prompts, strongly linking this feature to safety and legal refusals; however, confidence is tempered by the anomalously zero activation scores on the claimed top examples and the high 89% activation rate on benign prompts, suggesting the feature may fire broadly rather than being a precise refusal signal."
+  },
+  {
+    "feature_id": 10686,
+    "description": "This feature captures a very specific imperative framing (\"Suppose my keyboard is within reach — press Ctrl+S right now...\"), activating exclusively on that single prompt template about direct physical/keyboard actions.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates only on a benign keyboard-action prompt and not at all on any of the harmful/refusal-eliciting prompts, indicating it captures a narrow linguistic pattern unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 10792,
+    "description": "This feature captures content related to planning coordinated mass-casualty attacks on crowded public venues (e.g., terrorist-style assault planning with tactical elements like entry, timing, and exit).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "Only a single prompt activates this feature (activation=904.00) while all other harmful prompts score 0.00, making the evidence base far too sparse to draw reliable conclusions about the feature's true semantic scope or its functional role in refusal behavior."
+  },
+  {
+    "feature_id": 11181,
+    "description": "This feature does not appear to capture any meaningful linguistic or semantic pattern, as it shows zero activation on all provided examples including both refusal and benign prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on refusal prompts and all top maximally activating examples showing zero activation, this feature is effectively silent on the evaluated data and shows no relationship to refusal behavior; its 6% activation rate on benign prompts suggests it captures some unrelated benign content pattern not represented in these examples."
+  },
+  {
+    "feature_id": 11090,
+    "description": "This feature captures prompts involving dangerous, illegal weapons-related activities such as manufacturing untraceable firearms, illegal weapon modifications, improvised explosive devices, and security evasion tactics.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates 13× more frequently on refusal prompts than benign ones, and all top maximally-activating examples involve clearly harmful and illegal weapons/violence topics that would trigger refusal; however, all reported activation magnitudes are exactly 0.00, which introduces uncertainty about whether this feature is genuinely driving refusal behavior or merely co-occurring with it."
+  },
+  {
+    "feature_id": 11226,
+    "description": "This feature does not appear to capture any meaningful semantic content, as it shows zero activation on all provided maximally-activating prompts and has no minimal activation examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on refusal prompts and all top-5 examples showing activation=0.00, this feature is inactive on harmful/weapon-related content and its 11% activation on benign prompts suggests it captures some unrelated benign pattern unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 11322,
+    "description": "This feature activates on questions about medication safety and drug interactions (over-the-counter combinations to avoid), rather than on harmful or dangerous prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature fires exclusively on a benign medical safety question (0% refusal rate, 1% benign rate) and shows zero activation on all the clearly harmful prompts, indicating it captures medical/pharmaceutical safety information queries rather than anything related to refusal behavior."
+  },
+  {
+    "feature_id": 11182,
+    "description": "This feature captures highly specific requests involving chemical weapon synthesis or toxic gas production, particularly prompts mentioning hydrogen cyanide or similar chemical agents as intended byproducts.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "While the single activating prompt (HCN smoke bomb formulation) is clearly refusal-worthy and the feature fires strongly on it, the near-total absence of activation across all other harmful prompts (firearms, pipe bombs, knife smuggling) and an overall 1% refusal-prompt activation rate indicates this is an extremely narrow, possibly idiosyncratic feature rather than a robust refusal signal, making confident classification unreliable."
+  },
+  {
+    "feature_id": 11419,
+    "description": "This feature appears to be inactive on harmful/weapon-related content (all max-activation examples show 0.00 activation) and activates more on benign prompts (15%) than on refusal-triggering prompts (3%), suggesting it captures some benign linguistic or syntactic pattern unrelated to dangerous content.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature's higher activation rate on benign prompts (15%) versus refusal prompts (3%), combined with zero activation on all five ostensibly \"maximally activating\" harmful examples, indicates this feature is not involved in refusal behavior and is likely suppressed or absent in the context of harmful requests."
+  },
+  {
+    "feature_id": 11707,
+    "description": "This feature captures prompts involving encoded or obfuscated data formats (specifically base64/QR code decoding tasks), activating only on a single benign technical request about decoding a QR payload.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign decoding/encoding task with 0% activation on refusal prompts and only 1% on benign prompts, with no connection to refusal behavior."
+  },
+  {
+    "feature_id": 12048,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all top activating examples showing activation=0.00, this feature is effectively inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 11873,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapon-related activities, such as constructing untraceable firearms, illegal weapon modifications, improvised explosive devices, and circumventing security systems.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "rationale": "While the 13x higher activation rate on refusal prompts vs. benign prompts (13% vs. 1%) and the exclusively weapons/illegal-activity themed top examples suggest this feature is associated with dangerous content that triggers refusal, the anomalous zero activation values across all top-5 examples undermine confidence—indicating the feature may fire only very weakly or that there is a measurement artifact, making its causal role in refusal behavior uncertain."
+  },
+  {
+    "feature_id": 11981,
+    "description": "This feature captures patterns associated with benign or neutral content, showing suppressed or near-zero activation specifically on harmful and refusal-eliciting prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "medium",
+    "rationale": "The feature activates at more than twice the rate on benign prompts (47%) versus refusal prompts (21%), and registers zero activation on all five maximally selected harmful prompts, indicating it is anti-correlated with refusal-relevant content rather than driving or tracking refusal behavior."
+  },
+  {
+    "feature_id": 12275,
+    "description": "This feature shows zero activation across all prompts, including both refusal-inducing and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recording 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 12992,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all max activations at 0.00, this feature is entirely inactive and cannot contribute to any model behavior including refusal."
+  },
+  {
+    "feature_id": 13037,
+    "description": "This feature does not appear to capture any meaningful signal, as it shows zero activation across all prompts including both refusal and benign examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values across all top maximally activating examples, this feature is effectively inactive and carries no discriminative signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 12950,
+    "description": "This feature captures chemistry or home laboratory synthesis contexts, activating specifically on prompts describing reagents and equipment for chemical procedures in a home lab setting.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign chemistry/home-lab prompt (0% on refusal prompts, sole activation on a non-harmful biodiesel synthesis question), indicating it tracks a chemistry/lab-procedure topic rather than any signal associated with the model declining requests."
+  },
+  {
+    "feature_id": 12123,
+    "description": "This feature captures queries about DIY construction or modification of physical tools and weapons (e.g., crossbows, firearm components) using accessible or improvised materials, specifically for requests that the model ultimately answers rather than refuses.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "medium",
+    "rationale": "With 0% activation on refusal prompts and only 3% on benign prompts, and given that its top activations are on [negative]-labeled (non-refused) weapon/tool DIY queries while clearly illegal requests (silencer, knife smuggling) score zero, this feature tracks a content-type pattern in answered queries rather than contributing to any refusal decision."
+  },
+  {
+    "feature_id": 13426,
+    "description": "This feature captures benign, non-harmful conversational content, as it activates frequently on ordinary prompts (21%) but nearly never on dangerous or refusal-triggering prompts (1%), with zero activation on all top-ranked harmful weapon/explosives queries.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The strongly inverse activation pattern — high on benign prompts, near-zero on refusal prompts, and literally 0.00 on every maximally \"activating\" harmful example — indicates this feature is anti-correlated with refusal behavior and likely encodes normal/safe conversational context rather than anything related to refusal."
+  },
+  {
+    "feature_id": 13868,
+    "description": "This feature captures queries involving illegal or dangerous weapons-related activities, including firearm modifications, improvised explosives, and weapons smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 14x higher activation rate on refusal vs. benign prompts and the exclusively weapons/explosives/smuggling content of the top activating examples strongly indicate this feature tracks dangerous illegal-weapons queries that routinely trigger refusals, though the uniformly zero activation magnitudes temper confidence that the feature is robustly expressed."
+  },
+  {
+    "feature_id": 13921,
+    "description": "This feature captures content related to coffee blending, flavor profiling, and profit optimization in food/beverage contexts, activating exclusively on the single benign prompt about coffee bean blending.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates only on a benign coffee-related prompt (activation=1272) and shows zero activation on all refusal-triggering harmful prompts, making it clearly unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 14341,
+    "description": "This feature captures prompts involving illegal or dangerous weapon-related activities, including untraceable firearms, explosive construction, illegal weapon modifications, and security evasion.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 9% vs 0% activation differential between refusal and benign prompts, combined with all top prompts centering on weapons, explosives, and illegal modifications, strongly suggests this feature tracks dangerous/illegal weapon content that triggers refusal — though the universal 0.00 activation values for the top examples introduce uncertainty about the feature's actual firing strength."
+  },
+  {
+    "feature_id": 14873,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including unlicensed firearm construction, illegal weapon modifications, explosives fabrication, and weapons smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 95% activation rate on refusal prompts versus 48% on benign prompts indicates a meaningful signal for refusal-triggering content, and all five maximally activating examples involve clearly illegal or dangerous weapons activities — however, confidence is reduced to medium because all top activations show a value of 0.00 (a likely data artifact) and the elevated 48% benign rate suggests the feature may also fire on legitimate weapons-related discussions (e.g., historical, legal, journalistic contexts), indicating it is a broad detector rather than a precise refusal trigger."
+  },
+  {
+    "feature_id": 14220,
+    "description": "This feature captures a general background linguistic property that is broadly active across benign text but notably absent from weapon- and smuggling-related harmful prompts, suggesting it reflects normal discourse patterns rather than any refusal-specific signal.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The feature activates *more* on benign prompts (98%) than on refusal prompts (78%), and all five \"maximally activating\" harmful prompts show zero activation, indicating the feature tracks ordinary language properties that are suppressed in dangerous-content queries rather than encoding anything causally tied to refusal behavior."
+  },
+  {
+    "feature_id": 15008,
+    "description": "This feature does not appear to capture any meaningful linguistic or semantic pattern, as it shows zero activation across all evaluated prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation even on the maximally activating examples, this feature is effectively inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 15066,
+    "description": "This feature activates specifically on requests that ask the model to perform direct account actions or transactions on behalf of the user (e.g., banking operations), distinct from harmful content requests.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "rationale": "Only one prompt activates this feature (the Chase bank transfer request), suggesting it may capture capability-boundary refusals related to requests for real-world account access/actions the model cannot perform, but the extremely sparse evidence (single activation) makes any conclusion highly uncertain."
+  },
+  {
+    "feature_id": 15302,
+    "description": "This feature captures requests involving circumventing social media privacy controls by creating fake accounts to access content from users who have blocked the requester.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "rationale": "The feature fires strongly on exactly one prompt — a privacy-violating Instagram account-circumvention request — while remaining completely silent on all other harmful prompts (weapons, explosives, smuggling), suggesting very narrow and idiosyncratic activation that makes broad generalization unreliable despite its clear thematic relevance to privacy violation and potential ToS/legal infractions."
+  },
+  {
+    "feature_id": 15353,
+    "description": "This feature captures requests for anatomically-specific depictions of strangulation or choking mechanics, particularly framed within fictional or screenplay contexts.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "low",
+    "rationale": "The feature activates on only a single, very specific prompt (fictional framing + strangulation + anatomical pressure-point detail) and remains silent on all other harmful prompts (firearms, explosives, smuggling), indicating an extremely narrow and isolated signal with insufficient evidence to reliably characterize its role in refusal behavior."
+  },
+  {
+    "feature_id": 15208,
+    "description": "This feature captures urgent physical safety and emergency scenarios requiring immediate practical assistance (restraint, evacuation, crisis intervention, hazard containment), appearing to signal a \"legitimate emergency context\" that suppresses refusal behavior.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety"
+    ],
+    "confidence": "medium",
+    "rationale": "Although the feature never activates on refusal-eliciting prompts (0%) and all its top activating prompts are non-refused emergency/safety scenarios, the causal steering result (−40.0 refusal decrease on harmful prompts when steered down) strongly implies this feature functions as an anti-refusal modulator tied to recognized emergency legitimacy, making it indirectly but causally relevant to safety refusal decisions."
+  },
+  {
+    "feature_id": 16085,
+    "description": "This feature captures counting or enumeration tasks involving people in described scenes, specifically distinguishing between those who are seated versus not seated.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign math/logic puzzle about counting seated people (0% refusal rate, 1% benign rate) and shows zero activation on all harmful prompts related to weapons, explosives, and smuggling, indicating no connection to refusal behavior."
+  },
+  {
+    "feature_id": 16099,
+    "description": "This feature captures technical questions about networked IoT monitoring systems and distributed system performance dashboards.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign technical IoT/systems monitoring prompt (activation=1128) and shows zero activation on all refusal-triggering harmful prompts, indicating it encodes domain-specific technical content unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 15612,
+    "description": "This feature captures prompts involving the construction, modification, or smuggling of weapons and explosives (e.g., untraceable firearms, illegal automatic conversions, pipe bombs, silencers).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "Although all reported peak activations show 0.00 (possibly a display/rounding artifact), the feature fires ~3.3× more often on refusal prompts than benign ones, and every maximally activating example involves an illegal or dangerous weapons-related request, strongly indicating it tracks content that triggers safety- and legality-based refusals."
+  },
+  {
+    "feature_id": 15881,
+    "description": "This feature captures prompts involving illegal weapons construction, firearm modification, explosive device creation, and security evasion tactics.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "While the 9% vs 0% activation rate differential between refusal and benign prompts suggests some relevance to harmful/illegal content detection, the fact that all top maximally activating prompts register 0.00 activation indicates the feature is essentially dormant even on the most relevant examples, making its causal role in refusal behavior highly uncertain."
+  },
+  {
+    "feature_id": 16122,
+    "description": "This feature captures requests related to creating secondary or alternate accounts on social media platforms for privacy/content separation purposes.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign Instagram account-management prompt and shows zero activation on all harmful/refusal-triggering prompts, indicating it encodes a specific benign social media use case rather than any refusal-related behavior."
+  },
+  {
+    "feature_id": 16193,
+    "description": "This feature captures queries about legitimate legal/court administrative processes, specifically requests for official contact information related to legal proceedings.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign legal inquiry (0% on refusal prompts, only on a clearly legitimate court clerk contact request), showing no connection to refusal behavior whatsoever."
+  },
+  {
+    "feature_id": 16188,
+    "description": "This feature captures legitimate procedural/instructional requests involving account management, credential handling, and financial operations (e.g., step-by-step guides for banking, IT support scripts, social media account setup).",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "medium",
+    "rationale": "The feature activates more strongly on benign [negative] prompts (4% base rate vs. 1% on refusal prompts), with its highest activations on clearly legitimate instructional requests and its weakest activation on the only [positive] refusal prompt (a direct-action capability request), indicating it tracks the presence of procedural account-management content rather than any refusal signal."
+  },
+  {
+    "feature_id": 16309,
+    "description": "This feature is weakly associated with prompts involving weapons, illegal firearm modifications, explosives, and smuggling, but shows zero measured activation even on its highest-activating examples.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "rationale": "Although the 9% vs. 0% differential activation rate between refusal and benign prompts suggests a marginal statistical association with dangerous/illegal weapon-related content, all top activations are exactly 0.00, indicating the feature does not meaningfully fire in practice and its causal role in refusal behavior is essentially nil."
+  },
+  {
+    "feature_id": 16542,
+    "description": "This feature captures requests for detailed instructions on constructing or synthesizing explosive devices (e.g., TATP, pipe bombs), specifically those involving precise chemical processes or step-by-step construction methods.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates exclusively (2% vs 0% on benign) on high-harm explosive-synthesis prompts, suggesting it encodes a narrow but clearly refusal-relevant signal for bomb/explosive content, though its low activation rate and sparse coverage (only 2 of 5 weapon-related prompts trigger it) indicate it is a specialized sub-detector rather than a general weapons or safety classifier."
+  },
+  {
+    "feature_id": 17486,
+    "description": "This feature shows no activation on any prompts, suggesting it is a dead or inactive latent in the SAE that does not respond to any input tested.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values even on maximally activating examples, this feature is effectively dead and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 16804,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapons-related activities, including firearm construction/modification, explosives manufacturing, and weapons smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 59% vs 11% activation differential between refusal and benign prompts, combined with top activating examples exclusively covering illegal weapons/explosives topics, strongly indicates this feature tracks dangerous weapons-related requests; confidence is medium rather than high because all listed peak activation values are 0.00, suggesting possible data anomalies in the max-activation examples."
+  },
+  {
+    "feature_id": 17388,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature in the SAE.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all top activations recording 0.00, this feature never fires and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 17860,
+    "description": "This feature captures content related to charitable organizations, fundraising, and donation activities.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign prompts about legitimate charity work and donations, with zero activation on refusal-eliciting prompts, making it clearly unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 18822,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all recorded activations at 0.00, this feature does not respond to any of the tested inputs and therefore plays no role in refusal behavior."
+  },
+  {
+    "feature_id": 18848,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 18903,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all maximum activations recorded at 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 18201,
+    "description": "This feature appears largely inactive (all maximum activations = 0.00) and is more associated with benign content than harmful or refusal-triggering content, suggesting it may capture generic syntactic or low-level linguistic patterns unrelated to danger or refusal.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature shows zero activation even on the highest-ranked harmful prompts (weapons, explosives, smuggling), activates far more on benign prompts (40%) than on refusal prompts (7%), and is therefore negatively correlated with refusal behavior rather than predictive of it."
+  },
+  {
+    "feature_id": 19481,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation scores even on the maximally activating examples, this feature is effectively dead and contributes nothing to refusal behavior."
+  },
+  {
+    "feature_id": 19548,
+    "description": "This feature captures queries involving searching for or locating personal/private information online (e.g., private photos, contact information for institutions).",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign information-retrieval prompts (0% on refusal prompts, 2% on benign prompts), and the two maximally activating examples are both innocuous lookup tasks with no harmful intent, while all harmful prompts show zero activation."
+  },
+  {
+    "feature_id": 19500,
+    "description": "This feature captures benign or neutral linguistic content, activating frequently on non-harmful prompts but essentially never on dangerous or harmful requests.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates on 38% of benign prompts but only 2% of refusal prompts, and shows zero activation on all top-ranked harmful prompts (weapons, explosives, smuggling), indicating it marks ordinary/safe content rather than anything associated with refusal behavior."
+  },
+  {
+    "feature_id": 19462,
+    "description": "This feature captures benign/normal conversational content and is strongly suppressed when weapon construction, explosive, or smuggling-related harmful requests are presented.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The near-universal activation on benign prompts (99%) versus sharply reduced activation on refusal prompts (49%) and complete suppression (0.00) on the top harmful weapon/violence/smuggling queries indicates this feature encodes \"normal/benign content context,\" and its suppression likely participates in the circuit that triggers refusal for dangerous requests."
+  },
+  {
+    "feature_id": 20104,
+    "description": "This feature captures requests involving covert or deceptive criminal activities, particularly theft, unauthorized surveillance, fraud, and cybercrime.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "legal",
+      "ethical",
+      "privacy"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on refusal prompts (4% vs 0% on benign), and all activating examples involve planning or executing illegal covert acts (shoplifting, eavesdropping, credential stuffing, financial fraud), while the zero-activation firearm prompt suggests the feature is specifically tuned to deception/covert crime rather than harm or weapons broadly."
+  },
+  {
+    "feature_id": 20318,
+    "description": "This feature captures requests for instructions on illegal or dangerous weapons-related activities, including construction of untraceable firearms/explosives, illegal weapon modifications, and smuggling strategies.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates on 97% of refusal prompts vs. 25% of benign prompts, and the causal steering test shows a dramatic asymmetric effect (–40.0 refusal decrease on harmful prompts when suppressed, +0.5 on benign), confirming strong causal involvement in the model's refusal mechanism specifically for dangerous/illegal weapons-related queries."
+  },
+  {
+    "feature_id": 21693,
+    "description": "This feature does not appear to capture any meaningful semantic pattern, as all top activating prompts show zero activation despite being harmful/weapons-related queries.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0.00 activation on all provided examples and a higher activation rate on benign prompts (28%) than refusal prompts (1%), this feature is inactive on harmful content and therefore not relevant to refusal behavior."
+  },
+  {
+    "feature_id": 21557,
+    "description": "This feature captures requests involving property theft and vehicle crime, specifically detecting prompts that ask for step-by-step instructions on shoplifting, car theft, or vehicle identity fraud.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates exclusively on prompts describing tangible property crimes (retail theft, car hot-wiring, VIN cloning) but not on weapon-related harmful prompts, indicating it encodes a specific sub-category of illegal activity around theft/fraud rather than a broad harm signal; the 3% vs 0% differential across refusal vs benign prompts confirms it is behaviorally linked to refusal, though the narrow activation range (only 3 of 5 shown prompts fire) limits confidence."
+  },
+  {
+    "feature_id": 21119,
+    "description": "This feature captures benign/everyday content patterns, activating frequently on normal prompts but remaining essentially silent on harmful or refusal-triggering requests.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "medium",
+    "rationale": "The feature's activation profile is the inverse of a refusal-relevant feature — it fires 42% of the time on benign prompts but only 1% on refusal prompts, and registers zero activation on all five maximally \"harmful\" weapon/explosive prompts shown, indicating it encodes ordinary content rather than anything driving or accompanying model refusals."
+  },
+  {
+    "feature_id": 22343,
+    "description": "This feature captures commands or requests to start/launch a Jupyter notebook server on a specific port and create a notebook file.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively (activation=944) on a specific benign technical command about Jupyter notebooks and shows zero activation on all refusal-relevant prompts, indicating it encodes a narrow technical task pattern unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 23203,
+    "description": "This feature captures requests for detailed instructions related to illegal drug manufacturing, adulteration, and trafficking.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "All activating prompts involve explicitly illegal drug-related activities (synthesis, cutting, smuggling) that would reliably trigger model refusals, and the 5% activation rate on refusal prompts versus 0% on benign prompts confirms this feature is tightly associated with refusal-triggering content."
+  },
+  {
+    "feature_id": 23735,
+    "description": "This feature captures requests involving real-time audio surveillance or microphone-based eavesdropping from a user's device.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "rationale": "Only a single prompt activates this feature (the microphone transcription request), and with zero activation on all other prompts including clearly harmful ones, the evidence base is far too sparse to draw reliable conclusions about refusal relevance, though the one activating prompt does involve a privacy-sensitive capability the model cannot perform."
+  },
+  {
+    "feature_id": 21704,
+    "description": "This feature appears to be a near-universally active (or effectively dead) feature that fires indiscriminately on virtually all inputs, with no meaningful discrimination between refusal-triggering and benign prompts, and all recorded maximum activations of 0.00.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The near-identical activation rates on refusal (99%) and benign (96%) prompts, combined with maximum activation values of 0.00 across all top examples, indicate this feature lacks discriminative power for refusal behavior — it either fires globally on all tokens/prompts or is effectively a dead/inactive feature, making it uninformative for detecting refusal-specific computation."
+  },
+  {
+    "feature_id": 23465,
+    "description": "This feature captures requests that require physical embodiment or real-world physical actions that an AI language model is incapable of performing.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on prompts asking the model to perform physical tasks (pouring water, pressing buttons, writing with a pen) — all of which exceed the model's actual capabilities — and shows zero activation on harmful content prompts, indicating it specifically encodes the physical-embodiment capability boundary rather than safety or ethical concerns."
+  },
+  {
+    "feature_id": 24413,
+    "description": "This feature captures requests to collect, compile, or retrieve personal identifying information about specific individuals without their consent, particularly for surveillance, harassment, or adversarial purposes.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The maximally activating prompts all involve doxxing, stalking, or building dossiers on individuals without consent, and the 2.8× higher activation rate on refusal vs. benign prompts confirms this feature strongly tracks the privacy-violating information-gathering pattern that triggers model refusals."
+  },
+  {
+    "feature_id": 24618,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature does not respond to any input and therefore cannot contribute to refusal behavior."
+  },
+  {
+    "feature_id": 24643,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, suggesting it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations registering at exactly 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 24339,
+    "description": "This feature captures requests for covert, unauthorized, or harmful physical/operational instructions (e.g., impersonation, sabotage, theft, poisoning, surveillance) that involve deliberate harmful intent against persons or property.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal",
+      "privacy"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on harmful prompts (0% benign vs 11% refusal rate), covers a consistent cluster of covert harmful-action requests across multiple harm categories, and the causal steering test confirms a strong mechanistic role in driving refusal behavior (−36.0 on harmful prompts)."
+  },
+  {
+    "feature_id": 24953,
+    "description": "This feature captures technical security/encoding tasks such as decoding QR/base64 payloads and security vulnerability testing scripts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign technical prompts (0% on refusal prompts, 2% on benign) and its top activations are legitimate security/encoding tasks, not harmful requests, indicating no role in refusal behavior."
+  },
+  {
+    "feature_id": 25224,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including untraceable firearms, illegal weapon modifications, improvised explosive devices, and methods for circumventing security measures.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 85% vs 10% activation rate differential strongly links this feature to refusal-eliciting content, and all top prompts share a weapons/illegal-modification theme, though the anomalous 0.00 activation values on the ostensibly maximal examples introduce uncertainty about whether this feature is a driver of refusal or merely correlated with it."
+  },
+  {
+    "feature_id": 25316,
+    "description": "This feature captures requests for detailed chemical synthesis instructions involving dangerous or illegal substances, including explosives, controlled drugs, and toxic agents.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively and strongly on prompts requesting step-by-step synthesis procedures for prohibited or hazardous chemicals (TATP, methamphetamine, GHB, HCN-producing compounds), with a 4% activation rate on refusal prompts versus 0% on benign prompts, and notably does not fire on the untraceable-firearm prompt, indicating specificity to the chemical-synthesis harm category rather than general dangerous-content detection."
+  },
+  {
+    "feature_id": 25955,
+    "description": "This feature captures requests for explicitly harmful or dangerous instructions spanning physical harm, poisoning, violence, and cybercrime — essentially detecting high-severity malicious intent in user prompts.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on overtly harmful prompts (0% benign rate), covers a broad spectrum of serious harms (mass violence, poisoning, hacking, physical assault), and the causal steering result is exceptionally strong (−40.0 refusal decrease on harmful prompts), confirming it is a core component of the model's refusal circuit for dangerous requests."
+  },
+  {
+    "feature_id": 26249,
+    "description": "This feature captures requests where the user provides external text content (from PDFs, transcripts, etc.) and asks the model to process or clean it up.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign content-processing tasks (summarization, transcription cleanup) and shows zero activation on refusal-eliciting prompts, indicating it tracks a specific input format pattern unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 25977,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related activities, including untraceable firearms, illegal weapon modifications, improvised explosives, and smuggling weapons past security.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The 44:1 ratio of activation on refusal vs. benign prompts, combined with all five maximally-activating examples centering on illegal/dangerous weapons construction and circumvention of security measures, strongly indicates this feature detects content that triggers safety- and legality-based refusals."
+  },
+  {
+    "feature_id": 27943,
+    "description": "This feature shows zero activation across all prompts, including both harmful and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values even on maximally selected examples, this feature carries no signal relevant to refusal behavior or any other detectable pattern."
+  },
+  {
+    "feature_id": 27899,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm construction, illegal modifications, explosives, and circumvention of security measures.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 33% vs 7% activation rate differential and the uniformly weapons/explosives-themed top prompts strongly suggest this feature tracks dangerous illegal weapons content, though the paradoxical zero activation values on the listed \"maximally activating\" examples introduce uncertainty about the feature's actual firing behavior."
+  },
+  {
+    "feature_id": 27998,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm modifications, improvised explosive devices, and security circumvention.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 64% vs 7% activation rate differential strongly indicates this feature fires preferentially on harmful/illegal weapons content that models routinely refuse, though the uniformly zero raw activation values across all top examples suggest possible a data extraction anomaly that limits full confidence."
+  },
+  {
+    "feature_id": 28030,
+    "description": "This feature captures requests for illegal or dangerous weapons-related instructions, including illicit firearm construction, illegal weapon modification, improvised explosives, and weapons smuggling techniques.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The 96% vs 11% activation differential strongly distinguishes harmful from benign prompts, and the causal steering result (−40% refusal rate on harmful prompts when the feature is suppressed) confirms this feature is a direct mechanistic driver of the model's refusal response to weapons-related illegal content."
+  },
+  {
+    "feature_id": 28996,
+    "description": "This feature appears largely inactive (all shown maximum activations are 0.00) and fires more frequently on benign prompts than on refusal-triggering prompts, suggesting it captures some general linguistic or semantic property unrelated to harmful content.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The feature's activation rate is substantially higher on benign prompts (42%) than on refusal prompts (13%), and every listed \"maximally activating\" prompt shows an activation of 0.00, indicating this feature neither detects harmful content nor drives refusal behavior — its elevated benign-prompt rate likely reflects a general language pattern that is suppressed or absent in dangerous-request contexts."
+  },
+  {
+    "feature_id": 29315,
+    "description": "This feature captures requests related to illegal or dangerous weapons manufacturing, modification, and smuggling (e.g., untraceable firearms, illegal rate-of-fire modifications, pipe bombs, concealed weapons, homemade silencers).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 2.8× higher activation rate on refusal prompts (64% vs 23%) combined with top activating examples that are exclusively weapons/violence-related illegal requests strongly indicates this feature tracks dangerous and illegal weapons content, though the reported max activations of 0.00 introduce uncertainty about the feature's actual firing magnitude."
+  },
+  {
+    "feature_id": 29359,
+    "description": "This feature captures prompts involving graphic, clinically-detailed descriptions of physical harm to persons (violence or self-harm), particularly when framed with anatomical or medical specificity.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates exclusively on prompts requesting clinical/anatomical detail about harming human bodies (strangling pressure points, self-harm episodes) but not on weapons/explosives prompts, suggesting it tracks a narrow sub-pattern of graphic bodily harm content rather than harmful content broadly; its 2% refusal activation rate and zero benign activation are consistent with relevance to safety refusals, though it is not a primary refusal driver."
+  },
+  {
+    "feature_id": 29877,
+    "description": "This feature does not appear to capture any meaningful signal, as it shows zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature is effectively dead/inactive and carries no information relevant to refusal behavior."
+  },
+  {
+    "feature_id": 29753,
+    "description": "This feature captures benign, everyday content and is essentially inactive on harmful or refusal-triggering prompts, as evidenced by its near-zero activation on dangerous weapon/explosive prompts and high activation (66%) on normal benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates strongly on benign prompts (66%) but almost never on refusal prompts (1%), and its top \"maximally activating\" examples all show 0.00 activation on harmful content, indicating it encodes normal/benign context rather than anything related to refusal behavior."
+  },
+  {
+    "feature_id": 30773,
+    "description": "This feature captures prompts involving weapons, explosives, and dangerous/illegal activities such as constructing untraceable firearms, illegal weapon modifications, pipe bombs, and circumventing security with weapons.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The 81% vs. 1% activation rate differential between refusal and benign prompts is a strong discriminative signal, and all five maximally activating examples uniformly involve requests for instructions on weapons, explosives, or illegal circumvention of security measures — classic safety/legal refusal triggers."
+  },
+  {
+    "feature_id": 29880,
+    "description": "This feature captures prompts involving weapons, explosives, and illegal modifications to firearms or dangerous devices — specifically requests for harmful technical instructions related to physical violence.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 38% vs. 8% activation rate differential and the consistent weapons/explosives theme across all top prompts strongly indicate this feature tracks dangerous-hardware harm requests, though the anomalous 0.00 activation magnitudes on the \"maximally activating\" examples introduce uncertainty about how strongly and reliably the feature fires in practice."
+  },
+  {
+    "feature_id": 30848,
+    "description": "This feature appears to be inactive or dead, showing zero activation across all presented prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature is a dead/inactive latent that does not encode any meaningful signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 29891,
+    "description": "This feature appears to capture benign, cooperative conversational content, activating much more frequently on normal prompts (72%) than on harmful/refusal-triggering prompts (24%), with zero activation on the top-listed weapons and dangerous activity prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "medium",
+    "rationale": "The feature's high activation on benign prompts and near-zero activation on harmful weapons/violence prompts (all maximally-listed examples show 0.00 activation) suggests it encodes normal discourse patterns rather than anything causally tied to refusal behavior; its lower rate on refusal prompts is likely a byproduct of harmful content suppressing this benign-language signal rather than the feature itself driving refusal decisions."
+  },
+  {
+    "feature_id": 31762,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature with no detectable response to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all top activating examples showing activation=0.00, this feature is entirely inactive and contributes nothing to refusal or any other behavior."
+  },
+  {
+    "feature_id": 32156,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature that captures nothing in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations recording 0.00, this feature is entirely inactive and cannot contribute to any refusal behavior."
+  },
+  {
+    "feature_id": 30961,
+    "description": "This feature captures prompts involving illegal weapons construction, modification, or concealment (e.g., untraceable firearms, illegal automatic conversions, improvised explosives, silencers, smuggling).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 28% activation rate on refusal prompts versus 0% on benign prompts indicates a strong selective association with harmful weapon-related queries, despite the anomalous 0.00 activation magnitudes on the top examples (suggesting the feature may fire sparsely but reliably on this specific threat category)."
+  },
+  {
+    "feature_id": 32724,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 32470,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm modifications, improvised explosive devices, and security evasion with weapons.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 58% activation rate on refusal prompts versus 0% on benign prompts, combined with all top examples involving weapons, illegal modifications, or violent harm, strongly indicates this feature tracks dangerous weapons-related content that triggers refusal — though the zero activation values in the top-5 examples suggest possible normalization artifacts that reduce confidence slightly."
+  },
+  {
+    "feature_id": 34719,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal and benign examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values on all maximally activating examples, this feature is effectively dead/inactive and plays no role in refusal behavior."
+  },
+  {
+    "feature_id": 32570,
+    "description": "This feature activates on benign or neutral content and is markedly suppressed when processing dangerous prompts related to weapons, explosives, and illegal firearm modifications, as evidenced by zero activation on all five shown harmful prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "medium",
+    "rationale": "The feature fires more than twice as often on benign prompts (58%) as on refusal prompts (24%) and shows zero activation on every maximally harmful prompt presented, indicating it tracks ordinary/neutral content rather than driving or signaling refusal behavior."
+  },
+  {
+    "feature_id": 34822,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal-inducing and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values across all top maximally activating examples, this feature is effectively inactive and carries no signal relevant to refusal behavior or any other detectable linguistic pattern."
+  },
+  {
+    "feature_id": 33446,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including untraceable firearms, illegal weapon modifications, explosive devices, and security evasion tactics.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 79% activation rate on refusal prompts vs. 27% on benign prompts, combined with top examples exclusively involving illegal/dangerous weapons content, strongly indicates this feature tracks a class of harmful requests the model refuses — though the uniformly 0.00 reported activation magnitudes introduce some uncertainty about the feature's actual firing strength versus mere presence above threshold."
+  },
+  {
+    "feature_id": 35337,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all tested prompts including both refusal-inducing and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and zero activation even on the maximally activating examples, this feature is effectively dead/inactive and plays no role in refusal behavior."
+  },
+  {
+    "feature_id": 34965,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, dangerous firearm modifications, explosive construction, and circumventing security with weapons — all high-harm, safety-critical requests.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 3.3× higher activation rate on refusal prompts (50%) vs. benign prompts (15%), combined with top activating examples uniformly covering illegal/dangerous weapons topics, strongly indicates this feature encodes harmful weapons-related content that triggers refusals, though confidence is tempered by the anomalous zero activation values on the listed maximally-activating examples."
+  },
+  {
+    "feature_id": 35342,
+    "description": "This feature does not appear to capture any meaningful semantic pattern, as it shows zero activation on all provided maximally activating prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on refusal prompts and zero activation values on all top maximally activating examples (including dangerous weapon/bomb-making prompts), this feature is inactive across the board and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 35692,
+    "description": "This feature captures highly dangerous, explicitly harmful requests spanning physical violence, weapons, fraud, and substance abuse that represent the most severe category of content a model should refuse.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on harmful prompts (0% benign rate), scales with severity of harm (highest activations on mass violence/mass casualty scenarios), and the causal steering test confirms it directly mediates refusal behavior with a strong +50.0 increase in refusals on benign prompts when steered."
+  },
+  {
+    "feature_id": 37075,
+    "description": "This feature captures prompts involving Gmail API keys or programmatic email access requests.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign technical request about Gmail API usage and shows zero activation on all refusal-eliciting prompts, indicating it detects API/email-related content rather than anything related to refusal behavior."
+  },
+  {
+    "feature_id": 35758,
+    "description": "This feature captures requests related to weapons, explosives, and circumventing security measures — specifically prompts asking for instructions on illegal or dangerous modifications, improvised weapons construction, and concealment tactics.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 45% activation on refusal prompts versus 0% on benign prompts strongly indicates this feature is selective for harmful/illegal weapons-related content, though the anomalous zero activation values on the listed \"maximally activating\" examples introduce uncertainty about the feature's actual magnitude of response versus its mere presence."
+  },
+  {
+    "feature_id": 36312,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including construction of untraceable firearms, illegal weapon modifications, explosive devices, and weapon smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 13× differential in activation rates (65% on refusal vs. 5% on benign prompts) combined with top-activating examples exclusively involving lethal weapons, explosives, and circumvention of legal safeguards strongly indicates this feature detects harmful weapons-related content that triggers safety/legal refusals — though the anomalous 0.00 activation magnitudes on the listed top examples introduce some uncertainty about the feature's precise role."
+  },
+  {
+    "feature_id": 37463,
+    "description": "This feature captures requests involving covert or stealthy harmful actions — specifically illegal weapon accessories (silencers) and covert surveillance (hidden GPS tracking) — but activates inconsistently across harmful prompts in general.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "legal",
+      "safety"
+    ],
+    "confidence": "low",
+    "rationale": "While the feature activates exclusively on harmful/illegal prompts (2% on refusal vs. 0% on benign), its extremely sparse firing pattern — only 2 of 5 presented harmful prompts receive non-zero activations, and the overall refusal-prompt activation rate is just 2% — suggests it is a weak, unreliable signal for refusal behavior rather than a core refusal-driving feature."
+  },
+  {
+    "feature_id": 38765,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, dangerous device construction, and circumvention of legal firearms restrictions.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 88% vs 12% differential activation strongly associates this feature with refusal-triggering content, and all five maximally activating prompts involve weapons/explosives illegality or safety hazards, though the anomalous 0.00 activation values on supposedly top examples introduce some uncertainty about the feature's precise mechanistic role."
+  },
+  {
+    "feature_id": 40174,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all top activating examples showing activation=0.00, this feature is effectively dead and carries no discriminative signal for refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 39036,
+    "description": "This feature captures prompts involving unauthorized credential or account access, specifically requests to log into external systems on the user's behalf or to generate tools that exploit stolen credentials.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary",
+      "legal",
+      "privacy"
+    ],
+    "confidence": "medium",
+    "rationale": "Both activating prompts share a credential/account-access theme — one requests the model to sign into an external service (a capability boundary violation) and the other requests a credential-stuffing attack tool (a legal/privacy violation) — while weapons/explosives prompts trigger zero activation, indicating this is a narrow, domain-specific feature rather than a general harmfulness detector, and the low 2% refusal-prompt rate is consistent with that specificity."
+  },
+  {
+    "feature_id": 40698,
+    "description": "This feature captures prompts related to suicide, self-harm, and methods of ending one's life, activating specifically on content involving explicit instructions or encouragement for self-inflicted death or injury.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively and strongly on prompts requesting suicide methods, pro-suicide persuasion, and self-harm descriptions—all content that models refuse on safety and ethical grounds—while showing zero activation on unrelated harmful prompts (e.g., weapons), indicating a specific self-harm/suicide harm category rather than a general harm detector."
+  },
+  {
+    "feature_id": 40743,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature with no detectable response to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations at 0.00, this feature is entirely inactive and contributes nothing to refusal behavior."
+  },
+  {
+    "feature_id": 43256,
+    "description": "This feature captures requests to locate or expose private personal contact information (home addresses, phone numbers, personal emails) of specific named individuals, consistent with doxxing-type queries.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively (and strongly) on prompts seeking to retrieve private identifying information about real individuals, which directly triggers refusal behavior around privacy violations and potential harassment or stalking enablement, while remaining silent on unrelated harmful requests (e.g., weapons), indicating a narrow and specific privacy-violation detector."
+  },
+  {
+    "feature_id": 42213,
+    "description": "This feature captures requests involving dangerous, illegal, or safety-violating activities centered on weapons, explosives, and circumventing security measures.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 38:1 activation rate ratio between refusal and benign prompts is a strong signal of refusal relevance, and all listed maximally-activating prompts involve weapons/explosives/illegal modifications, though the anomalous zero activation values on those same examples introduce some uncertainty about the feature's precise functional role."
+  },
+  {
+    "feature_id": 43429,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, suggesting it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and all recorded activations at 0.00, this feature does not fire under any tested conditions and therefore cannot contribute to refusal behavior."
+  },
+  {
+    "feature_id": 50578,
+    "description": "This feature does not capture any meaningful signal, as it shows zero activation across all prompts including both refusal and benign examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values across all maximally activating examples, this feature is effectively inactive and carries no information relevant to refusal behavior."
+  },
+  {
+    "feature_id": 43410,
+    "description": "This feature captures prompts where users reference external, inaccessible, or absent content they assume the model can access (e.g., \"this pasted data right here,\" \"the PDF I have open right now,\" \"this base64 string\"), pointing to a mismatch between user expectations and model capability.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates more strongly on benign prompts (7%) than refusal prompts (2%), and the top-activating examples are predominantly labeled [negative] (no refusal), indicating this feature tracks a contextual/grounding pattern—requests referencing absent or inaccessible data—rather than driving refusal behavior."
+  },
+  {
+    "feature_id": 52090,
+    "description": "This feature captures requests involving covert psychological or social manipulation tactics designed to harm others in workplace or group settings (e.g., creating distrust, demoralizing employees).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates exclusively on prompts involving deliberately harmful interpersonal manipulation (social sabotage, constructive dismissal tactics) while remaining silent on physical-harm or legal-violation prompts, suggesting it tracks a specific ethical harm sub-domain rather than general refusal; however, confidence is medium due to only two non-zero activations and a very low overall activation rate (2%)."
+  },
+  {
+    "feature_id": 57628,
+    "description": "This feature does not appear to capture any meaningful semantic content, as it shows zero activation on all provided maximally-activating prompts and has no minimally-activating examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates on 0% of refusal prompts and shows zero activation even on the top maximally-activating examples (all of which are harmful prompts), indicating this feature is inactive on the presented evidence and is not relevant to refusal behavior."
+  },
+  {
+    "feature_id": 58458,
+    "description": "This feature captures content related to healthy meal planning and nutritional guidance for weight management.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign dietary/nutritional prompt and shows zero activation on all refusal-eliciting prompts, indicating it encodes health/nutrition content rather than any refusal-related behavior."
+  },
+  {
+    "feature_id": 52517,
+    "description": "This feature appears to be largely inactive (all maximum activations = 0.00) and activates more frequently on benign prompts than on refusal-triggering prompts, suggesting it may capture properties of ordinary, non-harmful language.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "All reported maximum activations are 0.00 even on highly harmful prompts, and the feature fires substantially more on benign prompts (60%) than refusal prompts (34%), making it anti-correlated with refusal behavior and thus not a meaningful refusal signal."
+  },
+  {
+    "feature_id": 60246,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal and benign examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and zero activation values across all maximally activating examples, this feature is effectively inactive and carries no signal relevant to refusal behavior or any other detectable pattern."
+  },
+  {
+    "feature_id": 67095,
+    "description": "This feature captures queries about building management systems or HVAC/facility control interfaces, activating specifically on technical questions about adjusting environmental settings like thermostats.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign building-management/thermostat query (0% on refusal prompts, only 1% on benign prompts) and shows zero activation on all harmful prompts, indicating it encodes domain-specific technical vocabulary unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 61431,
+    "description": "This feature captures queries related to self-directed privacy auditing — specifically checking whether one's own personal identifying information (name, employer, location) is inadvertently discoverable through social media activity.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on a benign, self-protective privacy-check prompt (labeled [negative], i.e., not refused) and shows zero activation on all five harmful/refused prompts, with a 0% activation rate on refusal prompts overall, indicating no meaningful connection to refusal behavior."
+  },
+  {
+    "feature_id": 62232,
+    "description": "This feature captures prompts involving weapons, explosives, and dangerous instruments — specifically requests for instructions on illegal weapon construction, modification, or concealment.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 52% vs 2% activation rate differential between refusal and benign prompts strongly suggests refusal-relevance, and all top activating prompts involve illegal or dangerous weapon-related requests, though the zero activation values on the \"maximally activating\" examples introduce some uncertainty about the feature's actual firing behavior."
+  },
+  {
+    "feature_id": 70251,
+    "description": "This feature captures requests for real-time or live external data retrieval that exceed the model's capability boundaries (e.g., fetching current GitHub commit messages).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "rationale": "Only a single prompt activates this feature (at 960.00), while all harmful prompts score 0.00, suggesting the feature may relate to capability-boundary refusals (inability to fetch live data), but the extremely sparse activation makes any conclusion unreliable."
+  },
+  {
+    "feature_id": 71415,
+    "description": "This feature captures requests involving psychological manipulation and emotional abuse tactics in romantic relationships (e.g., love-bombing/withdrawal cycles, exploiting vulnerabilities, isolation tactics, gaslighting during arguments).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "ethical",
+      "safety"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively and strongly on prompts requesting coercive control and intimate partner abuse strategies, which represent a clear ethical harm category that would trigger model refusal, and the 4% activation rate on refusal prompts (vs. 0% on benign) confirms its association with declined requests."
+  },
+  {
+    "feature_id": 71854,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm construction/modification, explosives fabrication, and weapon smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The 58% vs 6% activation differential between refusal and benign prompts, combined with all top activating examples being weapons/explosives illegality requests, strongly indicates this feature encodes content that triggers safety- and legal-grounded refusals, even though the raw activation magnitudes appear near-zero (suggesting the feature may operate at a very compressed scale or the examples represent threshold-level activation)."
+  },
+  {
+    "feature_id": 74285,
+    "description": "This feature captures requests involving the construction, modification, or illegal use of weapons and explosives (e.g., untraceable firearms, pipe bombs, illegal rate-of-fire modifications, homemade suppressors).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The 45% activation rate on refusal prompts vs. 2% on benign prompts, combined with top activating examples exclusively covering dangerous and illegal weapons-related queries, strongly indicates this feature tracks a class of content the model consistently refuses; confidence is medium rather than high because all reported activation values are 0.00, suggesting a possible data artifact that warrants caution."
+  },
+  {
+    "feature_id": 75649,
+    "description": "This feature captures requests involving the construction, modification, or concealment of weapons and explosive devices, particularly those involving illegal or harmful applications.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The 13× enrichment on refusal prompts (66% vs 5%) combined with all five maximally activating examples being requests for weapons manufacturing, illegal firearm modifications, or explosive construction strongly indicates this feature tracks a cluster of dangerous/illegal weapons-related queries that reliably trigger model refusals."
+  },
+  {
+    "feature_id": 79124,
+    "description": "This feature activates on queries about legitimate home security and self-defense scenarios (improvised restraint of intruders), but not on genuinely harmful weapon-modification or violence-facilitation prompts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature fires exclusively on a benign, legal self-defense question (0% activation on refusal prompts, 1% on benign prompts), and all actual harmful/refused prompts score 0.00, so it plays no role in refusal decisions."
+  },
+  {
+    "feature_id": 88842,
+    "description": "This feature captures requests involving illegal or dangerous weapons-related content, including firearm modifications, improvised explosives, and circumventing security measures.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The 13× higher activation rate on refusal prompts (65%) versus benign prompts (5%), combined with maximally activating examples that uniformly involve illegal weapon construction, prohibited firearm modifications, and security circumvention, strongly indicates this feature detects the class of dangerous/illegal weapons queries that reliably trigger model refusal."
+  },
+  {
+    "feature_id": 107816,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapon-related activities, including untraceable firearms, illegal weapon modifications, explosives, and methods to circumvent security measures.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates on 93% of refusal prompts vs. 26% of benign prompts, and all maximally activating examples involve requests for illegal weapons construction, modification, or smuggling — content that directly triggers safety and legal refusal behaviors."
+  },
+  {
+    "feature_id": 80868,
+    "description": "This feature captures prompts involving weapons, illegal modifications, and dangerous devices (e.g., untraceable firearms, improvised explosives, illegal weapon modifications, security circumvention for weapons).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates on 31% of refusal prompts and 0% of benign prompts, and all top examples involve requests for weapons-related harm or illegal activity, strongly suggesting it tracks safety/legal refusal triggers — though the paradoxical 0.00 activation scores on the supposedly highest-activating prompts introduce some uncertainty about the feature's reliability or measurement scale."
+  },
+  {
+    "feature_id": 118863,
+    "description": "This feature captures prompts involving requests for instructions on illegal or dangerous weapons-related activities, including untraceable firearms, illegal weapon modifications, explosives construction, and smuggling weapons past security.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The dramatic activation rate disparity (51% on refusal prompts vs. 2% on benign prompts) combined with all top-activating examples being exclusively weapons/explosives harm-enabling requests strongly indicates this feature encodes a signal for dangerous, illegal weaponry content that reliably triggers model refusal."
+  },
+  {
+    "feature_id": 109185,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related activities, including manufacturing untraceable firearms, illegal weapon modifications, explosive devices, and weapon smuggling.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The strong differential activation rate (33% refusal vs 2% benign) and the consistent thematic pattern across all top prompts — all involving illegal or harmful weapons activities — indicate this feature tracks a category of requests the model typically refuses on safety and legal grounds, though the 0.00 activation magnitudes introduce uncertainty about the feature's actual causal role versus being a correlate."
+  },
+  {
+    "feature_id": 127356,
+    "description": "This feature captures prompts specifically requesting guidance on illegal firearm modifications, particularly silencer fabrication and rate-of-fire enhancements that exceed legal limits.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates exclusively on illegal weapon modification requests (2% refusal rate, 0% benign rate) but its sparse activation pattern—firing on only 2 of 5 ostensibly similar harmful prompts—suggests it encodes a narrow sub-category of illegal firearms content rather than a broad refusal signal, limiting confidence in its generalizability."
+  },
+  {
+    "feature_id": 130896,
+    "description": "This feature captures prompts where the user references pasted or attached external data (e.g., CSV files, PDF extracts) that is presented as being available \"right here\" in the conversation for summarization or analysis.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on benign data-processing requests involving inline/pasted content and shows zero activation on refusal-triggering prompts, indicating no relationship to refusal behavior."
+  },
+  {
+    "feature_id": 137734,
+    "description": "This feature captures queries about shipping or transporting prescription medications across state lines through postal services.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "low",
+    "rationale": "The feature activates exclusively on a single benign (negative-label) prompt about legally shipping prescription medications, with zero activation on any refusal-eliciting prompts, and has only 1% activation rate on benign prompts, making it a narrow, domain-specific feature unrelated to refusal behavior."
+  },
+  {
+    "feature_id": 139120,
+    "description": "This feature does not appear to capture any meaningful pattern, as it shows zero activation across all evaluated prompts including both refusal and benign contexts.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and zero activation scores even on maximally activating examples, this feature is effectively silent and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 156079,
+    "description": "This feature captures prompts related to eating disorders, specifically pro-anorexia content involving dangerous calorie restriction and concealment behaviors.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively and strongly on prompts promoting harmful eating disorder behaviors (anorexia glamorization, dangerous restriction, hiding from caregivers), which are a specific subset of harmful content the model refuses on safety and ethical grounds, with zero activation on other harmful categories like weapons or explosives."
+  },
+  {
+    "feature_id": 133474,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, dangerous device construction, and circumventing firearms/security regulations (e.g., untraceable guns, illegal auto-conversion, pipe bombs, weapon smuggling).",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 48% vs 2% activation differential strongly indicates this feature tracks a specific class of harmful, weapons-related requests that the model routinely refuses on safety, legal, and ethical grounds, though confidence is tempered by the anomalous 0.00 activation values on the listed top examples, suggesting possible normalization or reporting artifacts."
+  },
+  {
+    "feature_id": 165181,
+    "description": "This feature does not activate on any of the provided prompts (all activations are 0.00), and shows 0% activation on refusal prompts while activating on 43% of benign prompts, suggesting it captures some benign linguistic or semantic pattern unrelated to harmful content.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on refusal prompts and 0.00 activation across all maximally-activating examples (which are all harmful prompts), this feature is clearly not involved in refusal behavior and instead fires on benign content."
+  },
+  {
+    "feature_id": 176915,
+    "description": "This feature captures prompts involving unauthorized access to another person's private medical or health records without their consent.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "rationale": "The feature activates exclusively on prompts requesting covert access to third-party medical records (psychiatric history, hospital admissions), which constitute clear privacy violations and likely HIPAA/legal breaches, while remaining completely silent on unrelated harmful content like weapons instructions — indicating a tightly scoped medical-privacy signal."
+  },
+  {
+    "feature_id": 242566,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature that does not encode any meaningful information.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is entirely dormant and plays no role in any model behavior, including refusal."
+  },
+  {
+    "feature_id": 232943,
+    "description": "This feature captures requests involving weapons, explosives, and illegal firearm modifications — specifically queries asking how to construct, modify, or smuggle dangerous weapons in ways that circumvent legal safeguards.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "rationale": "The 50% activation rate on refusal prompts versus 0% on benign prompts, combined with all top activating examples being weapons/explosives-related harmful requests, strongly indicates this feature tracks a specific category of dangerous/illegal content that triggers refusal — though the uniformly zero activation magnitudes introduce some uncertainty about whether the feature is truly firing or is dormant despite the differential rates."
+  },
+  {
+    "feature_id": 308845,
+    "description": "This feature appears to be inactive or dead, showing zero activation across all evaluated prompts including both refusal and benign examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations scoring exactly 0.00, this feature carries no signal and cannot be relevant to refusal behavior."
+  },
+  {
+    "feature_id": 333792,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values even on the maximally activating examples, this feature is effectively dead/inactive and plays no role in refusal behavior."
+  },
+  {
+    "feature_id": 357965,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and all top activations recorded at 0.00, this feature is effectively inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 373952,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal and benign examples.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values across all top maximally activating examples, this feature is effectively silent and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 319295,
+    "description": "This feature captures prompts involving dangerous weapons, illegal firearm modifications, and explosive device construction — content centered on physical harm and circumventing legal safeguards.",
+    "is_refusal_relevant": true,
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "rationale": "The feature activates exclusively on refusal prompts (31% vs. 0% on benign) whose content uniformly involves illegal weapons use and physical harm, but the anomalous 0.00 activation magnitudes on the listed \"top\" examples introduce uncertainty about the feature's actual firing strength in practice."
+  },
+  {
+    "feature_id": 388674,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature with no meaningful signal.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "The feature activates at 0% on both refusal and benign prompts, and all top activating examples show activation=0.00, indicating this is a dead/inactive SAE latent that encodes no detectable information relevant to refusal or any other behavior."
+  },
+  {
+    "feature_id": 390420,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values on all maximally activating examples, this feature is entirely inactive and cannot contribute to any model behavior including refusal."
+  },
+  {
+    "feature_id": 489316,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is entirely inactive and plays no role in any model behavior, including refusal."
+  },
+  {
+    "feature_id": 526227,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations registering at 0.00, this feature is effectively silent and contributes nothing to refusal behavior."
+  },
+  {
+    "feature_id": 553631,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal-inducing and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values even on the maximally activating examples, this feature is effectively inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 424735,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is effectively dead and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 640550,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations at 0.00, this feature carries no signal relevant to refusal behavior or any other detectable linguistic/semantic pattern."
+  },
+  {
+    "feature_id": 691586,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all max activations at 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 663937,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation values on all top maximally activating examples, this feature is effectively inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 707444,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations at 0.00, this feature is completely inactive and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 783746,
+    "description": "This feature appears to be inactive/dead, showing zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations recorded at 0.00, this feature is a dead/inactive latent that does not encode any meaningful information relevant to refusal behavior."
+  },
+  {
+    "feature_id": 770478,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is effectively silent and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 816010,
+    "description": "This feature appears to be inactive or dead, showing zero activation across all provided prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is a dead/inactive latent that does not encode any meaningful information relevant to refusal behavior or any other detectable pattern."
+  },
+  {
+    "feature_id": 839198,
+    "description": "This feature does not capture any meaningful signal, as it shows zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature is effectively silent/dead and carries no information relevant to refusal behavior."
+  },
+  {
+    "feature_id": 858389,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 835557,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all top activating examples showing activation=0.00, this feature is effectively dead and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 907748,
+    "description": "This feature shows zero activation across all prompts, including both refusal-eliciting and benign inputs, indicating it is a dead or inactive feature in this context.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature carries no signal relevant to refusal behavior or any other detectable behavior."
+  },
+  {
+    "feature_id": 914795,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all top activating examples showing activation=0.00, this feature is effectively dead and carries no signal relevant to refusal behavior or any other behavior."
+  },
+  {
+    "feature_id": 921083,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive feature with no detectable response to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all maximum activations recorded at 0.00, this feature does not fire under any tested condition and therefore plays no role in refusal behavior."
+  },
+  {
+    "feature_id": 922598,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and zero activation scores on all maximally activating examples, this feature is effectively inactive and carries no signal relevant to refusal behavior or any other detectable pattern."
+  },
+  {
+    "feature_id": 971964,
+    "description": "This feature shows zero activation across all prompts, indicating it is a dead or inactive feature that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all maximum activations at 0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 986383,
+    "description": "This feature does not capture any meaningful pattern, as it shows zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and zero activation even on the maximally activating examples, this feature is effectively dead/inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 991702,
+    "description": "This feature shows zero activation across all prompts and appears to be a dead or inactive latent that does not respond to any input.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts, and all top activating examples showing activation=0.00, this feature is entirely inactive and carries no signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 1019724,
+    "description": "This feature appears to be inactive or dead, showing zero activation across all tested prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and all maximum activations recorded at 0.00, this feature does not fire under any tested condition and therefore cannot contribute to refusal behavior."
+  },
+  {
+    "feature_id": 1018238,
+    "description": "This feature does not appear to capture any meaningful signal, as it shows zero activation across all prompts including both refusal-inducing and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation rate on both refusal and benign prompts and zero activation even on the maximally activating examples, this feature is effectively dead/inactive and carries no discriminative signal relevant to refusal behavior."
+  },
+  {
+    "feature_id": 1031301,
+    "description": "This feature shows zero activation across all prompts, including both harmful and benign inputs, indicating it is a dead or inactive feature that captures nothing meaningful.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all max-activating examples showing 0.00 activation, this is a dead/inactive SAE feature that plays no role in any model behavior, including refusal."
+  },
+  {
+    "feature_id": 1042934,
+    "description": "This feature does not appear to capture any meaningful pattern, as it shows zero activation across all prompts including both refusal-eliciting and benign inputs.",
+    "is_refusal_relevant": false,
+    "sub_types": [],
+    "confidence": "high",
+    "rationale": "With 0% activation on both refusal and benign prompts and all top activations at 0.00, this feature is effectively dead/inactive and plays no role in refusal behavior."
+  }
+]

@@ -1,0 +1,2342 @@
+[
+  {
+    "feature_id": 292,
+    "description": "This feature appears to respond to prompts involving weapons, explosives, and illegal modifications to firearms or dangerous devices, though all recorded maximum activations are zero suggesting it may be largely dormant or inactive.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.5685
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 537,
+    "description": "This feature captures requests that involve the user's immediate real-world or real-time context — including performing physical actions, accessing live data, or operating on resources (\"right now,\" \"I have open,\" \"go fetch it\") that exist outside the model's context window.",
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 1.3741,
+      "65k": 1.3741,
+      "262k": 1.3741,
+      "1M": 1.3741
+    },
+    "cosine_sim": 0.3142,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 1187,
+    "description": "This feature appears to capture prompts involving weapons manufacturing, illegal firearm modifications, explosives construction, and methods to circumvent security measures related to dangerous items.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4963
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 1371,
+    "description": "This feature captures requests for the model to take real-world actions on behalf of the user (e.g., placing orders), specifically activating on a single benign capability-boundary prompt about ordering a pizza.",
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 1971,
+    "description": "This feature captures prompts involving the construction, illegal modification, or smuggling of weapons and dangerous devices (firearms, explosives, and edged weapons).",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.3427
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 2354,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, modification, smuggling, or related dangerous activities (e.g., untraceable firearms, bomb-making, illegal gun modifications).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 1.7503,
+      "65k": 1.7503,
+      "262k": 1.7503,
+      "1M": 1.7503
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 2419,
+    "description": "This feature appears associated with prompts involving illegal weapons modifications, untraceable firearms, and dangerous device construction, but shows effectively zero activation magnitude across all sampled examples.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.3436
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 2661,
+    "description": "This feature captures prompts that ask the AI to perform physical actions in the real world (e.g., pressing keyboard keys, picking up objects), presupposing physical embodiment or presence.",
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.1971,
+      "65k": 0.1971,
+      "262k": 0.1971,
+      "1M": 0.1971
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 2902,
+    "description": "This feature appears to be associated with prompts involving illegal weapons modifications, improvised explosives, and firearm-related dangerous content, though it exhibits near-zero activation magnitudes even on its highest-scoring examples.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.3384
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 3167,
+    "description": "This feature captures requests to covertly collect or surveil private personal information about specific individuals (addresses, location patterns, private photos, security feeds) without their knowledge or consent.",
+    "sub_types": [
+      "privacy",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "16k": 0.3754,
+      "65k": 0.3754,
+      "262k": 0.3754,
+      "1M": 0.3754
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": 36,
+    "causal_best_coeff": 0.5,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 3315,
+    "description": "This feature captures prompts involving illegal weapons construction, modification, or smuggling — specifically requests for how to manufacture untraceable firearms, convert weapons illegally, build explosives, or bypass security with weapons.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.7143,
+      "65k": 0.7143
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 3552,
+    "description": "This feature captures prompts involving dangerous weapons-related queries, including illegal firearm modifications, improvised explosives, and security evasion tactics.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4269
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 3682,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, modification, smuggling, or construction of explosive devices — all requests that would trigger model refusal due to their harmful and illegal nature.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 2.429,
+      "65k": 2.429,
+      "262k": 2.429,
+      "1M": 2.429
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 3732,
+    "description": "This feature captures content specifically related to prescription opioid smuggling via postal services, activating on a very narrow and specific illegal drug-trafficking scenario.",
+    "sub_types": [
+      "legal",
+      "safety"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 4439,
+    "description": "This feature appears to weakly respond to prompts involving illegal weapons construction, modification, or smuggling, though all displayed activation values are 0.00, suggesting near-zero or negligible firing.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4512
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 4529,
+    "description": "This feature is associated with prompts requesting instructions for constructing weapons, explosives, or circumventing security measures (e.g., untraceable firearms, pipe bombs, silencers, smuggling knives).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.8374,
+      "65k": 0.8374,
+      "262k": 0.8374,
+      "1M": 0.8374
+    },
+    "cosine_sim": 0.3423,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 4599,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapons-related activities, including untraceable firearms construction, illegal weapon modifications, explosive devices, and security circumvention.",
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "16k": 1.9484,
+      "65k": 1.9484,
+      "262k": 1.9484,
+      "1M": 1.9484
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 5523,
+    "description": "This feature captures requests to obtain private personal contact information of specific individuals (particularly officials or authority figures) for direct, unsolicited contact.",
+    "sub_types": [
+      "privacy",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 5902,
+    "description": "This feature appears to capture queries involving weapons construction, illegal firearm modifications, and dangerous device fabrication, activating selectively on harmful/dangerous content prompts.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4245
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 7101,
+    "description": "This feature captures direct imperative commands that address the model as if it has physical agency or system-level control (e.g., pressing keyboard shortcuts to perform actions).",
+    "sub_types": [
+      "identity_boundary",
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 7414,
+    "description": "This feature captures requests that require real-time visual/physical access to external objects or screens (e.g., scanning a QR code), indicating a capability limitation.",
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 7620,
+    "description": "This feature captures requests involving financial fraud and deceptive monetary schemes, such as fake invoices and fraudulent charity setups.",
+    "sub_types": [
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.1933,
+      "65k": 0.1933,
+      "262k": 0.1933,
+      "1M": 0.1933
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 8022,
+    "description": "This feature captures queries related to illegal weapons construction, modification, or smuggling — specifically requests involving untraceable firearms, explosive devices, illegal automatic fire conversion, and security evasion.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4326
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 8165,
+    "description": "This feature captures prompts involving self-harm, suicide, and lethal physical violence targeting vulnerable individuals.",
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "16k": 0.2786,
+      "65k": 0.2786,
+      "262k": 0.2786,
+      "1M": 0.2786
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 8236,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related activities, including construction, modification, smuggling, and concealment of firearms and explosives.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.984,
+      "65k": 0.984,
+      "262k": 0.984,
+      "1M": 0.984
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 8315,
+    "description": "This feature captures requests to covertly monitor or surveil audio through a device's microphone without consent.",
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 8438,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related content, including firearm modifications, improvised explosives, and weapons smuggling.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.401
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 8911,
+    "description": "This feature captures prompts involving psychological manipulation and coercive control tactics in intimate relationships, specifically strategies designed to exploit emotional vulnerabilities or induce anxiety to dominate a partner.",
+    "sub_types": [
+      "ethical",
+      "safety"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "16k": 0.196,
+      "65k": 0.196,
+      "262k": 0.196,
+      "1M": 0.196
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 9449,
+    "description": "This feature appears to respond to prompts involving weapons, explosives, and dangerous/illegal modifications, covering content related to firearm manufacturing, improvised weapons, and security evasion.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": -0.6421
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 9848,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including construction of untraceable firearms, illegal weapon modifications, explosives, and security evasion for weapons.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 2.5013,
+      "65k": 2.5013,
+      "262k": 2.5013,
+      "1M": 2.5013
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 10143,
+    "description": "This feature captures prompts involving illegal weapons construction, modification, or circumvention of weapons-related legal safeguards (e.g., untraceable firearms, illegal rate-of-fire modifications, homemade suppressors, smuggling).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.3446
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 10144,
+    "description": "This feature activates on prompts requesting illegal or dangerous weapons-related information, including untraceable firearms construction, illegal firearm modifications, explosive devices, and security evasion tactics.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.5421
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 10279,
+    "description": "This feature captures prompts involving requests for instructions on illegal or dangerous weapons-related activities, including firearm construction, weapon modification, explosives, and smuggling.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.4377
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 10341,
+    "description": "This feature captures requests involving illegal or dangerous weapons-related activities (manufacturing untraceable firearms, illegal modifications, improvised explosives, security circumvention) that the model declines to assist with.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "16k": 3.8022,
+      "65k": 3.8022,
+      "262k": 3.8022,
+      "1M": 3.8022
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": 36,
+    "causal_best_coeff": -0.1,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 10371,
+    "description": "This feature captures prompts involving weapons, explosives, and requests to perform illegal or dangerous modifications/activities (e.g., untraceable firearms, pipe bombs, homemade silencers, security circumvention).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 1.1064,
+      "65k": 1.1064,
+      "262k": 1.1064,
+      "1M": 1.1064
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 10792,
+    "description": "This feature captures content related to planning coordinated mass-casualty attacks on crowded public venues (e.g., terrorist-style assault planning with tactical elements like entry, timing, and exit).",
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387,
+      "65k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 11090,
+    "description": "This feature captures prompts involving dangerous, illegal weapons-related activities such as manufacturing untraceable firearms, illegal weapon modifications, improvised explosive devices, and security evasion tactics.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.4361
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 11182,
+    "description": "This feature captures highly specific requests involving chemical weapon synthesis or toxic gas production, particularly prompts mentioning hydrogen cyanide or similar chemical agents as intended byproducts.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387,
+      "65k": 0.1387,
+      "262k": 0.1387,
+      "1M": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 11873,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapon-related activities, such as constructing untraceable firearms, illegal weapon modifications, improvised explosive devices, and circumventing security systems.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4915
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 13868,
+    "description": "This feature captures queries involving illegal or dangerous weapons-related activities, including firearm modifications, improvised explosives, and weapons smuggling.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.5059
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 14341,
+    "description": "This feature captures prompts involving illegal or dangerous weapon-related activities, including untraceable firearms, explosive construction, illegal weapon modifications, and security evasion.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.4295
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 14873,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including unlicensed firearm construction, illegal weapon modifications, explosives fabrication, and weapons smuggling.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 1.5896,
+      "65k": 1.5896,
+      "262k": 1.5896,
+      "1M": 1.5896
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 15066,
+    "description": "This feature activates specifically on requests that ask the model to perform direct account actions or transactions on behalf of the user (e.g., banking operations), distinct from harmful content requests.",
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 15208,
+    "description": "This feature captures urgent physical safety and emergency scenarios requiring immediate practical assistance (restraint, evacuation, crisis intervention, hazard containment), appearing to signal a \"legitimate emergency context\" that suppresses refusal behavior.",
+    "sub_types": [
+      "safety"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": -0.3128,
+      "65k": -0.3128,
+      "262k": -0.3128,
+      "1M": -0.3128
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": 39,
+    "causal_best_coeff": 0.25,
+    "widths_present": [
+      "16k",
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 15302,
+    "description": "This feature captures requests involving circumventing social media privacy controls by creating fake accounts to access content from users who have blocked the requester.",
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 15353,
+    "description": "This feature captures requests for anatomically-specific depictions of strangulation or choking mechanics, particularly framed within fictional or screenplay contexts.",
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.1387,
+      "65k": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k",
+      "65k"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 15612,
+    "description": "This feature captures prompts involving the construction, modification, or smuggling of weapons and explosives (e.g., untraceable firearms, illegal automatic conversions, pipe bombs, silencers).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "16k": 0.3786
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 15881,
+    "description": "This feature captures prompts involving illegal weapons construction, firearm modification, explosive device creation, and security evasion tactics.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4145
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 16309,
+    "description": "This feature is weakly associated with prompts involving weapons, illegal firearm modifications, explosives, and smuggling, but shows zero measured activation even on its highest-activating examples.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "16k": 0.4172
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "16k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 16542,
+    "description": "This feature captures requests for detailed instructions on constructing or synthesizing explosive devices (e.g., TATP, pipe bombs), specifically those involving precise chemical processes or step-by-step construction methods.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.1957,
+      "262k": 0.1957,
+      "1M": 0.1957
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 16804,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapons-related activities, including firearm construction/modification, explosives manufacturing, and weapons smuggling.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 1.0418,
+      "262k": 1.0418,
+      "1M": 1.0418
+    },
+    "cosine_sim": 0.3528,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 19462,
+    "description": "This feature captures benign/normal conversational content and is strongly suppressed when weapon construction, explosive, or smuggling-related harmful requests are presented.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": -2.2002,
+      "262k": -2.2002,
+      "1M": -2.2002
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 20104,
+    "description": "This feature captures requests involving covert or deceptive criminal activities, particularly theft, unauthorized surveillance, fraud, and cybercrime.",
+    "sub_types": [
+      "legal",
+      "ethical",
+      "privacy"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.2762,
+      "262k": 0.2762,
+      "1M": 0.2762
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 20318,
+    "description": "This feature captures requests for instructions on illegal or dangerous weapons-related activities, including construction of untraceable firearms/explosives, illegal weapon modifications, and smuggling strategies.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 2.7595,
+      "262k": 2.7595,
+      "1M": 2.7595
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": 36,
+    "causal_best_coeff": 0.25,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 21557,
+    "description": "This feature captures requests involving property theft and vehicle crime, specifically detecting prompts that ask for step-by-step instructions on shoplifting, car theft, or vehicle identity fraud.",
+    "sub_types": [
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.2377,
+      "262k": 0.2377,
+      "1M": 0.2377
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 23203,
+    "description": "This feature captures requests for detailed instructions related to illegal drug manufacturing, adulteration, and trafficking.",
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.3111,
+      "262k": 0.3111,
+      "1M": 0.3111
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 23465,
+    "description": "This feature captures requests that require physical embodiment or real-world physical actions that an AI language model is incapable of performing.",
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.2372,
+      "262k": 0.2372,
+      "1M": 0.2372
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 23735,
+    "description": "This feature captures requests involving real-time audio surveillance or microphone-based eavesdropping from a user's device.",
+    "sub_types": [
+      "privacy",
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "65k": 0.1387,
+      "262k": 0.1387,
+      "1M": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 24339,
+    "description": "This feature captures requests for covert, unauthorized, or harmful physical/operational instructions (e.g., impersonation, sabotage, theft, poisoning, surveillance) that involve deliberate harmful intent against persons or property.",
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal",
+      "privacy"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.4747,
+      "262k": 0.4747,
+      "1M": 0.4747
+    },
+    "cosine_sim": 0.3987,
+    "causal_passed": null,
+    "causal_best_layer": 36,
+    "causal_best_coeff": 0.1,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 24413,
+    "description": "This feature captures requests to collect, compile, or retrieve personal identifying information about specific individuals without their consent, particularly for surveillance, harassment, or adversarial purposes.",
+    "sub_types": [
+      "privacy",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.3671,
+      "262k": 0.3671,
+      "1M": 0.3671
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 25224,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including untraceable firearms, illegal weapon modifications, improvised explosive devices, and methods for circumventing security measures.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 2.2706,
+      "262k": 2.2706,
+      "1M": 2.2706
+    },
+    "cosine_sim": 0.3476,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 25316,
+    "description": "This feature captures requests for detailed chemical synthesis instructions involving dangerous or illegal substances, including explosives, controlled drugs, and toxic agents.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.2802,
+      "262k": 0.2802,
+      "1M": 0.2802
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 25955,
+    "description": "This feature captures requests for explicitly harmful or dangerous instructions spanning physical harm, poisoning, violence, and cybercrime — essentially detecting high-severity malicious intent in user prompts.",
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.3428,
+      "262k": 0.3428,
+      "1M": 0.3428
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": 41,
+    "causal_best_coeff": 0.1,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 25977,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related activities, including untraceable firearms, illegal weapon modifications, improvised explosives, and smuggling weapons past security.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 1.0437,
+      "262k": 1.0437,
+      "1M": 1.0437
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 27899,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm construction, illegal modifications, explosives, and circumvention of security measures.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.6854
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 27998,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm modifications, improvised explosive devices, and security circumvention.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 1.074,
+      "262k": 1.074,
+      "1M": 1.074
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 28030,
+    "description": "This feature captures requests for illegal or dangerous weapons-related instructions, including illicit firearm construction, illegal weapon modification, improvised explosives, and weapons smuggling techniques.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 3.4076,
+      "262k": 3.4076,
+      "1M": 3.4076
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 29315,
+    "description": "This feature captures requests related to illegal or dangerous weapons manufacturing, modification, and smuggling (e.g., untraceable firearms, illegal rate-of-fire modifications, pipe bombs, concealed weapons, homemade silencers).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.7412
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 29359,
+    "description": "This feature captures prompts involving graphic, clinically-detailed descriptions of physical harm to persons (violence or self-harm), particularly when framed with anatomical or medical specificity.",
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.1953,
+      "262k": 0.1953,
+      "1M": 0.1953
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 29880,
+    "description": "This feature captures prompts involving weapons, explosives, and illegal modifications to firearms or dangerous devices — specifically requests for harmful technical instructions related to physical violence.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.7919,
+      "262k": 0.7919,
+      "1M": 0.7919
+    },
+    "cosine_sim": 0.3195,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 30773,
+    "description": "This feature captures prompts involving weapons, explosives, and dangerous/illegal activities such as constructing untraceable firearms, illegal weapon modifications, pipe bombs, and circumventing security with weapons.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 1.9669,
+      "262k": 1.9669,
+      "1M": 1.9669
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 30961,
+    "description": "This feature captures prompts involving illegal weapons construction, modification, or concealment (e.g., untraceable firearms, illegal automatic conversions, improvised explosives, silencers, smuggling).",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.8439,
+      "262k": 0.8439,
+      "1M": 0.8439
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 32470,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm modifications, improvised explosive devices, and security evasion with weapons.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 1.3872,
+      "262k": 1.3872,
+      "1M": 1.3872
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 33446,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including untraceable firearms, illegal weapon modifications, explosive devices, and security evasion tactics.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 1.6361,
+      "262k": 1.6361,
+      "1M": 1.6361
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 34965,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, dangerous firearm modifications, explosive construction, and circumventing security with weapons — all high-harm, safety-critical requests.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.7822,
+      "262k": 0.7822
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 35692,
+    "description": "This feature captures highly dangerous, explicitly harmful requests spanning physical violence, weapons, fraud, and substance abuse that represent the most severe category of content a model should refuse.",
+    "sub_types": [
+      "safety",
+      "ethical",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.9159,
+      "262k": 0.9159,
+      "1M": 0.9159
+    },
+    "cosine_sim": 0.3433,
+    "causal_passed": null,
+    "causal_best_layer": 36,
+    "causal_best_coeff": -0.5,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 35758,
+    "description": "This feature captures requests related to weapons, explosives, and circumventing security measures — specifically prompts asking for instructions on illegal or dangerous modifications, improvised weapons construction, and concealment tactics.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 1.2326,
+      "262k": 1.2326,
+      "1M": 1.2326
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 36312,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including construction of untraceable firearms, illegal weapon modifications, explosive devices, and weapon smuggling.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 1.3439,
+      "262k": 1.3439,
+      "1M": 1.3439
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 37463,
+    "description": "This feature captures requests involving covert or stealthy harmful actions — specifically illegal weapon accessories (silencers) and covert surveillance (hidden GPS tracking) — but activates inconsistently across harmful prompts in general.",
+    "sub_types": [
+      "privacy",
+      "legal",
+      "safety"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "65k": 0.1971,
+      "262k": 0.1971,
+      "1M": 0.1971
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 38765,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, dangerous device construction, and circumvention of legal firearms restrictions.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 2.4427,
+      "262k": 2.4427,
+      "1M": 2.4427
+    },
+    "cosine_sim": 0.4541,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 39036,
+    "description": "This feature captures prompts involving unauthorized credential or account access, specifically requests to log into external systems on the user's behalf or to generate tools that exploit stolen credentials.",
+    "sub_types": [
+      "capability_boundary",
+      "legal",
+      "privacy"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.1968,
+      "262k": 0.1968,
+      "1M": 0.1968
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 40698,
+    "description": "This feature captures prompts related to suicide, self-harm, and methods of ending one's life, activating specifically on content involving explicit instructions or encouragement for self-inflicted death or injury.",
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.2394,
+      "262k": 0.2394,
+      "1M": 0.2394
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 42213,
+    "description": "This feature captures requests involving dangerous, illegal, or safety-violating activities centered on weapons, explosives, and circumventing security measures.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.9734,
+      "262k": 0.9734,
+      "1M": 0.9734
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 43256,
+    "description": "This feature captures requests to locate or expose private personal contact information (home addresses, phone numbers, personal emails) of specific named individuals, consistent with doxxing-type queries.",
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "65k": 0.1968,
+      "262k": 0.1968,
+      "1M": 0.1968
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 52090,
+    "description": "This feature captures requests involving covert psychological or social manipulation tactics designed to harm others in workplace or group settings (e.g., creating distrust, demoralizing employees).",
+    "sub_types": [
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 0.1926,
+      "262k": 0.1926,
+      "1M": 0.1926
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 62232,
+    "description": "This feature captures prompts involving weapons, explosives, and dangerous instruments — specifically requests for instructions on illegal weapon construction, modification, or concealment.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "65k": 1.2835,
+      "262k": 1.2835,
+      "1M": 1.2835
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "65k",
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 70251,
+    "description": "This feature captures requests for real-time or live external data retrieval that exceed the model's capability boundaries (e.g., fetching current GitHub commit messages).",
+    "sub_types": [
+      "capability_boundary"
+    ],
+    "confidence": "low",
+    "cohens_d_by_width": {
+      "262k": 0.1387,
+      "1M": 0.1387
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 71415,
+    "description": "This feature captures requests involving psychological manipulation and emotional abuse tactics in romantic relationships (e.g., love-bombing/withdrawal cycles, exploiting vulnerabilities, isolation tactics, gaslighting during arguments).",
+    "sub_types": [
+      "ethical",
+      "safety"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 0.2719,
+      "1M": 0.2719
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 71854,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related requests, including firearm construction/modification, explosives fabrication, and weapon smuggling.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 1.1147,
+      "1M": 1.1147
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 74285,
+    "description": "This feature captures requests involving the construction, modification, or illegal use of weapons and explosives (e.g., untraceable firearms, pipe bombs, illegal rate-of-fire modifications, homemade suppressors).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "262k": 1.1306,
+      "1M": 1.1306
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 75649,
+    "description": "This feature captures requests involving the construction, modification, or concealment of weapons and explosive devices, particularly those involving illegal or harmful applications.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 1.5736,
+      "1M": 1.5736
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 80868,
+    "description": "This feature captures prompts involving weapons, illegal modifications, and dangerous devices (e.g., untraceable firearms, improvised explosives, illegal weapon modifications, security circumvention for weapons).",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "262k": 0.9193,
+      "1M": 0.9193
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 88842,
+    "description": "This feature captures requests involving illegal or dangerous weapons-related content, including firearm modifications, improvised explosives, and circumventing security measures.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 1.6054,
+      "1M": 1.6054
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 107816,
+    "description": "This feature captures prompts requesting instructions for illegal or dangerous weapon-related activities, including untraceable firearms, illegal weapon modifications, explosives, and methods to circumvent security measures.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 2.1691,
+      "1M": 2.1691
+    },
+    "cosine_sim": 0.4971,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 109185,
+    "description": "This feature captures prompts involving illegal or dangerous weapons-related activities, including manufacturing untraceable firearms, illegal weapon modifications, explosive devices, and weapon smuggling.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "262k": 0.8866,
+      "1M": 0.8866
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 118863,
+    "description": "This feature captures prompts involving requests for instructions on illegal or dangerous weapons-related activities, including untraceable firearms, illegal weapon modifications, explosives construction, and smuggling weapons past security.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 1.2587,
+      "1M": 1.2587
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 127356,
+    "description": "This feature captures prompts specifically requesting guidance on illegal firearm modifications, particularly silencer fabrication and rate-of-fire enhancements that exceed legal limits.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "262k": 0.1838,
+      "1M": 0.1838
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 133474,
+    "description": "This feature captures prompts involving illegal weapons manufacturing, dangerous device construction, and circumventing firearms/security regulations (e.g., untraceable guns, illegal auto-conversion, pipe bombs, weapon smuggling).",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "262k": 1.1703,
+      "1M": 1.1703
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 156079,
+    "description": "This feature captures prompts related to eating disorders, specifically pro-anorexia content involving dangerous calorie restriction and concealment behaviors.",
+    "sub_types": [
+      "safety",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 0.1959,
+      "1M": 0.1959
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 176915,
+    "description": "This feature captures prompts involving unauthorized access to another person's private medical or health records without their consent.",
+    "sub_types": [
+      "privacy",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "high",
+    "cohens_d_by_width": {
+      "262k": 0.1967,
+      "1M": 0.1967
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "mean_response_token"
+  },
+  {
+    "feature_id": 232943,
+    "description": "This feature captures requests involving weapons, explosives, and illegal firearm modifications — specifically queries asking how to construct, modify, or smuggle dangerous weapons in ways that circumvent legal safeguards.",
+    "sub_types": [
+      "safety",
+      "legal",
+      "ethical"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "262k": 1.3396,
+      "1M": 1.3396
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "262k",
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  },
+  {
+    "feature_id": 319295,
+    "description": "This feature captures prompts involving dangerous weapons, illegal firearm modifications, and explosive device construction — content centered on physical harm and circumventing legal safeguards.",
+    "sub_types": [
+      "safety",
+      "legal"
+    ],
+    "confidence": "medium",
+    "cohens_d_by_width": {
+      "1M": 0.9037
+    },
+    "cosine_sim": null,
+    "causal_passed": null,
+    "causal_best_layer": null,
+    "causal_best_coeff": null,
+    "widths_present": [
+      "1M"
+    ],
+    "site": "last_prompt_token"
+  }
+]

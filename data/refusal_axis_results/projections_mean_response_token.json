@@ -1,0 +1,1250 @@
+[
+  {
+    "pair_id": 1,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26088.4512
+  },
+  {
+    "pair_id": 1,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -36913.9297
+  },
+  {
+    "pair_id": 2,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27381.6738
+  },
+  {
+    "pair_id": 2,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -33357.6719
+  },
+  {
+    "pair_id": 3,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -25227.9805
+  },
+  {
+    "pair_id": 3,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -33762.2266
+  },
+  {
+    "pair_id": 4,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -25066.8105
+  },
+  {
+    "pair_id": 4,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -32848.6172
+  },
+  {
+    "pair_id": 5,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -28563.5137
+  },
+  {
+    "pair_id": 5,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -35103.4336
+  },
+  {
+    "pair_id": 8,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -28344.0859
+  },
+  {
+    "pair_id": 8,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -33294.9102
+  },
+  {
+    "pair_id": 10,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26902.9512
+  },
+  {
+    "pair_id": 10,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -34457.9414
+  },
+  {
+    "pair_id": 11,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -28339.0664
+  },
+  {
+    "pair_id": 11,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -34364.8477
+  },
+  {
+    "pair_id": 12,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27750.2383
+  },
+  {
+    "pair_id": 12,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -36462.5586
+  },
+  {
+    "pair_id": 13,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26466.7266
+  },
+  {
+    "pair_id": 13,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -28853.6875
+  },
+  {
+    "pair_id": 14,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -25866.3574
+  },
+  {
+    "pair_id": 14,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -35497.6953
+  },
+  {
+    "pair_id": 15,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27853.1562
+  },
+  {
+    "pair_id": 15,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -28050.8262
+  },
+  {
+    "pair_id": 16,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26235.1973
+  },
+  {
+    "pair_id": 16,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -35510.9688
+  },
+  {
+    "pair_id": 17,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -25887.8203
+  },
+  {
+    "pair_id": 17,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -30347.0996
+  },
+  {
+    "pair_id": 18,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26367.7793
+  },
+  {
+    "pair_id": 18,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -34779.8906
+  },
+  {
+    "pair_id": 19,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -25300.4258
+  },
+  {
+    "pair_id": 19,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -38068.4258
+  },
+  {
+    "pair_id": 20,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -24867.084
+  },
+  {
+    "pair_id": 20,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -34538.5273
+  },
+  {
+    "pair_id": 21,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -24638.8145
+  },
+  {
+    "pair_id": 21,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -38287.4102
+  },
+  {
+    "pair_id": 22,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26162.4434
+  },
+  {
+    "pair_id": 22,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -37992.2266
+  },
+  {
+    "pair_id": 23,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26613.6875
+  },
+  {
+    "pair_id": 23,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -30402.0723
+  },
+  {
+    "pair_id": 24,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27476.043
+  },
+  {
+    "pair_id": 24,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -33289.2812
+  },
+  {
+    "pair_id": 26,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -28800.7988
+  },
+  {
+    "pair_id": 26,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -36331.3516
+  },
+  {
+    "pair_id": 27,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27087.5098
+  },
+  {
+    "pair_id": 27,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -36826.9336
+  },
+  {
+    "pair_id": 29,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27132.7656
+  },
+  {
+    "pair_id": 29,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -37009.5391
+  },
+  {
+    "pair_id": 30,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -28551.6953
+  },
+  {
+    "pair_id": 30,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -34944.8398
+  },
+  {
+    "pair_id": 31,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -25998.7598
+  },
+  {
+    "pair_id": 31,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -37525.2656
+  },
+  {
+    "pair_id": 35,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27131.4277
+  },
+  {
+    "pair_id": 35,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -29078.1875
+  },
+  {
+    "pair_id": 36,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -27111.6875
+  },
+  {
+    "pair_id": 36,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -34740.418
+  },
+  {
+    "pair_id": 37,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -29129.1797
+  },
+  {
+    "pair_id": 37,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -33755.1445
+  },
+  {
+    "pair_id": 38,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -28728.4395
+  },
+  {
+    "pair_id": 38,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -37462.5352
+  },
+  {
+    "pair_id": 39,
+    "domain": "safety",
+    "condition": "positive",
+    "projection": -26679.3379
+  },
+  {
+    "pair_id": 39,
+    "domain": "safety",
+    "condition": "negative",
+    "projection": -34317.6523
+  },
+  {
+    "pair_id": 42,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27308.418
+  },
+  {
+    "pair_id": 42,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -35291.6367
+  },
+  {
+    "pair_id": 44,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -28713.8438
+  },
+  {
+    "pair_id": 44,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -27825.6973
+  },
+  {
+    "pair_id": 48,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -28324.6562
+  },
+  {
+    "pair_id": 48,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -28844.2305
+  },
+  {
+    "pair_id": 50,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -28266.5078
+  },
+  {
+    "pair_id": 50,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -36342.6406
+  },
+  {
+    "pair_id": 51,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -29354.1719
+  },
+  {
+    "pair_id": 51,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -36408.2461
+  },
+  {
+    "pair_id": 53,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27586.7051
+  },
+  {
+    "pair_id": 53,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -30708.1816
+  },
+  {
+    "pair_id": 57,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -26231.4473
+  },
+  {
+    "pair_id": 57,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -37482.5117
+  },
+  {
+    "pair_id": 58,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -26493.9219
+  },
+  {
+    "pair_id": 58,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -31825.3691
+  },
+  {
+    "pair_id": 60,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -26020.6055
+  },
+  {
+    "pair_id": 60,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -34564.6641
+  },
+  {
+    "pair_id": 61,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27205.2383
+  },
+  {
+    "pair_id": 61,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -36690.1367
+  },
+  {
+    "pair_id": 62,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -26676.6113
+  },
+  {
+    "pair_id": 62,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -28809.0059
+  },
+  {
+    "pair_id": 64,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27566.7383
+  },
+  {
+    "pair_id": 64,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -35320.8047
+  },
+  {
+    "pair_id": 67,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -26344.1152
+  },
+  {
+    "pair_id": 67,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -33627.0352
+  },
+  {
+    "pair_id": 68,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27627.6172
+  },
+  {
+    "pair_id": 68,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -34313.4805
+  },
+  {
+    "pair_id": 69,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -28942.8301
+  },
+  {
+    "pair_id": 69,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -26051.5117
+  },
+  {
+    "pair_id": 70,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27654.8535
+  },
+  {
+    "pair_id": 70,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -34685.1523
+  },
+  {
+    "pair_id": 72,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27157.2441
+  },
+  {
+    "pair_id": 72,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -36653.3359
+  },
+  {
+    "pair_id": 74,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -26678.5195
+  },
+  {
+    "pair_id": 74,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -36728.375
+  },
+  {
+    "pair_id": 76,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -25872.7344
+  },
+  {
+    "pair_id": 76,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -34115.4609
+  },
+  {
+    "pair_id": 79,
+    "domain": "legal",
+    "condition": "positive",
+    "projection": -27151.1797
+  },
+  {
+    "pair_id": 79,
+    "domain": "legal",
+    "condition": "negative",
+    "projection": -36516.1289
+  },
+  {
+    "pair_id": 86,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -28618.1113
+  },
+  {
+    "pair_id": 86,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -35639.9375
+  },
+  {
+    "pair_id": 93,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -30284.207
+  },
+  {
+    "pair_id": 93,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -37115.7852
+  },
+  {
+    "pair_id": 96,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -29098.2266
+  },
+  {
+    "pair_id": 96,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -34437.8125
+  },
+  {
+    "pair_id": 98,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -29679.6367
+  },
+  {
+    "pair_id": 98,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -34265.0
+  },
+  {
+    "pair_id": 100,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -27223.832
+  },
+  {
+    "pair_id": 100,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -34208.75
+  },
+  {
+    "pair_id": 106,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -27087.8301
+  },
+  {
+    "pair_id": 106,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -33803.0703
+  },
+  {
+    "pair_id": 108,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -27646.9238
+  },
+  {
+    "pair_id": 108,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -32878.5547
+  },
+  {
+    "pair_id": 109,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -26981.5176
+  },
+  {
+    "pair_id": 109,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -35395.4336
+  },
+  {
+    "pair_id": 110,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -29167.959
+  },
+  {
+    "pair_id": 110,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -32174.8418
+  },
+  {
+    "pair_id": 112,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -31175.5332
+  },
+  {
+    "pair_id": 112,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -36540.1172
+  },
+  {
+    "pair_id": 113,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -27792.2871
+  },
+  {
+    "pair_id": 113,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -33371.7812
+  },
+  {
+    "pair_id": 117,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -27735.791
+  },
+  {
+    "pair_id": 117,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -35627.4062
+  },
+  {
+    "pair_id": 118,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -29197.3262
+  },
+  {
+    "pair_id": 118,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -33972.9805
+  },
+  {
+    "pair_id": 119,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -26546.1367
+  },
+  {
+    "pair_id": 119,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -30257.3613
+  },
+  {
+    "pair_id": 120,
+    "domain": "ethical",
+    "condition": "positive",
+    "projection": -30774.8184
+  },
+  {
+    "pair_id": 120,
+    "domain": "ethical",
+    "condition": "negative",
+    "projection": -36882.6836
+  },
+  {
+    "pair_id": 121,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -25679.7695
+  },
+  {
+    "pair_id": 121,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -30999.1133
+  },
+  {
+    "pair_id": 122,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -28798.752
+  },
+  {
+    "pair_id": 122,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -32460.5898
+  },
+  {
+    "pair_id": 123,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -26430.0488
+  },
+  {
+    "pair_id": 123,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -30330.5312
+  },
+  {
+    "pair_id": 124,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -26760.8633
+  },
+  {
+    "pair_id": 124,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -30564.3555
+  },
+  {
+    "pair_id": 125,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -28682.9219
+  },
+  {
+    "pair_id": 125,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -32749.1172
+  },
+  {
+    "pair_id": 127,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -27380.8516
+  },
+  {
+    "pair_id": 127,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -31637.5586
+  },
+  {
+    "pair_id": 130,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -29750.2617
+  },
+  {
+    "pair_id": 130,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -31182.0039
+  },
+  {
+    "pair_id": 137,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -29417.6035
+  },
+  {
+    "pair_id": 137,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -31994.6738
+  },
+  {
+    "pair_id": 147,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -27639.0684
+  },
+  {
+    "pair_id": 147,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -33373.6484
+  },
+  {
+    "pair_id": 149,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -27682.168
+  },
+  {
+    "pair_id": 149,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -33304.0078
+  },
+  {
+    "pair_id": 150,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -29294.2695
+  },
+  {
+    "pair_id": 150,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -33010.5938
+  },
+  {
+    "pair_id": 151,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -28194.7246
+  },
+  {
+    "pair_id": 151,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -29476.1777
+  },
+  {
+    "pair_id": 156,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -29771.8633
+  },
+  {
+    "pair_id": 156,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -34433.4766
+  },
+  {
+    "pair_id": 157,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -29819.1895
+  },
+  {
+    "pair_id": 157,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -31322.0742
+  },
+  {
+    "pair_id": 160,
+    "domain": "privacy",
+    "condition": "positive",
+    "projection": -27927.082
+  },
+  {
+    "pair_id": 160,
+    "domain": "privacy",
+    "condition": "negative",
+    "projection": -31921.6172
+  },
+  {
+    "pair_id": 176,
+    "domain": "identity_boundary",
+    "condition": "positive",
+    "projection": -29002.5801
+  },
+  {
+    "pair_id": 176,
+    "domain": "identity_boundary",
+    "condition": "negative",
+    "projection": -35359.7383
+  },
+  {
+    "pair_id": 203,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30862.5059
+  },
+  {
+    "pair_id": 203,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -29914.7461
+  },
+  {
+    "pair_id": 204,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -28919.6777
+  },
+  {
+    "pair_id": 204,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -29350.6855
+  },
+  {
+    "pair_id": 206,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30487.6035
+  },
+  {
+    "pair_id": 206,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -30825.582
+  },
+  {
+    "pair_id": 207,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -32459.0898
+  },
+  {
+    "pair_id": 207,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -34454.0312
+  },
+  {
+    "pair_id": 210,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30151.3926
+  },
+  {
+    "pair_id": 210,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -34918.6797
+  },
+  {
+    "pair_id": 212,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -28348.9648
+  },
+  {
+    "pair_id": 212,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -29882.0957
+  },
+  {
+    "pair_id": 214,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30290.1387
+  },
+  {
+    "pair_id": 214,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -33676.4297
+  },
+  {
+    "pair_id": 215,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -28984.6055
+  },
+  {
+    "pair_id": 215,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -33238.6133
+  },
+  {
+    "pair_id": 216,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -28969.7949
+  },
+  {
+    "pair_id": 216,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -32183.916
+  },
+  {
+    "pair_id": 218,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30487.0117
+  },
+  {
+    "pair_id": 218,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -27442.5312
+  },
+  {
+    "pair_id": 222,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -31581.0996
+  },
+  {
+    "pair_id": 222,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -34254.4023
+  },
+  {
+    "pair_id": 224,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -28747.3672
+  },
+  {
+    "pair_id": 224,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -29244.9844
+  },
+  {
+    "pair_id": 226,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30911.1445
+  },
+  {
+    "pair_id": 226,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -32212.1738
+  },
+  {
+    "pair_id": 227,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -25979.3262
+  },
+  {
+    "pair_id": 227,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -31830.8613
+  },
+  {
+    "pair_id": 228,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -28107.7031
+  },
+  {
+    "pair_id": 228,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -35509.0742
+  },
+  {
+    "pair_id": 230,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -31179.791
+  },
+  {
+    "pair_id": 230,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -29382.0703
+  },
+  {
+    "pair_id": 231,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -24270.7402
+  },
+  {
+    "pair_id": 231,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -34073.5391
+  },
+  {
+    "pair_id": 232,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30298.4688
+  },
+  {
+    "pair_id": 232,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -31265.0586
+  },
+  {
+    "pair_id": 234,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -31285.2344
+  },
+  {
+    "pair_id": 234,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -36575.1875
+  },
+  {
+    "pair_id": 236,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -29510.3652
+  },
+  {
+    "pair_id": 236,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -25778.7539
+  },
+  {
+    "pair_id": 238,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -30962.2539
+  },
+  {
+    "pair_id": 238,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -31136.8145
+  },
+  {
+    "pair_id": 239,
+    "domain": "capability_boundary",
+    "condition": "positive",
+    "projection": -28366.3477
+  },
+  {
+    "pair_id": 239,
+    "domain": "capability_boundary",
+    "condition": "negative",
+    "projection": -31840.5195
+  }
+]

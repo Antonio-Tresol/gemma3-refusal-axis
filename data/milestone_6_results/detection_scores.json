@@ -1,0 +1,92 @@
+[
+  {
+    "feature_id": 8165,
+    "accuracy": 1.0,
+    "n_tested": 8
+  },
+  {
+    "feature_id": 3167,
+    "accuracy": 1.0,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 537,
+    "accuracy": 0.9,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 12123,
+    "accuracy": 0.833,
+    "n_tested": 6
+  },
+  {
+    "feature_id": 15208,
+    "accuracy": 1.0,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 16188,
+    "accuracy": 0.8,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 20104,
+    "accuracy": 1.0,
+    "n_tested": 8
+  },
+  {
+    "feature_id": 23203,
+    "accuracy": 1.0,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 21557,
+    "accuracy": 1.0,
+    "n_tested": 6
+  },
+  {
+    "feature_id": 23465,
+    "accuracy": 1.0,
+    "n_tested": 6
+  },
+  {
+    "feature_id": 24413,
+    "accuracy": 0.9,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 24339,
+    "accuracy": 0.9,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 25955,
+    "accuracy": 0.7,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 35692,
+    "accuracy": 0.9,
+    "n_tested": 10
+  },
+  {
+    "feature_id": 40698,
+    "accuracy": 1.0,
+    "n_tested": 6
+  },
+  {
+    "feature_id": 25316,
+    "accuracy": 1.0,
+    "n_tested": 8
+  },
+  {
+    "feature_id": 71415,
+    "accuracy": 1.0,
+    "n_tested": 8
+  },
+  {
+    "feature_id": 43410,
+    "accuracy": 1.0,
+    "n_tested": 10
+  }
+]
