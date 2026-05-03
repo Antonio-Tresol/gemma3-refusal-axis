@@ -426,13 +426,12 @@ export function LandingPage() {
         <Label>Headline findings</Label>
         <H2 id="headline-findings" style={{ marginTop: "8px" }}>What we found</H2>
         <P>
-          Each claim below is phrased as an observation ("appears", "seems", "might suggest"),
-          not a verdict. Every one of these statements is the version that survived a
-          pre-registered set of tests trying to break it: some came through intact, some were
-          rewritten in weaker language, one was retracted. The full ledger of which test
-          changed which claim sits inside Methodology (see{" "}
+          Each statement below is the version that survived a pre-registered set of tests
+          trying to break it: some came through intact, some were rewritten in weaker
+          language, one was retracted. The full ledger of which test changed which claim
+          sits inside Methodology (see{" "}
           <InlineLink href="#/methodology#falsification-step">§6 Pre-registered falsification</InlineLink>
-          ), where it belongs as a hygiene step rather than a separate exhibit.
+          ).
         </P>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginTop: "24px" }}>
