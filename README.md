@@ -1,6 +1,6 @@
 # The Refusal Axis in Gemma 3 12B
 
-Geometric decomposition and domain-selective capping of refusal behaviour in **Gemma 3 12B** using **Gemma Scope 2** sparse autoencoders.
+Geometric decomposition and domain-selective capping of refusal behaviour in **Gemma 3 12B**.
 
 > **Web explainer (canonical):** https://antonio-tresol.github.io/gemma3-refusal-axis/
 > **Dataset (HF):** https://huggingface.co/datasets/abotresol/gemma3-refusal-axis-data
