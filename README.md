@@ -38,16 +38,25 @@ This project was developed in close collaboration with Claude Code. The full har
 
 ## Citation
 
+Archived on Zenodo. The DOI below is the *concept* DOI: it always resolves to the
+newest version, which is usually what you want in a bibliography. The version DOI
+for `v0.1.0` is `10.5281/zenodo.21617969`.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21617968.svg)](https://doi.org/10.5281/zenodo.21617968)
+
 ```bibtex
 @misc{badillaolivas2026refusalaxis,
   title  = {The Refusal Axis: Geometric Decomposition and Domain-Selective
             Capping in Gemma 3 12B},
   author = {Badilla-Olivas, Antonio},
   year   = {2026},
+  doi    = {10.5281/zenodo.21617968},
   url    = {https://github.com/Antonio-Tresol/gemma3-refusal-axis},
   note   = {Project on the interpretability of refusal in Gemma 3 12B.},
 }
 ```
+
+Machine-readable equivalent in [`CITATION.cff`](CITATION.cff); keep the two in step.
 
 Full bibliography of cited works in `references/from-safety-prompts-project/relevant_references.bib`.
 

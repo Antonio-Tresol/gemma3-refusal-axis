@@ -8,6 +8,10 @@ authors:
     email: antonio1dbo@gmail.com
     orcid: "https://orcid.org/0009-0000-6891-1562"
 date-released: 2026-04-03
+# Concept DOI: always resolves to the newest archived version. The version DOI
+# for v0.1.0 is 10.5281/zenodo.21617969, but citing that would pin a reader to
+# one snapshot rather than the work.
+doi: "10.5281/zenodo.21617968"
 url: "https://github.com/Antonio-Tresol/gemma3-refusal-axis"
 repository-code: "https://github.com/Antonio-Tresol/gemma3-refusal-axis"
 license: MIT
